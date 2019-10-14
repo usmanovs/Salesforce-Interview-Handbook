@@ -6,7 +6,7 @@
     </a>
   <br>
   <p>
-    <em>Subscribe to my Youtube channel <a href="https://www.youtube.com/user/seyitbek">
+    <em>Subscribe to my Youtube channel <a href="https://www.youtube.com/user/seyitbek"> </a>
     </em>
   </p>
 </div>
