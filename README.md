@@ -41,21 +41,9 @@ You might be interested in the [Tech Interview Handbook](https://github.com/yang
 
 ## Table of Contents
 
-1. [HTML Questions](/questions/html-questions.md)
-1. [CSS Questions](/questions/css-questions.md)
-1. [JavaScript Questions](/questions/javascript-questions.md)
-
-## Translations
-
-- [English](/README.md)
-- [Simplified Chinese (简体中文)](/Translations/Chinese/README.md)
-- [Tagalog](/Translations/Tagalog/README.md)
-- [Japanese (日本語)](/Translations/Japanese/README.md)
-- [Korean (한국어))](/Translations/Korean/README.md)
-
-## Related
-
-If you are interested in how data structures are implemented, check out [Lago](https://github.com/yangshun/lago), a Data Structures and Algorithms library for JavaScript. It is pretty much still WIP but I intend to make it into a library that is able to be used in production and also a reference resource for revising Data Structures and Algorithms.
+1. [Admin Questions](/questions/html-questions.md)
+1. [Developer Questions](/questions/css-questions.md)
+1. [Senior Developer Questions](/questions/javascript-questions.md)
 
 ## Contributing
 
@@ -71,7 +59,7 @@ Read our [contributing guide](/CONTRIBUTING.md) to learn about how you can contr
 
 Many hours of hard work have gone into this project. Your support will be very appreciated!
 
-<a href="https://www.buymeacoffee.com/yangshun" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+<a href="https://www.buymeacoffee.com/seyitbek" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ## License
 
