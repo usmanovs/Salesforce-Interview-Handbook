@@ -1,8 +1,4 @@
-# sf-interview-handbook
-Q&amp;A to "Salesforce Interview Questions" which you can use to interview candidates OR test yourself
-
-
-<h1 align="center">Front End Interview Handbook</h1>
+<h1 align="center">Salesforce Interview Handbook</h1>
 
 <div align="center">
   <a href="https://dribbble.com/shots/4263961-Front-End-Interview-Scroll">
