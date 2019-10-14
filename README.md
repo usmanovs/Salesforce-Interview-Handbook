@@ -6,7 +6,7 @@
     </a>
   <br>
   <p>
-    <em>Credits: <a href="https://www.youtube.com/user/seyitbek">Illustration</a> by <a href="https://dribbble.com/yangheng">@yangheng</a>
+    <em>Credits: <a href="https://www.youtube.com/user/seyitbek">
     </em>
   </p>
 </div>
