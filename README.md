@@ -1,12 +1,13 @@
 <h1 align="center">Salesforce Interview Handbook</h1>
 
 <div align="center">
-  <a href="https://www.youtube.com/seyitbek">
-    <img src="assets/scroll.svg" alt="Front End Interview Handbook" width="400"/>
+  <a href="https://dribbble.com/shots/4263961-Front-End-Interview-Scroll">
+    <img src="assets/sflogo.png" alt="Salesforce Interview Handbook" width="400"/>
     </a>
   <br>
   <p>
-
+    <em>Subscribe to my Youtube channel <a href="https://www.youtube.com/user/seyitbek">
+    </em>
   </p>
 </div>
 
