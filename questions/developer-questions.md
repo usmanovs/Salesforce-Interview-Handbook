@@ -13,6 +13,20 @@ Pull requests for suggestions and corrections are welcome!
 * [What is Apex Managed Sharing?](#how-do-you-serve-your-pages-for-feature-constrained-browsers-what-techniquesprocesses-do-you-use)
 * [What are static resources?](#what-are-the-different-ways-to-visually-hide-content-and-make-it-available-only-for-screen-readers)
 * [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What is the difference between public and global classes in Apex?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [Why use Batch Apex instead of Normal Apex?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+
 
 Data Modelling & Data Management 
 * [What Are The Types of SOQL Statements in SalesForce?](#are-you-familiar-with-styling-svg)
@@ -33,6 +47,7 @@ Apex
 * [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [Why do we use start test & stop test annotations?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What are the best practices for writing test classes?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [Name 3 governor limits you know? Why are they important? How do you resolve when you see such errors?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What are the different types of collections in Apex? What are maps in Apex?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is the use of “@future” annotation?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
@@ -40,9 +55,9 @@ Apex
 * [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is the difference between SOQL and SOSL?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is the difference between public and global class in Apex?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What are the two options for when Apex Triggers can run?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is a use case for sharing rules?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Explain the use of an Outbound Message?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
 Debug & Deployment Tools
