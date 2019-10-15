@@ -15,27 +15,28 @@ Pull requests for suggestions and corrections are welcome!
 * [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 * [What is the difference between public and global classes in Apex?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 * [Why use Batch Apex instead of Normal Apex?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What the difference between isNull and isBlank?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What is the difference between force.com and Salesforce.com?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+
+Behavioral
+* [What are your 3 favourite Salesforce blogs?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [Do you attend Salesforce developer community meetings?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What do you do when you are stuck when you code?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [How many reputation points do you have on salesforce StackEchange?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [Would you say you are passionate about Salesforce? If so why?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [Have you ever contributed to Salesforce's Ideas? If you could make any idea come true, what would it be?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [Where do you see yourself in 3 years?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [Do you enjoy being a Salesforce developer? Why?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 
 
 Data Modelling & Data Management 
 * [What Are The Types of SOQL Statements in SalesForce?](#are-you-familiar-with-styling-svg)
 * [When one wants to pass the collection to the query instead of passing one value which keyword helps us?](#can-you-give-an-example-of-an-media-property-other-than-screen)
 * [What is Future Annotation(@Future)?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Explain the term “Data Skew” in Salesforce.](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is “Data Skew”?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [Explain skinny table. What are the considerations for Skinny Table?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [Which fields are automatically Indexed in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is Future Annotation(@Future)?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Which fields are excluded from a custom index?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is Future Annotation(@Future)?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
 Logic & Process Automation 
@@ -59,6 +60,7 @@ Apex
 * [What is a use case for sharing rules?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [Explain the use of an Outbound Message?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is the Save Order of Execution? Why is it important?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
 Debug & Deployment Tools
 * [What are the different ways of deployment in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
@@ -67,10 +69,10 @@ Debug & Deployment Tools
 * [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
 
 Scenario Based Questions
+* [ What does it indicate if an error state this “list has no rows for assignment”?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
 
 ### What is CSS selector specificity and how does it work?
