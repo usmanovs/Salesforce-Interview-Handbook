@@ -12,31 +12,13 @@
 
 ## What is this?
 
-Unlike typical software engineer job interviews, Salesforce interviews have less emphasis on algorithms and have more questions on Salesforce fundamental knowledge and expertise about the domain — i.e. Apex, Process Builders, Lightning Web Components.
+Unlike typical software engineer job interviews, Salesforce interviews have no emphasis on algorithms and have more questions on Salesforce fundamental knowledge and expertise about the domain — i.e. Apex, Process Builders, Lightning Web Components.
 
-While there are some existing resources to help Salesforce admins and developers in preparing for interviews, they are dispersed and incomplete. Among the existing resources, probably the most helpful question bank would be [Salesforce Interview Questions](https://mindmajix.com/salesforce-interview-questions). Unfortunately, I couldn't find many complete and satisfactory answers to these questions online, hence here is my attempt at answering them. Being an open source repository, the project can live on with the support of the community as the state of web evolves.
-
-
----
-
-<div align="center">
-  <strong>💰 Interested in Front End Dev jobs? Sign up with <a href="https://triplebyte.com/a/PJaJNpO/feihg">Triplebyte</a> to efficiently interview with top tech companies! 💰</strong>
-</div>
+While there are some existing resources to help Salesforce admins and developers in preparing for interviews, they are dispersed and incomplete. Among the existing resources, probably the most helpful question bank would be [Salesforce Interview Questions](https://mindmajix.com/salesforce-interview-questions). Being an open source repository, the project can live on with the support of the community as the state of web evolves.
 
 ---
-
 
 ## Looking for Generic Interview Preparation?
-
-You might be interested in the [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which has helpful content on general coding interviews such as algorithms, behavioral questions and an [interview cheatsheet](https://github.com/yangshun/tech-interview-handbook/blob/master/preparing/cheatsheet.md)!
-
-<div align="center">
-  <img src="assets/web-tech.svg" alt="Web Technologies illustration" width="400"/>
-  <br>
-  <p>
-    <em>Credits: Illustration by <a href="https://undraw.co/">unDraw</a></em>
-  </p>
-</div>
 
 ## Table of Contents
 
@@ -56,7 +38,7 @@ Read our [contributing guide](/CONTRIBUTING.md) to learn about how you can contr
 
 ### Supporting
 
-Many hours of hard work have gone into this project. Your support will be very appreciated!
+Thousands of hours of hard work have gone into this project. Your support will be much appreciated and give us strength to keep improving it!
 
 <a href="https://www.buymeacoffee.com/seyitbek" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
