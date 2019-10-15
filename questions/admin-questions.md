@@ -2,6 +2,18 @@
 
 Pull requests for suggestions and corrections are welcome!
 
+Security & Access
+
+Standard and Custom Objects
+* [What’s the difference between Record Types & Page Layouts](#what-is-css-selector-specificity-and-how-does-it-work)
+
+Sales, Marketing, Service & Support Apps
+
+Analytics—Reports and Dashboards
+
+Workflow/Process Automation
+
+
 * [What types of app we can create in SF?](#what-is-css-selector-specificity-and-how-does-it-work)
 * [What are Audit Fields?](#whats-the-difference-between-resetting-and-normalizing-css-which-would-you-choose-and-why)
 * [What are the types of reports that we have in Salesforce?](#describe-floats-and-how-they-work)
