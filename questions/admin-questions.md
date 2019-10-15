@@ -21,7 +21,10 @@ Pull requests for suggestions and corrections are welcome!
 * [What is difference insert() and database .insert()?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What are governor limits? Why are they important?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [How many ways we can share a record?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [How many ways we can share a record?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is a sandbox org? What are the different types of sandboxes in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What are sharing settings? Why are they important?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What are the key 3 report types available in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+
 
 
 Scenario Based Questions
