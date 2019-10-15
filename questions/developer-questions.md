@@ -13,10 +13,17 @@ Pull requests for suggestions and corrections are welcome!
 * [What is Apex Managed Sharing?](#how-do-you-serve-your-pages-for-feature-constrained-browsers-what-techniquesprocesses-do-you-use)
 * [What are static resources?](#what-are-the-different-ways-to-visually-hide-content-and-make-it-available-only-for-screen-readers)
 * [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [Have you used or implemented media queries or mobile specific layouts/CSS?](#have-you-used-or-implemented-media-queries-or-mobile-specific-layoutscss)
+
+Data Modelling & Data Management 
 * [What Are The Types of SOQL Statements in SalesForce?](#are-you-familiar-with-styling-svg)
 * [When one wants to pass the collection to the query instead of passing one value which keyword helps us?](#can-you-give-an-example-of-an-media-property-other-than-screen)
 * [What is Future Annotation(@Future)?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Explain the term “Data Skew” in Salesforce.](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Explain skinny table. What are the considerations for Skinny Table?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Which fields are automatically Indexed in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is Future Annotation(@Future)?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is Future Annotation(@Future)?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+
 
 Scenario Based Questions
 
