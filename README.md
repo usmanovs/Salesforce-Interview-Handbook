@@ -23,7 +23,7 @@ While there are some existing resources to help Salesforce admins and developers
 ## Table of Contents
 
 1. [Admin Questions](/questions/html-questions.md)
-1. [Developer Questions](/questions/css-questions.md)
+1. [Developer Questions](/questions/developer-questions.md)
 1. [Senior Developer Questions](/questions/javascript-questions.md)
 
 ## Contributing
