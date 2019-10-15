@@ -1,5 +1,5 @@
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-103-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
@@ -9,7 +9,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://youtube.com/seyitbek"><img src="https://avatars2.githubusercontent.com/u/459713?v=4" width="120px;" alt="Darcy Clarke"/><br /><sub><b>Seyitbek Usmanov</b></sub></a><br /><a href="#ideas-darcyclarke" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-darcyclarke" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#review-darcyclarke" title="Reviewed Pull Requests">👀</a> <a href="#question-darcyclarke" title="Answering Questions">💬</a> <a href="#talk-darcyclarke" title="Talks">📢</a> <a href="#maintenance-darcyclarke" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="http://youtube.com/seyitbek"><img src="https://github.com/usmanovs.png" width="120px;" alt="Seyitbek Usmanov"/><br /><sub><b>Seyitbek Usmanov</b></sub></a><br /></td>
   </tr>
 </table>
 

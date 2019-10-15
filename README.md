@@ -1,7 +1,6 @@
 <h1 align="center">Salesforce Interview Handbook</h1>
 
 <div align="center">
-  <a href="https://dribbble.com/shots/4263961-Front-End-Interview-Scroll">
     <img src="assets/sflogo.png" alt="Salesforce Interview Handbook" width="400"/>
     </a>
   <br>
@@ -13,49 +12,19 @@
 
 ## What is this?
 
-Unlike typical software engineer job interviews, front-end job interviews have less emphasis on algorithms and have more questions on intricate knowledge and expertise about the domain — HTML, CSS, JavaScript, just to name a few areas.
+Unlike typical software engineer job interviews, Salesforce interviews have no emphasis on algorithms and have more questions on Salesforce fundamental knowledge and expertise about the domain — i.e. Apex, Process Builders, Lightning Web Components.
 
-While there are some existing resources to help front end developers in preparing for interviews, they aren't as abundant as materials for a software engineer interview. Among the existing resources, probably the most helpful question bank would be [Front-end Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions). Unfortunately, I couldn't find many complete and satisfactory answers to these questions online, hence here is my attempt at answering them. Being an open source repository, the project can live on with the support of the community as the state of web evolves.
-
-
----
-
-<div align="center">
-  <strong>💰 Interested in Front End Dev jobs? Sign up with <a href="https://triplebyte.com/a/PJaJNpO/feihg">Triplebyte</a> to efficiently interview with top tech companies! 💰</strong>
-</div>
+While there are some existing resources to help Salesforce admins and developers in preparing for interviews, they are dispersed and incomplete. Among the existing resources, probably the most helpful question bank would be [Salesforce Interview Questions](https://mindmajix.com/salesforce-interview-questions). Being an open source repository, the project can live on with the support of the community as the state of web evolves.
 
 ---
-
 
 ## Looking for Generic Interview Preparation?
 
-You might be interested in the [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which has helpful content on general coding interviews such as algorithms, behavioral questions and an [interview cheatsheet](https://github.com/yangshun/tech-interview-handbook/blob/master/preparing/cheatsheet.md)!
-
-<div align="center">
-  <img src="assets/web-tech.svg" alt="Web Technologies illustration" width="400"/>
-  <br>
-  <p>
-    <em>Credits: Illustration by <a href="https://undraw.co/">unDraw</a></em>
-  </p>
-</div>
-
 ## Table of Contents
 
-1. [HTML Questions](/questions/html-questions.md)
-1. [CSS Questions](/questions/css-questions.md)
-1. [JavaScript Questions](/questions/javascript-questions.md)
-
-## Translations
-
-- [English](/README.md)
-- [Simplified Chinese (简体中文)](/Translations/Chinese/README.md)
-- [Tagalog](/Translations/Tagalog/README.md)
-- [Japanese (日本語)](/Translations/Japanese/README.md)
-- [Korean (한국어))](/Translations/Korean/README.md)
-
-## Related
-
-If you are interested in how data structures are implemented, check out [Lago](https://github.com/yangshun/lago), a Data Structures and Algorithms library for JavaScript. It is pretty much still WIP but I intend to make it into a library that is able to be used in production and also a reference resource for revising Data Structures and Algorithms.
+1. [Admin Questions](/questions/html-questions.md)
+1. [Developer Questions](/questions/developer-questions.md)
+1. [Senior Developer Questions](/questions/javascript-questions.md)
 
 ## Contributing
 
@@ -69,9 +38,9 @@ Read our [contributing guide](/CONTRIBUTING.md) to learn about how you can contr
 
 ### Supporting
 
-Many hours of hard work have gone into this project. Your support will be very appreciated!
+Thousands of hours of hard work have gone into this project. Your support will be much appreciated and give us strength to keep improving it!
 
-<a href="https://www.buymeacoffee.com/yangshun" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+<a href="https://www.buymeacoffee.com/seyitbek" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ## License
 
