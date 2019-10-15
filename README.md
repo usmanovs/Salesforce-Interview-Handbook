@@ -1,7 +1,6 @@
 <h1 align="center">Salesforce Interview Handbook</h1>
 
 <div align="center">
-  <a href="a href="https://www.youtube.com/user/seyitbek">
     <img src="assets/sflogo.png" alt="Salesforce Interview Handbook" width="400"/>
     </a>
   <br>
