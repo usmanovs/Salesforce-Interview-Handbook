@@ -24,6 +24,36 @@ Data Modelling & Data Management
 * [What is Future Annotation(@Future)?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is Future Annotation(@Future)?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
+Logic & Process Automation 
+* [What are the types of custom settings in Salesforce? What is the advantage of using custom settings?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What are custom labels in Salesforce? What is the character limit of custom label?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What are deterministic formula fields in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+
+Apex
+* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Why do we use start test & stop test annotations?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Name 3 governor limits you know? Why are they important? How do you resolve when you see such errors?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What are the different types of collections in Apex? What are maps in Apex?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is the use of “@future” annotation?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What are the different methods of batch Apex class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is the difference between SOQL and SOSL?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is the difference between public and global class in Apex?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+
+Debug & Deployment Tools
+* [What are the different ways of deployment in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+
 
 Scenario Based Questions
 
