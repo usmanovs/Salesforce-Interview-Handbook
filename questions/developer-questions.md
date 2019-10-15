@@ -61,6 +61,10 @@ Apex
 * [Explain the use of an Outbound Message?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is the Save Order of Execution? Why is it important?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is a wrapper class? Give one use case where you would use a wrapper class.](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+
+
+
 
 Debug & Deployment Tools
 * [What are the different ways of deployment in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
