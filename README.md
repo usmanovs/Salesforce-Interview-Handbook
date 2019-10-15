@@ -12,9 +12,9 @@
 
 ## What is this?
 
-Unlike typical software engineer job interviews, front-end job interviews have less emphasis on algorithms and have more questions on intricate knowledge and expertise about the domain — HTML, CSS, JavaScript, just to name a few areas.
+Unlike typical software engineer job interviews, Salesforce interviews have less emphasis on algorithms and have more questions on Salesforce fundamental knowledge and expertise about the domain — i.e. Apex, Process Builders, Lightning Web Components.
 
-While there are some existing resources to help front end developers in preparing for interviews, they aren't as abundant as materials for a software engineer interview. Among the existing resources, probably the most helpful question bank would be [Front-end Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions). Unfortunately, I couldn't find many complete and satisfactory answers to these questions online, hence here is my attempt at answering them. Being an open source repository, the project can live on with the support of the community as the state of web evolves.
+While there are some existing resources to help Salesforce admins and developers in preparing for interviews, they are dispersed and incomplete. Among the existing resources, probably the most helpful question bank would be [Salesforce Interview Questions](https://mindmajix.com/salesforce-interview-questions). Unfortunately, I couldn't find many complete and satisfactory answers to these questions online, hence here is my attempt at answering them. Being an open source repository, the project can live on with the support of the community as the state of web evolves.
 
 
 ---
