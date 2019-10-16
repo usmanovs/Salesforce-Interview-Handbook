@@ -2,11 +2,7 @@
 
 <div align="center">
     <img src="assets/sflogo.png" alt="Salesforce Interview Handbook" width="400"/>
-    </a>
-  <br>
-  <p>
-    <em>Subscribe to my Youtube channel <a href="https://www.youtube.com/user/seyitbek"> Salesforce Chef</a>
-    </em>
+    <em>Subscribe to my Youtube channel <a href="https://www.youtube.com/user/seyitbek"> Salesforce Chef</a> </em>
   </p>
 </div>
 
