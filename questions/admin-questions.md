@@ -11,34 +11,29 @@ Security & Access
 * [What is the difference between role & profile?](#what-are-the-various-clearing-techniques-and-which-is-appropriate-for-what-context)
 * [What’s the difference between Record Types & Page Layouts](#what-is-css-selector-specificity-and-how-does-it-work)
 
-Standard and Custom Objects
+Data Modelling
 * [What is the difference between a lookup relationship & master:detail relationship?](#how-would-you-approach-fixing-browser-specific-styling-issues)
 * [What is an External lookup?](#what-are-the-different-ways-to-visually-hide-content-and-make-it-available-only-for-screen-readers)
 * [What are Audit Fields?](#whats-the-difference-between-resetting-and-normalizing-css-which-would-you-choose-and-why)
 * [How many relationships do we have in Salesforce?](#explain-css-sprites-and-how-you-would-implement-them-on-a-page-or-site)
 * [What is a self-relationship?](#how-do-you-serve-your-pages-for-feature-constrained-browsers-what-techniquesprocesses-do-you-use)
 * [What is a junction object? What do we use them for?](#are-you-familiar-with-styling-svg)
+* [What happens if you delete a field?](#have-you-used-or-implemented-media-queries-or-mobile-specific-layoutscss)
 
 Sales, Marketing, Service & Support Apps
 
 Analytics—Reports and Dashboards
-* [What are the types of reports that we have in Salesforce?](#describe-floats-and-how-they-work)
+* [What are the key 3 report types available in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
 Workflow/Process Automation
+
+Testing
+* [What is a sandbox org? What are the different types of sandboxes in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+
 
 
 * [What types of app we can create in SF?](#what-is-css-selector-specificity-and-how-does-it-work)
 
-* [What happens if you delete a field?](#have-you-used-or-implemented-media-queries-or-mobile-specific-layoutscss)
-* [What are the default indexed fields in Salesforce?](#can-you-give-an-example-of-an-media-property-other-than-screen)
-* [What are the key automation tools in Salesforce? How do you know when to use which?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are the different ways we can share a record?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is difference insert() and database .insert()?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are governor limits? Why are they important?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [How many ways we can share a record?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is a sandbox org? What are the different types of sandboxes in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are sharing settings? Why are they important?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are the key 3 report types available in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
 
 
