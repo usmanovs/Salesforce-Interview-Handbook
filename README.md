@@ -11,7 +11,7 @@
 
 Unlike typical software engineer job interviews, Salesforce interviews have no emphasis on algorithms and have more questions on Salesforce fundamental knowledge and expertise about the domain — i.e. Apex, Process Builders, Lightning Web Components.
 
-While there are some existing resources to help Salesforce admins and developers in preparing for interviews, they are dispersed and incomplete. Among the existing resources, probably the most helpful question bank would be [Salesforce Interview Questions](https://mindmajix.com/salesforce-interview-questions). Being an open source repository, the project can live on with the support of the community as the state of web evolves.
+While there are some existing resources to help Salesforce admins and developers in preparing for interviews, they are dispersed and incomplete.
 
 ---
 
