@@ -1,4 +1,4 @@
-<h1 align="center">Ultimate Salesforce Interview Handbook</h1>
+<h1 align="center">The Ultimate Salesforce Interview Handbook</h1>
 
 <div align="center">
     <img src="assets/sflogo.png" alt="Salesforce Interview Handbook" width="400"/>
@@ -25,7 +25,7 @@ While there are some existing resources to help Salesforce admins and developers
 
 ### Submitting New Questions
 
-The [original questions repository](https://github.com/h5bp/Front-end-Developer-Interview-Questions) has been curated by a team of industry professionals. We use it as ground truth and keep our answers in sync with their questions/answers as much as possible. If you are keen to add a question/answer, submit an issue/pull request to the [original questions repository](https://github.com/h5bp/Front-end-Developer-Interview-Questions). Once your question is merged, make a pull request with your answers to this repository.
+These questions have been curated by a team of salesforce professionals. If you are keen to add a question/answer, submit an issue/pull request to the [original questions repository](https://github.com/usmanovs/sf-interview-handbook).
 
 ### Answering Questions
 
