@@ -8,7 +8,7 @@ Pull requests for suggestions and corrections are welcome!
 * [What useful information can you find on the company information page?](#describe-z-index-and-how-stacking-context-is-formed)
 * [What useful information can you find on the company information page?](#describe-z-index-and-how-stacking-context-is-formed)
 
-#Security & Access
+# Security & Access
 * [What is a profile](#describe-z-index-and-how-stacking-context-is-formed)
 * [What is the difference between a profile & permission set?](#describe-block-formatting-context-bfc-and-how-it-works)
 * [What is the difference between role & profile?](#what-are-the-various-clearing-techniques-and-which-is-appropriate-for-what-context)
@@ -27,19 +27,19 @@ Pull requests for suggestions and corrections are welcome!
 * [What can you do with a schema builder?](#have-you-used-or-implemented-media-queries-or-mobile-specific-layoutscss)
 * [What is a junction object? What do we use them for?](#are-you-familiar-with-styling-svg)
 
-#Sales, Service, Analytics, Data Management
+# Sales, Service, Analytics, Data Management
 * [What is a price book?](#are-you-familiar-with-styling-svg)
 * [When you convert a Lead what does it become?](#are-you-familiar-with-styling-svg)
 * [What is a case?](#are-you-familiar-with-styling-svg)
 * [What are the key 3 report types available in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What are the 3 key differences between Data Loader & Data Import Wizard?](#are-you-familiar-with-styling-svg)
 
-Automation
+# Automation
 * [What are the key automation tools in Salesforce? How do you know when to use which?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is a validation rule?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
 
-Scenario Based Questions
+# Scenario Based Questions
 * [How do you restrict access to a certain object?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [How do you give access to a certain object?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [I am looking at an Opportunity record. The record does not have a 'Share' button. Why?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
