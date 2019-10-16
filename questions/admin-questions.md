@@ -2,31 +2,34 @@
 
 Pull requests for suggestions and corrections are welcome!
 
+Salesforce Fundamentals
+* [How can we find out what licenses the org has? And how many licenses are available?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+
 Security & Access
+* [What is a Salesforce profile](#describe-z-index-and-how-stacking-context-is-formed)
+* [What is the difference between a profile & permission set?](#describe-block-formatting-context-bfc-and-how-it-works)
+* [What is the difference between role & profile?](#what-are-the-various-clearing-techniques-and-which-is-appropriate-for-what-context)
+* [What’s the difference between Record Types & Page Layouts](#what-is-css-selector-specificity-and-how-does-it-work)
 
 Standard and Custom Objects
-* [What’s the difference between Record Types & Page Layouts](#what-is-css-selector-specificity-and-how-does-it-work)
+* [What is the difference between a lookup relationship & master:detail relationship?](#how-would-you-approach-fixing-browser-specific-styling-issues)
+* [What is an External lookup?](#what-are-the-different-ways-to-visually-hide-content-and-make-it-available-only-for-screen-readers)
+* [What are Audit Fields?](#whats-the-difference-between-resetting-and-normalizing-css-which-would-you-choose-and-why)
+* [How many relationships do we have in Salesforce?](#explain-css-sprites-and-how-you-would-implement-them-on-a-page-or-site)
+* [What is a self-relationship?](#how-do-you-serve-your-pages-for-feature-constrained-browsers-what-techniquesprocesses-do-you-use)
+* [What is a junction object? What do we use them for?](#are-you-familiar-with-styling-svg)
 
 Sales, Marketing, Service & Support Apps
 
 Analytics—Reports and Dashboards
+* [What are the types of reports that we have in Salesforce?](#describe-floats-and-how-they-work)
 
 Workflow/Process Automation
 
 
 * [What types of app we can create in SF?](#what-is-css-selector-specificity-and-how-does-it-work)
-* [What are Audit Fields?](#whats-the-difference-between-resetting-and-normalizing-css-which-would-you-choose-and-why)
-* [What are the types of reports that we have in Salesforce?](#describe-floats-and-how-they-work)
-* [What is a Salesforce profile](#describe-z-index-and-how-stacking-context-is-formed)
-* [What is the difference between a profile & permission set?](#describe-block-formatting-context-bfc-and-how-it-works)
-* [What is the difference between role & profile?](#what-are-the-various-clearing-techniques-and-which-is-appropriate-for-what-context)
-* [How many relationships do we have in Salesforce?](#explain-css-sprites-and-how-you-would-implement-them-on-a-page-or-site)
-* [What is the difference between a lookup relationship & master:detail relationship?](#how-would-you-approach-fixing-browser-specific-styling-issues)
-* [What is a self-relationship?](#how-do-you-serve-your-pages-for-feature-constrained-browsers-what-techniquesprocesses-do-you-use)
-* [What is an External lookup?](#what-are-the-different-ways-to-visually-hide-content-and-make-it-available-only-for-screen-readers)
-* [How can we find out what licenses the org has? And how many licenses are available?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+
 * [What happens if you delete a field?](#have-you-used-or-implemented-media-queries-or-mobile-specific-layoutscss)
-* [What is a junction object? What do we use them for?](#are-you-familiar-with-styling-svg)
 * [What are the default indexed fields in Salesforce?](#can-you-give-an-example-of-an-media-property-other-than-screen)
 * [What are the key automation tools in Salesforce? How do you know when to use which?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What are the different ways we can share a record?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
