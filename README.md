@@ -23,15 +23,13 @@ While there are some existing resources to help Salesforce admins and developers
 1. [Developer Questions](/questions/developer-questions.md)
 1. [Senior Developer Questions](/questions/javascript-questions.md)
 
-## Contributing
+### Submitting New Questions
 
-### Code of Conduct
+The [original questions repository](https://github.com/h5bp/Front-end-Developer-Interview-Questions) has been curated by a team of industry professionals. We use it as ground truth and keep our answers in sync with their questions/answers as much as possible. If you are keen to add a question/answer, submit an issue/pull request to the [original questions repository](https://github.com/h5bp/Front-end-Developer-Interview-Questions). Once your question is merged, make a pull request with your answers to this repository.
 
-We have adopted the same Code of Conduct as Facebook that we expect project participants to adhere to. Please read [the full text](https://code.facebook.com/codeofconduct) so that you can understand what actions will and will not be tolerated.
+### Answering Questions
 
-### Contributing Guide
-
-Read our [contributing guide](/CONTRIBUTING.md) to learn about how you can contribute, how to propose improvements or if you are interested in translating the content.
+You are welcome to make improvements to existing answers and answer unanswered questions. Whenever possible, add a list of references and supplementary material. This would be helpful for readers who would like to go further in-depth into the answer.
 
 The project is currently maintained by:
 
