@@ -2,21 +2,18 @@
 
 Pull requests for suggestions and corrections are welcome!
 
-* [Explain various methods of batch Apex class?](#what-is-css-selector-specificity-and-how-does-it-work)
-* [What is Apex Email Service?](#whats-the-difference-between-resetting-and-normalizing-css-which-would-you-choose-and-why)
-* [Describe the 3 qualities of Apex?](#describe-floats-and-how-they-work)
-* [What is Map Class in Apex Salesforce?](#describe-z-index-and-how-stacking-context-is-formed)
-* [What is Batch Apex in Salesforce?](#describe-block-formatting-context-bfc-and-how-it-works)
-* [What is Apex Scheduler?](#what-are-the-various-clearing-techniques-and-which-is-appropriate-for-what-context)
-* [What is the Apex Trigger in Salesforce?](#explain-css-sprites-and-how-you-would-implement-them-on-a-page-or-site)
-* [What is an Apex transactions?](#how-would-you-approach-fixing-browser-specific-styling-issues)
-* [What is Apex Managed Sharing?](#how-do-you-serve-your-pages-for-feature-constrained-browsers-what-techniquesprocesses-do-you-use)
-* [What are static resources?](#what-are-the-different-ways-to-visually-hide-content-and-make-it-available-only-for-screen-readers)
+Fundamentals
+* [What are governor limits? Why are they important?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What is the difference between public and global classes in Apex?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [Why use Batch Apex instead of Normal Apex?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What the difference between isNull and isBlank?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What are the key automation tools in Salesforce? How do you know when to use which?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is the difference between force.com and Salesforce.com?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+
+Sharing & Security
+* [What are the different ways we can share a record?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What are sharing settings? Why are they important?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What is Apex Managed Sharing?](#how-do-you-serve-your-pages-for-feature-constrained-browsers-what-techniquesprocesses-do-you-use)
+* [How many ways can we share a record?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+
 
 Behavioral
 * [What are your 3 favourite Salesforce blogs?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
@@ -27,6 +24,10 @@ Behavioral
 * [Have you ever contributed to Salesforce's Ideas? If you could make any idea come true, what would it be?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 * [Where do you see yourself in 3 years?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 * [Do you enjoy being a Salesforce developer? Why?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+
+SOQL & DML
+* [What are the default indexed fields in Salesforce?](#can-you-give-an-example-of-an-media-property-other-than-screen)
+* [What is difference insert() and database .insert()?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
 
 Data Modelling & Data Management 
@@ -62,7 +63,18 @@ Apex
 * [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is the Save Order of Execution? Why is it important?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is a wrapper class? Give one use case where you would use a wrapper class.](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-
+* [Explain various methods of batch Apex class?](#what-is-css-selector-specificity-and-how-does-it-work)
+* [What is Apex Email Service?](#whats-the-difference-between-resetting-and-normalizing-css-which-would-you-choose-and-why)
+* [Describe the 3 qualities of Apex that make it powerful?](#describe-floats-and-how-they-work)
+* [What is Map Class in Apex Salesforce?](#describe-z-index-and-how-stacking-context-is-formed)
+* [What is Batch Apex in Salesforce?](#describe-block-formatting-context-bfc-and-how-it-works)
+* [What is Apex Scheduler?](#what-are-the-various-clearing-techniques-and-which-is-appropriate-for-what-context)
+* [What is the Apex Trigger in Salesforce?](#explain-css-sprites-and-how-you-would-implement-them-on-a-page-or-site)
+* [What is an Apex transactions?](#how-would-you-approach-fixing-browser-specific-styling-issues)
+* [What are static resources?](#what-are-the-different-ways-to-visually-hide-content-and-make-it-available-only-for-screen-readers)
+* [What is the difference between public and global classes in Apex?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [Why use Batch Apex instead of Normal Apex?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What the difference between isNull and isBlank?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 
 
 
