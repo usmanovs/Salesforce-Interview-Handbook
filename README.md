@@ -1,4 +1,4 @@
-<h1 align="center">Salesforce Interview Handbook</h1>
+<h1 align="center">Ultimate Salesforce Interview Handbook</h1>
 
 <div align="center">
     <img src="assets/sflogo.png" alt="Salesforce Interview Handbook" width="400"/>
