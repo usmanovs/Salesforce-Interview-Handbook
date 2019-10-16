@@ -38,7 +38,7 @@ Read our [contributing guide](/CONTRIBUTING.md) to learn about how you can contr
 
 The project is currently maintained by:
 
-@usmanovs
+- [@usmanovs](https://github.com/usmanovs)
 
 ### Supporting
 
