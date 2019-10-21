@@ -6,7 +6,6 @@ Pull requests for suggestions and corrections are welcome!
 * [How can we find out what licenses the org has? And how many licenses are available?](#How-can-we-find-out-what-licenses-the-org-has)
 * [What is a sandbox org? What are the different types of sandboxes in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What useful information can you find on the company information page?](#describe-z-index-and-how-stacking-context-is-formed)
-* [What useful information can you find on the company information page?](#describe-z-index-and-how-stacking-context-is-formed)
 
 ## Security & Access
 * [What is a profile](#describe-z-index-and-how-stacking-context-is-formed)
