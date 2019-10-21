@@ -3,7 +3,7 @@
 Pull requests for suggestions and corrections are welcome!
 
 ## Salesforce Fundamentals
-* [How can we find out what licenses the org has? And how many licenses are available?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [How can we find out what licenses the org has? And how many licenses are available?](#How-can-we-find-out-what-licenses-the-org-has)
 * [What is a sandbox org? What are the different types of sandboxes in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What useful information can you find on the company information page?](#describe-z-index-and-how-stacking-context-is-formed)
 * [What useful information can you find on the company information page?](#describe-z-index-and-how-stacking-context-is-formed)
@@ -49,10 +49,7 @@ Pull requests for suggestions and corrections are welcome!
 * [What are the key automation tools in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
 
-### What is CSS selector specificity and how does it work?
-* [Explain various methods of batch Apex class?](#what-is-css-selector-specificity-and-how-does-it-work)
-
-
+### How can we find out what licenses the org has
 The browser determines what styles to show on an element depending on the specificity of CSS rules. We assume that the browser has already determined the rules that match a particular element. Among the matching rules, the specificity, four comma-separate values, `a, b, c, d` are calculated for each rule based on the following:
 
 1. `a` is whether inline styles are being used. If the property declaration is an inline style on the element, `a` is 1, else 0.
