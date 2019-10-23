@@ -49,19 +49,19 @@ Pull requests for suggestions and corrections are welcome!
 A license in salesforce enables a user to use the features of the org. A user can also be restricted to using only a few features of the org, based on the user assigned license. In order to view what all licenses are available for the org, the user has to follow these steps:
 
 - Select Setup from the admin drop down
-<img src="assets/Setup.png"/>
+<img src="assets/Setup.png">
 
 - From the left sidebar select Administration/Administer/Administration Setup > Company Profile > Company Information
-<img src="assets/Company profile drop down.png"/>
+<img src="assets/Company profile drop down.png">
 
 OR
 - On the left sidebar, navigate to the search bar and type “company information” and click on “Company Information” as shown in the image
-<img src="assets/search bar.png"/>
+<img src="assets/search bar.png">
 
 - Navigate to “User Licenses” section
 
 Here you will be able to see all the available licenses for the org. In this section, you will be able to see all the details related to licenses as to their status, total number of licenses, number of used licenses along with the remaining number of licenses and the expiration date of the licenses.
-<img src="assets/available licenses.png"/>
+<img src="assets/available licenses.png">
 
 ###### References
 
