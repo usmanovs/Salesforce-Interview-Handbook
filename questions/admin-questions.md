@@ -43,9 +43,6 @@ Pull requests for suggestions and corrections are welcome!
 * [How do you give access to a certain object?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [I am looking at an Opportunity record. The record does not have a 'Share' button. Why?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What are the key automation tools in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are the key automation tools in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are the key automation tools in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are the key automation tools in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
 
 ### How can we find out what licenses the org has
