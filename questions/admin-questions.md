@@ -49,18 +49,22 @@ Pull requests for suggestions and corrections are welcome!
 A license in salesforce enables a user to use the features of the org. A user can also be restricted to using only a few features of the org, based on the user assigned license. In order to view what all licenses are available for the org, the user has to follow these steps:
 
 - Select Setup from the admin drop down
+
 <img src="/assets/Setup.png">
 
 - From the left sidebar select Administration/Administer/Administration Setup > Company Profile > Company Information
+
 <img src="/assets/Company profile drop down.png">
 
 OR
 - On the left sidebar, navigate to the search bar and type “company information” and click on “Company Information” as shown in the image
+
 <img src="/assets/search bar.png">
 
 - Navigate to “User Licenses” section
 
 Here you will be able to see all the available licenses for the org. In this section, you will be able to see all the details related to licenses as to their status, total number of licenses, number of used licenses along with the remaining number of licenses and the expiration date of the licenses.
+
 <img src="/assets/available licenses.png">
 
 ###### References
@@ -78,11 +82,13 @@ Sandbox org is basically a replica of the production org which can be used for v
 4) Full Sandbox
 
 In order to create a sandbox, the user can navigate to Setup > Data Management > Sandboxes and the user will see following page:
+
 <img src="/assets/sandbox.png">
 
 Here the user can view as to what all sandbox licenses does an org have and how many are still available to be created. From the “New Sandbox” button, the user can create a new sandbox org.
 
 For a detailed difference between the four types of sandbox orgs, please refer to the following image:
+
 <img src="/assets/types of sandboxes.png">
 
 ###### References
@@ -104,6 +110,7 @@ The company information page provides all the necessary details about the org. F
 8) Instance, the server name which will appear in the url of the org, when logged in
 
 These are some necessary information which one can find on the company information page, however, there are various other fields which are available to the user, for which you can refer to the following screenshot:
+
 <img src="/assets/organization information.png">
 
 ###### References
