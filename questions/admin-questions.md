@@ -4,8 +4,8 @@ Pull requests for suggestions and corrections are welcome!
 
 ## Salesforce Fundamentals
 * [How can we find out what licenses the org has? And how many licenses are available?](#how-can-we-find-out-what-licenses-the-org-has-and-how-many-licenses-are-available)
-* [What is a sandbox org? What are the different types of sandboxes in Salesforce?](#What-is-a-sandbox-org?-What-are-the-different-types-of-sandboxes-in-Salesforce?)
-* [What useful information can you find on the company information page?](#What-useful-information-can-you-find-on-the-company-information-page?)
+* [What is a sandbox org? What are the different types of sandboxes in Salesforce?](#what-is-a-sandbox-org-what-are-the-different-types-of-sandboxes-in-salesforce)
+* [What useful information can you find on the company information page?](#what-useful-information-can-you-find-on-the-company-information-page)
 
 ## Security & Access
 * [What is a profile](#describe-z-index-and-how-stacking-context-is-formed)
