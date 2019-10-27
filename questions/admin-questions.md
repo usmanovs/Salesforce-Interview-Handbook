@@ -32,10 +32,14 @@ Pull requests for suggestions and corrections are welcome!
 * [What is a case?](#are-you-familiar-with-styling-svg)
 * [What are the key 3 report types available in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What are the 3 key differences between Data Loader & Data Import Wizard?](#are-you-familiar-with-styling-svg)
+* [How many types of reports does Salesforce support?](#are-you-familiar-with-styling-svg)
+* [What kind of report can be used in a Salesforce dashboard??](#are-you-familiar-with-styling-svg)
 
 ## Automation
 * [What are the key automation tools in Salesforce? How do you know when to use which?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 * [What is a validation rule?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What business problems do approval processes solve?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [Which options do you have to make a field required?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
 
 ## Scenario Based Questions
