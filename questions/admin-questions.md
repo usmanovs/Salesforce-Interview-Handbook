@@ -8,7 +8,7 @@ Pull requests for suggestions and corrections are welcome!
 * [What useful information can you find on the company information page?](#what-useful-information-can-you-find-on-the-company-information-page)
 
 ## Security & Access
-* [What is a profile](#describe-z-index-and-how-stacking-context-is-formed)
+* [What is a profile?](#describe-z-index-and-how-stacking-context-is-formed)
 * [What is the difference between a profile & permission set?](#describe-block-formatting-context-bfc-and-how-it-works)
 * [What is the difference between role & profile?](#what-are-the-various-clearing-techniques-and-which-is-appropriate-for-what-context)
 * [What are sharing settings?](#describe-z-index-and-how-stacking-context-is-formed)
