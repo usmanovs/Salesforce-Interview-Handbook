@@ -8,13 +8,14 @@ Pull requests for suggestions and corrections are welcome!
 * [What useful information can you find on the company information page?](#what-useful-information-can-you-find-on-the-company-information-page)
 
 ## Security & Access
-* [What is a profile?](#describe-z-index-and-how-stacking-context-is-formed)
-* [What is the difference between a profile & permission set?](#describe-block-formatting-context-bfc-and-how-it-works)
-* [What is the difference between role & profile?](#what-are-the-various-clearing-techniques-and-which-is-appropriate-for-what-context)
-* [What are sharing settings?](#describe-z-index-and-how-stacking-context-is-formed)
-* [What’s the difference between Record Types & Page Layouts? What is the use of each?](#what-is-css-selector-specificity-and-how-does-it-work)
-* [Can you delete a user? Why not?](#what-is-css-selector-specificity-and-how-does-it-work)
-* [What are Audit Fields?](#whats-the-difference-between-resetting-and-normalizing-css-which-would-you-choose-and-why)
+* [What is a profile](#what-is-a-profile)
+* [What is the difference between a profile & permission set?](#what-is-the-difference-between-a-profile--permission-set)
+* [What is the difference between role & profile?](#what-is-the-difference-between-role--profile)
+* [What are sharing settings?](#what-are-sharing-settings)
+* [What’s the difference between Record Types & Page Layouts? What is the use of each?](#whats-the-difference-between-record-types--page-layouts-what-is-the-use-of-each)
+* [Can you delete a user? Why not?](#can-you-delete-a-user-why-not)
+* [What are Audit Fields?](#what-are-audit-fields)
+
 
 ## Data Modelling
 * [What is the difference between a lookup relationship & master:detail relationship?](#how-would-you-approach-fixing-browser-specific-styling-issues)
@@ -120,5 +121,142 @@ These are some necessary information which one can find on the company informati
 ###### References
 
 * https://help.salesforce.com/articleView?id=users_understanding_license_types.htm&type=5
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What is a profile?
+A profile in salesforce is a combination of various settings and permissions which enables the user to perform certain tasks in salesforce. This is where you can define as to what all things a user can do in the respective org. With a single profile, one can control various permissions including, but not limited to, Tab Settings, Administrative Permissions, General User Permissions, Standard Object Permissions, Password Policies etc. In order to view all the profiles of the org, you can navigate to Setup > Administration > Users > Profiles.
+
+<img src="/assets/View profile.png">
+
+From the same screen, the system administrator can create a new profile from "New Profile" button as shown in the above screenshot. A profile can have multiple users but a user can have only one profile in the org. There are two types of profiles in the salesforce:
+
+1) Standard Profiles - Standard profiles are the default profiles provided by the salesforce, even for the free license. These profiles cannot be deleted by anyone and they are generally six (6) in number:
+
+ - System Administrator
+ - Standard User
+ - Solution Manager
+ - Read Only
+ - Marketing User
+ - Contract Manager
+
+2) Custom Profiles - These are the profiles provided by the user and can be deleted if required. Custom profiles have "Custom" column checked for them on the view profile screen.
+
+###### References
+
+* https://www.salesforcetutorial.com/working-profiles-salesforce/
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What is the difference between a profile & permission set?
+As mentioned above for the profile, it is a collection of certain permissions, and similar is the case with permission set. As the name suggests, permission set also consist of various permissions, however, it is an extension to the already assigned permissions to the user via profile. To outline the difference between the two, we can understand that profile provides some basic permissions to the user, whereas, in order to provide some additional permissions to the user one can define permission set.
+
+One more difference between a profile and permission set is that a profile can be used to grant or revoke a permission to the user, but a permission set can only grant or extend the permission. One cannot remove a permission with the help of a permission set.
+
+Another difference between the two is that only one profile can be assigned to the user but a user can have number of permission sets extending their allowed permissions.
+
+For viewing all the permission sets of the org, you can navigate to Setup > Administration > Users > Permission Sets.
+
+<img src="/assets/View permission sets.png">
+
+###### References
+
+* https://www.salesforcetutorial.com/working-profiles-salesforce/
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What is the difference between role & profile?
+A role in salesforce is basically defining a role of the user in the organization. This helps in understanding and defining the level of permission being provided to the user. It works in hierarchy and by default all the users with superior roles can view and edit the records created by their subordinates. This can be changed by unchecking the checkbox under the column "Grant Access Using Hierarchies" under Sharing Settings.
+
+When looking at the difference between role and profile, one can clearly understand the difference between them just by one simple statement. What a user will see will be defined by its role, however, what all the user can do with the record will be defined by the profile of the user. Another major difference between them is that defining profile is mandatory, whereas, defining role is not mandatory.
+
+For viewing and defining the roles, you can navigate to Setup > Administration > Users > Roles.
+
+<img src="/assets/View roles.png">
+
+###### References
+
+* https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/admin_roles.htm#!
+* https://developer.salesforce.com/forums/?id=9060G000000UUa0QAG
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What are sharing settings?
+The sharing settings allows access to data of each user based on their role.
+Different levels of sharing available in the salesforce are:
+
+1) Private - Only the creator of the record will have access to the record
+2) Public Read only - The record will be available for public access but the users will only be able to view it and cannot do any editing
+3) Public Read/Write - The record will be available for public access and everyone having access to the record can edit it as well
+
+This is from here the user can change the access settings for both default (limited to few objects like Account and Contract, Contact, Case, Opportunity) and all custom objects. Also from here, a user can define rules based on which the sharing settings will apply and only those records will be shared which matches the defined rules. For viewing sharing settings and to create rules, you can navigate to Setup > Settings > Security > Sharing Settings.
+
+<img src="/assets/View sharing settings.png">
+
+###### References
+
+* https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_bulk_sharing_understanding.htm#!
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What’s the difference between Record Types & Page Layouts? What is the use of each?
+An organization can have multiple businesses and accordingly can have various picklist values. Record types let you collaborate them and assign it to the users as per their profiles. While creating a record type, you can assign a page layout which can be default to all the profiles in the org, or you can even designate different layouts to different profiles.
+
+<img src="/assets/Record type page layout setting.png">
+
+On the other hand, as the name suggests, page layouts basically lets you define as to what all elements will be visible on the record. With the help of page layouts, you can place Fields, Buttons, Related Lists and many more, as per your convenience. You can also control the settings of a field as to what all fields will be visible, which field will be read-only field and what all fields will be required fields. There are three ways of assigning page layout:
+
+1) From record types page
+
+<img src="/assets/Page layout assignment 1.png">
+
+2) From page layouts page
+
+<img src="/assets/Page layout assignment 2.png">
+
+3) From profiles page
+
+<img src="/assets/Page layout assignment 3.png">
+
+###### References
+
+* https://inspireplanner.com/blog/differences-record-types-page-layouts-to-know/
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### Can you delete a user? Why not?
+A user cannot be deleted in the salesforce. The only way is to deactivate the user and to do so, you can navigate to Setup > Administration > Users > Users > Edit <user>.
+
+<img src="/assets/Deactivate user.png">
+
+On the edit user page, uncheck the checkbox for "Active" field and click on Save.
+
+The reason why a user cannot be deleted is that the user might be an owner of certain records and deleting the user will make the record inaccessible to other users of the org. This will release the license assigned to the user and you can create a new user with that revoked license.
+
+###### References
+
+* https://success.salesforce.com/answers?id=90630000000ZepDAAS
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What are Audit Fields?
+Audit fields are the important fields available to keep a track of all the information of the org. These are quite valuable fields at the time of auditing. Below mentioned fields combined are known as audit fields:
+
+- CreatedDate
+- CreatedById
+- LastModifiedDate
+- LastModifiedById
+- systemModStamp
+
+These fields play important role when you are trying to import your data into your salesforce org and are willing to keep the audit fields similar to the source. In order to do so, you will have to enable "Enable "Set Audit Fields upon Record Creation” and “Update Records with Inactive Owners"" permission. This can be done from Setup > Platform Tools > User Interface > User Interface.
+
+<img src="/assets/Audit fields permission.png">
+
+The only field for which you cannot set any value is "systemModStamp".
+
+###### References
+
+* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
+* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
 
 [[↑] Back to top](#salesforce-admin-questions)
