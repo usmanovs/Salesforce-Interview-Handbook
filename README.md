@@ -33,6 +33,9 @@ You are welcome to make improvements to existing answers and answer unanswered q
 The project is currently maintained by:
 
 - [@usmanovs](https://github.com/usmanovs)
+- [@rohit daswani](https://github.com/rohit-daswani)
+
+
 
 ### Supporting
 
