@@ -9,12 +9,12 @@ Pull requests for suggestions and corrections are welcome!
 
 ## Security & Access
 * [What is a profile](#what-is-a-profile)
-* [What is the difference between a profile & permission set?](#what-is-the-difference-between-a-profile-&-permission-set)
-* [What is the difference between role & profile?](#what-is-the-difference-between-role-&-profile)
+* [What is the difference between a profile & permission set?](#what-is-the-difference-between-a-profile--permission-set)
+* [What is the difference between role & profile?](#what-is-the-difference-between-role--profile)
 * [What are sharing settings?](#what-are-sharing-settings)
-* [What’s the difference between Record Types & Page Layouts? What is the use of each?](#what’s-the-difference-between-Record-Types-&-Page-Layouts-what-is-the-use-of-each)
+* [What’s the difference between Record Types & Page Layouts? What is the use of each?](#what’s-the-difference-between-record-types--page-layouts-what-is-the-use-of-each)
 * [Can you delete a user? Why not?](#can-you-delete-a-user-why-not)
-* [What are Audit Fields?](#what-are-Audit-Fields)
+* [What are Audit Fields?](#what-are-audit-fields)
 
 ## Data Modelling
 * [What is the difference between a lookup relationship & master:detail relationship?](#how-would-you-approach-fixing-browser-specific-styling-issues)
