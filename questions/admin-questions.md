@@ -16,16 +16,14 @@ Pull requests for suggestions and corrections are welcome!
 * [Can you delete a user? Why not?](#can-you-delete-a-user-why-not)
 * [What are Audit Fields?](#what-are-audit-fields)
 
-
 ## Data Modelling
-* [What is the difference between a lookup relationship & master:detail relationship?](#how-would-you-approach-fixing-browser-specific-styling-issues)
-* [What is an External lookup?](#what-are-the-different-ways-to-visually-hide-content-and-make-it-available-only-for-screen-readers)
-* [Why do we create relationships between objects?](#explain-css-sprites-and-how-you-would-implement-them-on-a-page-or-site)
-* [What is a self-relationship?](#how-do-you-serve-your-pages-for-feature-constrained-browsers-what-techniquesprocesses-do-you-use)
-* [What is a junction object? What do we use them for?](#are-you-familiar-with-styling-svg)
-* [What happens if you delete a field?](#have-you-used-or-implemented-media-queries-or-mobile-specific-layoutscss)
-* [What can you do with a schema builder?](#have-you-used-or-implemented-media-queries-or-mobile-specific-layoutscss)
-* [What is a junction object? What do we use them for?](#are-you-familiar-with-styling-svg)
+* [What is the difference between a lookup relationship & master:detail relationship?](#what-is-the-difference-between-a-lookup-relationship--master-detail-relationship)
+* [What is an External lookup?](#what-is-an-external-lookup)
+* [Why do we create relationships between objects?](#why-do-we-create-relationships-between-objects)
+* [What is a self-relationship?](#what-is-a-self-relationship)
+* [What is a junction object? What do we use them for?](#what-is-a-junction-object-what-do-we-use-them-for)
+* [What happens if you delete a field?](#what-happens-if-you-delete-a-field)
+* [What can you do with a schema builder?](#what-can-you-do-with-a-schema-builder)
 
 ## Sales, Service, Analytics, Data Management
 * [What is a price book?](#are-you-familiar-with-styling-svg)
@@ -301,63 +299,102 @@ An object can be a master to a maximum of 2.
 </td></tr>
 </table>
 
+In order to create any of the above relationship between the objects:
+
+1) Navigate to Setup > Create > Objects
+
+<img src=”/assets/Objects.png”>
+
+2) Click on any object
+3) Navigate to Custom Fields & Relationships
+4) Click on New
+
+<img src=”/assets/Types of relationships.png”>
+
+From here you can select the type of relationship you want to create by following the steps of the wizard.
+
 ###### References
 
-* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
-* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+* https://www.forcetalks.com/salesforce-topic/what-is-the-difference-between-look-up-and-master-detail-relationship/
+* https://developer.salesforce.com/forums/?id=906F00000008mhlIAA
+* http://sfdcsrini.blogspot.com/2015/10/difference-between-master-detail.html
 
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is an External lookup?
+External lookup in salesforce is used when we have to link an external source of data with our salesforce org. In this case, we can use all the available objects including standard, custom and even external objects to be linked with the external database. However, the only condition here is that only the external object can be treated as a parent object and no other object type can be a parent here.
+
+The linking can be made with the help of fields in the linked objects which have the same data. An External ID is created in the parent external object which maps with the appropriate field in the child object. In order to create an external lookup, you need to follow the following steps:
+
+1) Navigate to Setup > Create > Objects
+
+<img src=”/assets/Objects.png”>
+
+2) Click on any object
+3) Navigate to Custom Fields & Relationships
+4) Click on New
+
+<img src=”/assets/External lookup.png”>
 
 ###### References
 
-* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
-* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+* https://cloudworks.ae/what-is-the-external-lookup-relationship-in-salesforce/
 
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### Why do we create relationships between objects?
-
-###### References
-
-* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
-* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+Objects contain data and all the data cannot be maintained in one single table. Thus, all the objects have their specific data and in order to get the data from different objects and show it in one single place, we create relationships between the objects. It is just like combining two tables from the database using unique and foreign key. There are various types of relationships including master:detail relationship, lookup relationship, and many-to-many relationships.
 
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is a self-relationship?
+As the name suggests, this is a kind of relationship where an object is linked with itself. So, in here rather than combining two different tables in order to show the data, we create a lookup on the same object to be referred. This could be understood with an example. Let us say we have an object “Part” and it can be a possibility that the same part is replaced later with some other parts. Thus, in order to link both the parts, we would require to reference the same table rather than some other object’s table.
 
 ###### References
 
-* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
-* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+* https://www.edureka.co/blog/salesforce-tutorial
+* https://www.forcetalks.com/salesforce-topic/what-is-a-self-relationship-in-salesforce/
 
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is a junction object? What do we use them for?
+Junction object is a custom object basically used to create a many-to-many relationships between the objects. In order to achieve the junction functionality, we have to use two master-detail relationships, each of them pointing to specific objects. For example, we have a car dealership where a customer can have multiple vehicles and a vehicle can be owned by various customers, via selling or exchange programs. Thus, we will have to create a many-to-many relationships between the customer and vehicle objects and in order to do so, we will create a junction object “Cars” which will link them both.
+
+Junction object can be created as any other custom object and then from within the junction object, you can use master-detail relationship under “Custom Fields & Relationships” related list by selecting respective objects.
 
 ###### References
 
-* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
-* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+* https://www.forcetalks.com/salesforce-topic/what-is-the-use-of-junction-object-in-salesforce/
+* https://www.sfdc-lightning.com/2018/11/what-is-junction-object-in-salesforce.html
 
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What happens if you delete a field?
+When a field is deleted, its associated data is also deleted and you will not be able to track the changes to the field anymore. All these deleted fields and data are stored for 15 days so that the user can restore the deleted data, if required. Or else after 15 days it will be permanently deleted or it can be deleted by the user permanently before that as well. Standard fields cannot be deleted, however, custom fields can be deleted.
+
+In order to delete a field, navigate to the required object and click on the name of the object. On the fields which can be deleted, you will see a drop down arrow as shown in the screenshot below. From the drop down, select the Delete option and click on Save/Confirm/Delete button on the next screen.
+
+<img src=”/assets/Delete field.ong”>
 
 ###### References
 
-* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
-* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+* https://help.salesforce.com/articleView?id=deleting_fields.htm&type=5
 
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What can you do with a schema builder?
+Schema builder is a graphical representation of all your objects and their relationships with each other.
+
+<img src=”/assets/Schema builder details.png”>
+
+As you can see in the above image, you can view all the fields of the selected objects from the left sidebar under Objects column. Also, at the top right corner, you can view all the legends which will help you in better understanding the relationships between the objects. From this place, it is not just viewing the details, you can even add and modify objects from here.
+
+To reach to the schema builder navigate to Setup > App Setup > Schema Builder
+
+<img src=”/assets/Schema builder.png”>
 
 ###### References
 
-* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
-* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+* https://www.tutorialspoint.com/salesforce/salesforce_schema_builder.htm
 
 [[↑] Back to top](#salesforce-admin-questions)
