@@ -17,7 +17,7 @@ Pull requests for suggestions and corrections are welcome!
 * [What are Audit Fields?](#what-are-audit-fields)
 
 ## Data Modelling
-* [What is the difference between a lookup relationship & master:detail relationship?](#what-is-the-difference-between-a-lookup-relationship--master-detail-relationship)
+* [What is the difference between a lookup relationship & master:detail relationship?](#what-is-the-difference-between-a-lookup-relationship--masterdetail-relationship)
 * [What is an External lookup?](#what-is-an-external-lookup)
 * [Why do we create relationships between objects?](#why-do-we-create-relationships-between-objects)
 * [What is a self-relationship?](#what-is-a-self-relationship)
