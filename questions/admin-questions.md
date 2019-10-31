@@ -260,3 +260,104 @@ The only field for which you cannot set any value is "systemModStamp".
 * https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
 
 [[↑] Back to top](#salesforce-admin-questions)
+
+### What is the difference between a lookup relationship & master:detail relationship?
+<table cellpadding="3">
+<tr>
+<td align="center">
+<b>Lookup Relationship</b>
+</td>
+<td align="center">
+<b>Master:Detail relationship</b>
+</td>
+</tr>
+<tr><td>This relationship can be created between any two objects, i.e., standard and custom objects.</td><td>
+This relationship can also be created between standard and custom objects, but standard object should be the master.
+</td></tr>
+<tr><td>
+This is not a parent-child relationship.
+</td><td>
+This is a parent child relationship where master is parent and detail is child.
+</td></tr>
+<tr><td>
+The related two objects does not require any parent object.
+</td><td>
+All the child objects need to have a parent object.
+</td></tr>
+<tr><td>
+If the parent record is deleted, child record remains unaffected.
+</td><td>
+If the parent record is deleted, all the related child records are also deleted.
+</td></tr>
+<tr><td>
+Every object has its own sharing and security properties.
+</td><td>
+All the related child objects inherits the security and sharing properties from the parent.
+</td></tr>
+<tr><td>
+There can be a maximum of 25 lookups on an object.
+</td><td>
+An object can be a master to a maximum of 2.
+</td></tr>
+</table>
+
+###### References
+
+* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
+* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What is an External lookup?
+
+###### References
+
+* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
+* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### Why do we create relationships between objects?
+
+###### References
+
+* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
+* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What is a self-relationship?
+
+###### References
+
+* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
+* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What is a junction object? What do we use them for?
+
+###### References
+
+* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
+* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What happens if you delete a field?
+
+###### References
+
+* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
+* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What can you do with a schema builder?
+
+###### References
+
+* https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/system_fields.htm
+* https://www.linkedin.com/pulse/system-fields-audit-salesforce-santosh-chitalkar
+
+[[↑] Back to top](#salesforce-admin-questions)
