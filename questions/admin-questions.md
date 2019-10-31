@@ -303,13 +303,13 @@ In order to create any of the above relationship between the objects:
 
 1) Navigate to Setup > Create > Objects
 
-<img src=”/assets/Objects.png”>
+<img src="/assets/Objects.png">
 
 2) Click on any object
 3) Navigate to Custom Fields & Relationships
 4) Click on New
 
-<img src=”/assets/Types of relationships.png”>
+<img src="/assets/Types of relationships.png">
 
 From here you can select the type of relationship you want to create by following the steps of the wizard.
 
@@ -328,13 +328,13 @@ The linking can be made with the help of fields in the linked objects which have
 
 1) Navigate to Setup > Create > Objects
 
-<img src=”/assets/Objects.png”>
+<img src="/assets/Objects.png">
 
 2) Click on any object
 3) Navigate to Custom Fields & Relationships
 4) Click on New
 
-<img src=”/assets/External lookup.png”>
+<img src="/assets/External lookup.png">
 
 ###### References
 
@@ -374,7 +374,7 @@ When a field is deleted, its associated data is also deleted and you will not be
 
 In order to delete a field, navigate to the required object and click on the name of the object. On the fields which can be deleted, you will see a drop down arrow as shown in the screenshot below. From the drop down, select the Delete option and click on Save/Confirm/Delete button on the next screen.
 
-<img src=”/assets/Delete field.ong”>
+<img src="/assets/Delete field.png">
 
 ###### References
 
@@ -385,13 +385,13 @@ In order to delete a field, navigate to the required object and click on the nam
 ### What can you do with a schema builder?
 Schema builder is a graphical representation of all your objects and their relationships with each other.
 
-<img src=”/assets/Schema builder details.png”>
+<img src="/assets/Schema builder details.png">
 
 As you can see in the above image, you can view all the fields of the selected objects from the left sidebar under Objects column. Also, at the top right corner, you can view all the legends which will help you in better understanding the relationships between the objects. From this place, it is not just viewing the details, you can even add and modify objects from here.
 
 To reach to the schema builder navigate to Setup > App Setup > Schema Builder
 
-<img src=”/assets/Schema builder.png”>
+<img src="/assets/Schema builder.png">
 
 ###### References
 
