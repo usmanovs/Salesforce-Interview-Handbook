@@ -404,7 +404,7 @@ To create a price book:
 1) Click on "+" icon on the top row of the home page.
 2) Search for "Price Books"
 
-<img src="/assets/+sign">
+<img src="/assets/+sign.png">
 
 3) Click on New to create a new price book
 
