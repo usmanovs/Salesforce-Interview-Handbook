@@ -26,26 +26,23 @@ Pull requests for suggestions and corrections are welcome!
 * [What can you do with a schema builder?](#what-can-you-do-with-a-schema-builder)
 
 ## Sales, Service, Analytics, Data Management
-* [What is a price book?](#are-you-familiar-with-styling-svg)
-* [When you convert a Lead what does it become?](#are-you-familiar-with-styling-svg)
-* [What is a case?](#are-you-familiar-with-styling-svg)
-* [What are the key 3 report types available in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are the 3 key differences between Data Loader & Data Import Wizard?](#are-you-familiar-with-styling-svg)
-* [How many types of reports does Salesforce support?](#are-you-familiar-with-styling-svg)
-* [What kind of report can be used in a Salesforce dashboard??](#are-you-familiar-with-styling-svg)
+* [What is a price book?](#what-is-a-price-book)
+* [When you convert a Lead what does it become?](#when-you-convert-a-lead-what-does-it-become)
+* [What is a case?](#what-is-a-case)
+* [What are the key 3 report types available in Salesforce?](#what-are-the-key-3-report-types-available-in-salesforce)
+* [What are the 3 key differences between Data Loader & Data Import Wizard?](#what-are-the-3-key-differences-between-data-loader--data-import-wizard)
+* [What kind of report can be used in a Salesforce dashboard?](#what-kind-of-report-can-be-used-in-a-salesforce-dashboard)
 
 ## Automation
-* [What are the key automation tools in Salesforce? How do you know when to use which?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is a validation rule?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What business problems do approval processes solve?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Which options do you have to make a field required?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-
+* [What are the key automation tools in Salesforce? How do you know when to use which?](#what-are-the-key-automation-tools-in-salesforce-how-do-you-know-when-to-use-which)
+* [What is a validation rule?](#what-is-a-validation-rule)
+* [What business problems do approval processes solve?](#what-business-problems-do-approval-processes-solve)
+* [Which options do you have to make a field required?](#which-options-do-you-have-to-make-a-field-required)
 
 ## Scenario Based Questions
-* [How do you restrict access to a certain object?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [How do you give access to a certain object?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [I am looking at an Opportunity record. The record does not have a 'Share' button. Why?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are the key automation tools in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [How do you restrict access to a certain object?](#how-do-you-restrict-access-to-a-certain-object)
+* [How do you give access to a certain object?](#how-do-you-give-access-to-a-certain-object)
+* [I am looking at an Opportunity record. The record does not have a 'Share' button. Why?](#i-am-looking-at-an-opportunity-record-the-record-does-not-have-a-share-button-why)
 
 
 ### How can we find out what licenses the org has? And how many licenses are available?
@@ -396,5 +393,263 @@ To reach to the schema builder navigate to Setup > App Setup > Schema Builder
 ###### References
 
 * https://www.tutorialspoint.com/salesforce/salesforce_schema_builder.htm
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What is a price book?
+A price book in salesforce is to store the prices of the products that your company deals in. Like if your company is providing some services to the customers, so this book will contain all the prices of your services. These are the standard prices which are stored in standard price book. However, if you have to customize the prices as per the customers, you can always create a custom price book.
+
+To create a price book:
+
+1) Click on "+" icon on the top row of the home page.
+2) Search for "Price Books"
+
+<img src="/assets/+sign">
+
+3) Click on New to create a new price book
+
+<img src="/assets/New price book.png">
+
+###### References
+
+* https://help.salesforce.com/articleView?id=pricebooks_landing_page.htm&type=5
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### When you convert a Lead what does it become?
+When an initial contact with the customer is initiated, a lead is generated in the salesforce. Now, depending on the further interactions, a lead can be converted into either an opportunity, an account or a contact.
+
+If the customer shows any interest in buying the product/service you are offering, a lead turns into an opportunity. When a customer buys your product/service, the opportunity is closed with the status of "Closed/Won". This creates an account in the salesforce under your org and a corresponding contact is also created for the purpose of further communication.
+
+However, if the customer shows no interest in buying the product/services, it is closed with the status of "Closed/Lost".
+
+###### References
+
+* https://salesforce.stackexchange.com/questions/42212/what-happens-when-a-lead-is-converted
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What is a case?
+A case in salesforce can be looked upon as a support ticket. With the help of this case, a customer can raise their concern either through a phone call or sending an email to a specific support email or can log a case/ticket from the customer support portal provided by the company.
+
+###### References
+
+* https://help.salesforce.com/articleView?id=cases_def.htm&type=5
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What are the key 3 report types available in Salesforce?
+In salesforce, in order to represent some data on a report, a user can use these key 3 report types, depending on the type of data they want to represent:
+
+1) Tabular - As the name suggests, you will generate a report which will have the data in a tabl format showing all the selected columns and their respective rwos with data. This is the best type of report which can be utilized for the export purpose, when the data will only be used for representation purpose.
+
+<img src="/assets/Tabular format.png">
+
+2) Summary - This is the most commonly used report type. When you are looking for a report based on a "Group By" column, this is the report you will need. You can do grouping based on any available fields of the table.
+
+<img src="/assets/Summary format.png">
+
+3) Matrix - Matrix report type is somewhat similar to summary report. The only difference being that in summary report you can do the grouping based on the rows, whereas, in matrix report you can do the grouping based on both, columns and rows.
+
+<img src="/assets/Matrix format.png">
+
+To reach to the page for creating reports, follow these steps:
+
+1) Click on "+" icon on the top row of the home page.
+2) Search for "Reports"
+
+<img src="/assets/+ sign (1).png">
+
+3) Click on New to create a new report
+
+<img src="/assets/New report.png">
+
+4) Select the appropriate object for which you want to create a report and click on Create.
+
+<img src="/assets/Select object.png">
+
+###### References
+
+* https://www.salesforceben.com/creating-reports-salesforce/
+* https://www.appseconnect.com/create-reports-and-dashboards-in-salesforce/
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What are the 3 key differences between Data Loader & Data Import Wizard?
+The key 3 differences between Data Loader & Data Import Wizard lies in their functionality.
+
+<table cellpadding="3">
+<tr>
+<td align="center">
+<b>Data Loader</b>
+</td>
+<td align="center">
+<b>Data Import Wizard</b>
+</td>
+</tr>
+<tr><td>With data loader you can do both import and export of data.</td><td>
+With data import wizard, you can only import the data to your org. You will not be able to export data using this wizard.
+</td></tr>
+<tr><td>
+With data loader, you first have to install the setup of data loader.
+</td><td>
+With data import wizard, it does not require any installation and is available as a step-by-step guided wizard.
+</td></tr>
+<tr><td>
+With the help of data loader, you can import data of any object including both standard and custom objects.
+</td><td>
+In data import wizard, you are allowed to import data for all custom objects, but have access to limited standard objects including Account, Contacts, Leads, and Solutions.
+</td></tr>
+</table>
+
+For doing data import through data import wizard, navigate to Setup > Administer > Data Management > Data Import Wizard
+
+<img src="/assets/Data import wizard.png">
+
+For doing data import through data loader, navigate to Setup > Administer > Data Management > Data Loader
+
+<img src="/assets/Data loader.png">
+
+Install the data loader setup and then you can do the import of data with ease.
+
+###### References
+
+* https://developer.salesforce.com/forums/?id=906F00000008m4MIAQ
+* https://www.biswajeetsamal.com/blog/difference-between-data-loader-and-import-wizard-in-salesforce/
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What kind of report can be used in a Salesforce dashboard?
+A dashboard in salesforce is like any other dashboard, where you can monitor the changing trends of your products and services based on the reports selected on the dashboard.
+
+A salesforce dashboard supports all types of reports including Tabular, Summary, Matrix and even Joined. However, for creating a tabular report in the dashboard, you will have to put a row limit as all the rows cannot be shown the dashboard. Also, on the dashboard, you can have a maximum of 20 components for which you can analyze the data directly from the dashboard.
+
+To reach to the page for creating a dashboard, follow these steps:
+
+1) Click on "+" icon on the top row of the home page.
+2) Search for "Dashboards"
+
+<img src="/assets/Dashboards.png">
+
+3) Click on "New Dashobard" to create a new dashboard
+
+<img src="/assets/New dashboard.png">
+
+4) Select the appropriate Components and Data Sources for creating a required dashboard.
+
+<img src="/assets/Create dashboard.png">
+
+###### References
+
+* https://www.salesforceben.com/creating-reports-salesforce/
+* https://www.appseconnect.com/create-reports-and-dashboards-in-salesforce/
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What are the key automation tools in Salesforce? How do you know when to use which?
+In salesforce, there could be various business processes which needs to be done on regular basis. Thus, rather than doing the things manually, you can automate these processes. In order to do the required automation, there are various tools in salesforce:
+
+1) Workflows - Workflows are used when you have to automate processes which have enough if/then statements. This is somewhat like using a process builder, however, the only difference being that with the process builder you will not be able to send Outbound messages.
+
+2) Visual Workflow - This tool is used to automate those processes where we need to take some input from the users and then take action based on the input received. These processes do not initiate automatically, but can be initiated through either process builder or even apex calls. 
+
+3) Lightning Process Builder - With the help of this tool, a user can automate all those processes which have various if/then statements. All it requires is an entry criteria along with the required action which will take place when the criteria is met. For example: An email alert should be sent to the manager, if any issue is escalated. 
+
+4) Approval Process - As the name suggests, this tool will automate those processes, where a user has to wait for approval from some other user in order to proceed further with the transaction. For example: When a salesman has to apply discount of 10% on a product, they have to wait for manager's approval. This is something which can be automated using approval processes.
+
+In order to use these automation tools, navigate to Setup > Build > Create > Workflow & Approvals. Here you will get all the required tools for automation.
+
+<img src="/assets/Automation tools.png">
+
+###### References
+
+* https://help.salesforce.com/articleView?id=process_which_tool.htm&type=5
+* https://www.appshark.com/tools-to-automate-business-processes-in-salesforce/
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What is a validation rule?
+A validation rule in salesforce is to apply a rule on certain field(s) of the objects to make sure that the data entered for the field is a valid data. For example: A user can create a validation rule on "email id" field where if the user does not use a valid format "abc@xyz.com", the entry will not be accepted and the user will receive an error message or a notification. Validation rule can be applied only on fields of an object.
+
+<img src="/assets/Validation rules.png">
+
+Attached is the screenshot of an object "Accounts". Here we are creating a validation rule on the field "Phone". If the "Phone" field is blank, the user will get an error message stating that phone field is required.
+
+###### References
+
+* https://help.salesforce.com/articleView?id=fields_about_field_validation.htm&type=5
+* https://www.salesforcetutorial.com/validation-rules-salesforce/
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### What business problems do approval processes solve?
+When a user has to get something approved by another user, this time we use approval process automation tool. For example: An employee can submit application for a leave and it should reach to the concerned manager for approval. This process can be easily automated by approval processes.
+
+Doing all this manually will take up much time and will not be easy to keep a track of requests. Thus, with approval processes in place, all the requests can come in queue and an approver take initiate the approvals accordingly.
+
+###### References
+
+* https://help.salesforce.com/articleView?id=process_which_tool.htm&type=5
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### Which options do you have to make a field required?
+There are four options available to the user to make a field required:
+
+1) Validation Rule - As discussed previously, validation rule can be used to apply validations on a field. Using validation rules, you can make a field required. However, this does not mark the field as required. It will only generate error when the field is blank.
+
+<img src="/assets/Validation rules.png">
+
+2) Triggers - Triggers are a way of making a field required using command line. Here you can write your own apex code to make a field required rather than using any other methods involving UI elements.
+
+<img src="/assets/Triggers.png">
+
+3) Page Layout - While selecting fields for defining a page layout, a field can be marked as required. Please see the attached screenshot for reference.
+
+<img src="/assets/Page Layout.png">
+
+4) Custom Field Creation - While creating a custom field, a user can mark the field as required.
+
+<img src="/assets/Creating field.png">
+
+###### References
+
+* https://www.quora.com/What-are-the-different-ways-to-make-a-field-as-mandatory-in-salesforce
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### How do you restrict access to a certain object?
+In order to restrict access to a certain object, a user profile can be used for the purpose. Navigate to the profile of the user, edit the profile, navigate to Standard Object Permissions and from there you can uncheck the "Read" access of the object which you want to restrict access to.
+
+<img src="/assets/Restrict access.png">
+
+###### References
+
+* https://help.salesforce.com/articleView?id=bi_security_salesforce_object_field_levels_control_access.htm&type=5
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### How do you give access to a certain object?
+In the similar way, in order to give access to a certain object, again a user profile can be used for the purpose. Navigate to the profile of the user, edit the profile, navigate to Standard Object Permissions and from there you can check the "Read" access of the object which you want to grant access to.
+
+<img src="/assets/Grant access.png">
+
+###### References
+
+* https://help.salesforce.com/articleView?id=bi_security_salesforce_object_field_levels_control_access.htm&type=5
+
+[[↑] Back to top](#salesforce-admin-questions)
+
+### I am looking at an Opportunity record. The record does not have a 'Share' button. Why?
+If you are not able to see a "Share" button at an opportunity record, that means that the sharing model of that record is neither Public Read Only nor Private. The only people who can see a share button on the record are:
+
+1) Record Owner
+2) Any user with higher hierarchy role than the record owner
+3) System Administrator
+
+###### References
+
+* https://www.proprofs.com/discuss/q/270157/1-who-can-select-the-sharing-button-account-and-opportunity-
+* https://help.salesforce.com/articleView?id=faq_general_why_cant_i_see_the_sharing.htm&type=5
 
 [[↑] Back to top](#salesforce-admin-questions)
