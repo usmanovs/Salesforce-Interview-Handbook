@@ -3,7 +3,7 @@
 Pull requests for suggestions and corrections are welcome!
 
 ## Salesforce Fundamentals
-* [How can we find out what licenses the org has? And how many licenses are available?](#how-can-we-find-out-what-licenses-the-org-has-and-how-many-licenses-are-available)
+* [How can we find out what licenses the org has and how many licenses are available?](#how-can-we-find-out-what-licenses-the-org-has-and-how-many-licenses-are-available)
 * [What is a sandbox org? What are the different types of sandboxes in Salesforce?](#what-is-a-sandbox-org-what-are-the-different-types-of-sandboxes-in-salesforce)
 * [What useful information can you find on the company information page?](#what-useful-information-can-you-find-on-the-company-information-page)
 
@@ -45,8 +45,8 @@ Pull requests for suggestions and corrections are welcome!
 * [I am looking at an Opportunity record. The record does not have a 'Share' button. Why?](#i-am-looking-at-an-opportunity-record-the-record-does-not-have-a-share-button-why)
 
 
-### How can we find out what licenses the org has? And how many licenses are available?
-A license in salesforce enables a user to use the features of the org. A user can also be restricted to using only a few features of the org, based on the user assigned license. In order to view what all licenses are available for the org, the user has to follow these steps:
+### How can we find out what licenses the org has and how many licenses are available?
+A license in salesforce enables a user to use certain features of the Salesforce org.  Based on the user assigned license a user can be restricted to using only certain features of the org. To view  all licenses  available for the org, the user has to follow these steps:
 
 - Select Setup from the admin drop down
 
