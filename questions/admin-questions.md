@@ -137,10 +137,6 @@ One more difference between a profile and permission set is that a profile can b
 
 Another difference between the two is that only one profile can be assigned to the user but a user can have number of permission sets extending their allowed permissions.
 
-For viewing all the permission sets of the org, you can navigate to Setup > Administration > Users > Permission Sets.
-
-<img src="/assets/View permission sets.png">
-
 ###### References
 
 * https://www.salesforcetutorial.com/working-profiles-salesforce/
@@ -148,13 +144,9 @@ For viewing all the permission sets of the org, you can navigate to Setup > Admi
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is the difference between role & profile?
-A role in salesforce is basically defining a role of the user in the organization. This helps in understanding and defining the level of permission being provided to the user. It works in hierarchy and by default all the users with superior roles can view and edit the records created by their subordinates. This can be changed by unchecking the checkbox under the column "Grant Access Using Hierarchies" under Sharing Settings.
+A role in salesforce is basically defining a role of the user in the organization. It works in hierarchy; hence, by default all the users with superior roles can view and edit the records created by their subordinates. This can be changed by unchecking the checkbox under the column "Grant Access Using Hierarchies" under Sharing Settings.
 
-When looking at the difference between role and profile, one can clearly understand the difference between them just by one simple statement. What a user will see will be defined by its role, however, what all the user can do with the record will be defined by the profile of the user. Another major difference between them is that defining profile is mandatory, whereas, defining role is not mandatory.
-
-For viewing and defining the roles, you can navigate to Setup > Administration > Users > Roles.
-
-<img src="/assets/View roles.png">
+What records a user will see is defined by its role, however, what  the user can do with the record will be defined by the user's profile. Another major difference between them is that defining profile is mandatory, whereas, defining role is not mandatory.
 
 ###### References
 
@@ -164,11 +156,9 @@ For viewing and defining the roles, you can navigate to Setup > Administration >
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What are sharing settings?
-The sharing settings allows access to data of each user based on their role.
-Different levels of sharing available in the salesforce are:
-
-1) Private - Only the creator of the record will have access to the record
-2) Public Read only - The record will be available for public access but the users will only be able to view it and cannot do any editing
+The sharing settings control a users access to records that they don't own. The 3 different levels of sharing available are:
+1) Private - Only the owner of the record has access to the record
+2) Public Read only - The record will be available for public access but the users will only be able to view it and cannot edit it
 3) Public Read/Write - The record will be available for public access and everyone having access to the record can edit it as well
 
 This is from here the user can change the access settings for both default (limited to few objects like Account and Contract, Contact, Case, Opportunity) and all custom objects. Also from here, a user can define rules based on which the sharing settings will apply and only those records will be shared which matches the defined rules. For viewing sharing settings and to create rules, you can navigate to Setup > Settings > Security > Sharing Settings.
