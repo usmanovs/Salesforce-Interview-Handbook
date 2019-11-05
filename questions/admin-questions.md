@@ -49,13 +49,7 @@ Pull requests for suggestions and corrections are welcome!
 A license in salesforce enables a user to use certain features of the Salesforce org.  Based on the user assigned license a user can be restricted to using only certain features of the org. To view  all licenses  available for the org, the user has to follow these steps:
 
 - Select Setup from the admin drop down
-
-<img src="/assets/Setup.png">
-
 - From the left sidebar select Administration/Administer/Administration Setup > Company Profile > Company Information
-
-<img src="/assets/Company profile drop down.png">
-
 OR
 - On the left sidebar, navigate to the search bar and type “company information” and click on “Company Information” as shown in the image
 
