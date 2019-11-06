@@ -3,16 +3,16 @@
 Pull requests for suggestions and corrections are welcome!
 
 Fundamentals
-* [What are governor limits? Why are they important?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are the Bulkification best practices?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What are the key automation tools in Salesforce? How do you know when to use which?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is the difference between force.com and Salesforce.com?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+* [What are governor limits? Why are they important?](#what-are-governor-limits-why-are-they-important)
+* [What are the Bulkification best practices?](#what-are-the-bulkification-best-practices)
+* [What are the key automation tools in Salesforce? How do you know when to use which?](#what-are-the-key-automation-tools-in-Salesforce-how-do-you-know-when-to-use-which)
+* [What is the difference between force.com and salesforce.com?](#what-is-the-difference-between-force.com-and-salesforce.com)
 
 Sharing & Security
-* [What are the different ways we can share a record?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are sharing settings? Why are they important?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is Apex Managed Sharing?](#how-do-you-serve-your-pages-for-feature-constrained-browsers-what-techniquesprocesses-do-you-use)
-* [How many ways can we share a record?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What are the different ways we can share a record?](#what-are-the-different-ways-we-can-share-a-record)
+* [What are sharing settings? Why are they important?](#what-are-sharing-settings-why-are-they-important)
+* [What is Apex Managed Sharing?](#what-is-apex-managed-sharing)
+* [How many ways can we share a record?](#how-many-ways-can-we-share-a-record)
 
 
 Behavioral
@@ -271,9 +271,77 @@ Even if WAI-ARIA is the ideal solution, I would go with the `absolute` positioni
 
 [[↑] Back to top](#css-questions)
 
-### Have you ever used a grid system, and if so, what do you prefer?
+### What are the Bulkification best practices?
 
-I like the `float`-based grid system because it still has the most browser support among the alternative existing systems (flex, grid). It has been used in Bootstrap for years and has been proven to work.
+- Nested loops must be boycotted.
+- Soql queries inside loops must be avoided.
+- Use simple FOR loop instead of FOR each for better efficiency.
+	Ex: 
+	List<String> Accountkeys = new List<String>();
+	for(integer i=0; i < Accountkeys.size(); ++i) { system.debug(Accountkeys[i])} <== Consumes lesser time
+	for(String key : Accountkeys){ system.debug(key)} <== consumes more time
+- Use collections like map to store data locally, so that you can get rid of expensive database calls.
+- Always keep one trigger per object. No matter how complex one trigger becomes but multiple trigger misbehaves during bulk execution. You can use helper methods to reduce the complexity of the trigger also.
+- Use batch class as much as you can during bulk operations as they have been designed to handle bulk easily.
+- Keep track of limits by using Limits class to avoid hitting governor limits.
+- Future methods are very helpful when you have to update a large set of data. You can continue with your synchronous transaction and save time for updation by asking future method to update records asynchronously.
+
+[[↑] Back to top](#css-questions)
+
+### What are the key automation tools in Salesforce? How do you know when to use which?
+
+- In salesforce, Process builder , Workflow, Flow builder and approval process are some key tools for automation.
+- All these tools have separate significance to perform various business processes in salesforce.
+- When you have a requirement of processing multiple statements together, process builder or flow builder should be your choice.
+- When you want some action to be performed automatically on basis of time, you should refrain from using approval process.
+- If you want an activity to be done based on user action, Flow builder is an ideal choice.
+- If calling an apex class is a necessity, Process builder can be used.
+- For Sending outbound messages, workflows have been recommended.
+ So based on the various needs various automation can be utilized. Please have a look at below table which describes the uses of each automation in a better way.
+ 
+Factors									| Process builder			| Flow Builder	| Workflow				| Approval process		|
+Visuals Supported						|	Yes						|	Yes			|	No					|	No					|
+Processing complexity					|	Multiple if statements	| Very Complex	| Single if statements	| Single if statements	|
+Starts when user clicks on button		|	No						|	Yes			|	No					|	Yes					|
+Starts when platform event is received	|	Yes						|	No			|	No					|	No					|
+Starts when record is changed			|	Yes						|	No			|	Yes					|	No					|
+Time based actions supported			|	Yes						|	Yes			|	Yes					|	No					|
+Invoke processes						|	Yes						|	No			|	No					|	No					|
+User interaction supported				|	No						|	Yes			|	No					|	No					|
+Call apex code							|	Yes						|	Yes			|	No					|	No					|
+Delete records							|	No						|	Yes			|	No					|	No					|
+Send email								|	Yes						|	Yes			|	Yes					|	Yes					|
+Outbound messages support				|	No						|	No			|	Yes					|	Yes					|
+Sending custom notifications			|	Yes						|	Yes			|	No					|	No					|
+Update child records					|	Yes 					|	Yes			|	No					|	No					|
+
+[[↑] Back to top](#css-questions)
+
+### What are the different ways we can share a record?
+
+We can share records using Roles, orgwidedefaults, Apex Sharing, Manual sharing and Sharing rules.
+
+[[↑] Back to top](#css-questions)
+
+### What are sharing settings? Why are they important?
+
+- The whole concept of access control can be visualized as 3 gates before you reach the treasury box (Speaking in layman terms)
+- Like you have to cross all the gates to reach the treasure, the same way you have to cross path with 3 levels of configuration to actually achieve a successful access control on data. You can consider the 3 gates as metadata accesses to achieve the access on actual data. These gates are object setting, field settings and sharing settings which relates to object, field and the record respectively. Once you have object and field level permissions, you can choose to have record level permissions using sharing settings.
+- Sharing settings can be achieved through Orgwidedefaults, Sharing rules or Apex sharing.
+- For understanding its importantance, lets take a scenario: A multinational company does their business in various regions. Director of Finland watches the business in Finland and Director of India watches it in India. If director of india starts to see the business done by company in Finland too with total figures of India then it will becomes cumbersome for him to do analysis for a specific region. Hence, allowing the respective directors to see data of their region only may lead to increased analysis and sales. This simple scenario can be achieved using OWDs and sharing rules.
+
+[[↑] Back to top](#css-questions)
+
+### What is Apex Managed Sharing?
+
+Apex Sharing is a ability provided to force.com developers to explicitly fullfill the requirement of record sharing of an application or a product programatically. If you want to built an app which shares records based on some criteria due to an event occurance, then nothing other than apex sharing can help you.
+For example, AccountShare is the sharing object for the Account object, ContactShare is the sharing object for the Contact object, MyCustomObject will be named as MyCustomObject__Share.
+
+[[↑] Back to top](#css-questions)
+
+### How many ways can we share a record?
+
+We can share records in five different ways. We can share records using Roles, orgwidedefaults, Apex Sharing, Manual sharing and Sharing rules.
 
 [[↑] Back to top](#css-questions)
 
@@ -327,18 +395,21 @@ Here is an example of `print` media type's usage:
 
 [[↑] Back to top](#css-questions)
 
-### What are some of the "gotchas" for writing efficient CSS?
+### What are governor limits? Why are they important?
 
-Firstly, understand that browsers match selectors from rightmost (key selector) to left. Browsers filter out elements in the DOM according to the key selector and traverse up its parent elements to determine matches. The shorter the length of the selector chain, the faster the browser can determine if that element matches the selector. Hence avoid key selectors that are tag and universal selectors. They match a large number of elements and browsers will have to do more work in determining if the parents do match.
+Governor limits are runtime limits enforced by the Apex runtime engine to ensure that code does not monopolizes the resources which have been shared by various customers and organizations. These limits ensure the efficient processing of resources on the Force.com multitenant platform.
 
-[BEM (Block Element Modifier)](https://bem.info/) methodology recommends that everything has a single class, and, where you need hierarchy, that gets baked into the name of the class as well, this naturally makes the selector efficient and easy to override.
 
-Be aware of which CSS properties [trigger](https://csstriggers.com/) reflow, repaint, and compositing. Avoid writing styles that change the layout (trigger reflow) where possible.
+[[↑] Back to top](#css-questions)
 
-###### References
+### What is the difference between force.com and salesforce.com?
 
-* https://developers.google.com/web/fundamentals/performance/rendering/
-* https://csstriggers.com/
+- Salesforce.com is SAAS and force.com is PAAS.
+- All the prebuilt products like sales or service, leads, reports, tabs etc are a part of salesforce.com and the possible customization products like visualforce page, classes, triggers, components etc are a part of force.com.
+- Licenses for salesforce.com are pretty expensive than force.com's license.
+- Salesforce.com is a leading CRM which have been built for targetting customers and social objectives whereas force.com helps delivering world class customized apps within short period of time.
+- Salesforce.com focuses more on prebuilt functionality to complete stuffs by points and clicks whereas force.com uses programming or markup languages to build a product or output which is not offered as a part of salesforce CRM.
+- Salesforce.com is a product built on the top of force.com platform.
 
 [[↑] Back to top](#css-questions)
 
