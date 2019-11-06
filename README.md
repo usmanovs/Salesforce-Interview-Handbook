@@ -21,6 +21,7 @@ While there are some existing resources to help Salesforce admins and developers
 
 1. [Admin Questions](/questions/admin-questions.md)
 1. [Developer Questions](/questions/developer-questions.md)
+1. Checklist of What Every Salesforce Developer Should Know
 
 ### Submitting New Questions
 
