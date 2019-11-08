@@ -14,6 +14,7 @@ Checklist of 10 things every Salesforce developer should know:
 9. [IDE](#ide-like-intellij-or-ms-visual-studio)
 10. [Agile terminology](#agile-terminology-10-key-terms)
 
+##
 ### SOQL
 
 [[↑] Back to top](#developers-knowledge-checklist)
