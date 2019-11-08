@@ -524,17 +524,17 @@ To reach to the page for creating a dashboard, follow these steps:
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What are the key automation tools in Salesforce? How do you know when to use which?
-In salesforce, there could be various business processes which needs to be done on regular basis. Thus, rather than doing the things manually, you can automate these processes. In order to do the required automation, there are various tools in salesforce:
+Here are the key 4 automation tools in Salesforce:
 
-1) Workflows - Workflows are used when you have to automate processes which have enough if/then statements. This is somewhat like using a process builder, however, the only difference being that with the process builder you will not be able to send Outbound messages.
+1) Workflows - The most basic of the automation tools. It can: 1) create tasks 2) send email alerts 3) update fields 4) send outbound messages 5) create a flow trigger 6) select an existing action. Not visually appealing thou and easy to show to stakeholders.
 
-2) Visual Workflow - This tool is used to automate those processes where we need to take some input from the users and then take action based on the input received. These processes do not initiate automatically, but can be initiated through either process builder or even apex calls. 
+2) Process Builder - Much more visually appealing because you can have a series of if/then statements. All it requires is an entry criteria along with the required action which will take place when the criteria is met. For example: An email alert should be sent to the manager if a customer writes a bad review on a case.
 
-3) Lightning Process Builder - With the help of this tool, a user can automate all those processes which have various if/then statements. All it requires is an entry criteria along with the required action which will take place when the criteria is met. For example: An email alert should be sent to the manager, if any issue is escalated. 
+3) Lightning Flow - Good for complex client needs that cannot be met by worfklows or process builders. Ideal for scenarios where you need to guide a customer through a series of steps, i.e. client going through different screens to request a new credit card.
 
 4) Approval Process - As the name suggests, this tool will automate those processes, where a user has to wait for approval from some other user in order to proceed further with the transaction. For example: When a salesman has to apply discount of 10% on a product, they have to wait for manager's approval. This is something which can be automated using approval processes.
 
-In order to use these automation tools, navigate to Setup > Build > Create > Workflow & Approvals. Here you will get all the required tools for automation.
+In order to use these automation tools, navigate to Setup > Process Automation
 
 <img src="/assets/Automation tools.png">
 
@@ -546,7 +546,7 @@ In order to use these automation tools, navigate to Setup > Build > Create > Wor
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is a validation rule?
-A validation rule in salesforce is to apply a rule on certain field(s) of the objects to make sure that the data entered for the field is a valid data. For example: A user can create a validation rule on "email id" field where if the user does not use a valid format "abc@xyz.com", the entry will not be accepted and the user will receive an error message or a notification. Validation rule can be applied only on fields of an object.
+A validation rule ensures that data being entered into a field meets company's requirements. For example: A user can create a validation rule on "email id" field where if the user does not use a valid format "abc@xyz.com", the entry will not be accepted and the user will receive an error message. Validation rule can be applied only on fields of an object.
 
 <img src="/assets/Validation rules.png">
 
@@ -560,9 +560,9 @@ Attached is the screenshot of an object "Accounts". Here we are creating a valid
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What business problems do approval processes solve?
-When a user has to get something approved by another user, this time we use approval process automation tool. For example: An employee can submit application for a leave and it should reach to the concerned manager for approval. This process can be easily automated by approval processes.
+When a user has to get something approved by another user approval process comes handy. For example: An employee submits their weekly timesheet and submits it to his manager for approval. This process can be easily automated by approval processes.
 
-Doing all this manually will take up much time and will not be easy to keep a track of requests. Thus, with approval processes in place, all the requests can come in queue and an approver take initiate the approvals accordingly.
+Doing all this manually will take up much time and will not be easy. With approval processes all the requests come in to the manager's queue for approval or denial.
 
 ###### References
 
@@ -573,7 +573,7 @@ Doing all this manually will take up much time and will not be easy to keep a tr
 ### Which options do you have to make a field required?
 There are four options available to the user to make a field required:
 
-1) Validation Rule - As discussed previously, validation rule can be used to apply validations on a field. Using validation rules, you can make a field required. However, this does not mark the field as required. It will only generate error when the field is blank.
+1) Validation Rule - Validation rules can be make a field required. Have you tried doing that? You should.
 
 <img src="/assets/Validation rules.png">
 
@@ -585,7 +585,7 @@ There are four options available to the user to make a field required:
 
 <img src="/assets/Page Layout.png">
 
-4) Custom Field Creation - While creating a custom field, a user can mark the field as required.
+4) Field Definition - When creating a custom field, a user can mark the field as required.
 
 <img src="/assets/Creating field.png">
 
@@ -595,8 +595,8 @@ There are four options available to the user to make a field required:
 
 [[↑] Back to top](#salesforce-admin-questions)
 
-### How do you restrict access to a certain object?
-In order to restrict access to a certain object, a user profile can be used for the purpose. Navigate to the profile of the user, edit the profile, navigate to Standard Object Permissions and from there you can uncheck the "Read" access of the object which you want to restrict access to.
+### How do you restrict "Read" access to Opportunity object?
+To restrict access to the Opportunity object remove the "Read" access that has been granted either by the Profile or the Permission Set . If it was the Profile then you need to navigate to Object Permissions and from there you can uncheck the "Read" access.
 
 <img src="/assets/Restrict access.png">
 
@@ -607,7 +607,7 @@ In order to restrict access to a certain object, a user profile can be used for 
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### How do you give access to a certain object?
-In the similar way, in order to give access to a certain object, again a user profile can be used for the purpose. Navigate to the profile of the user, edit the profile, navigate to Standard Object Permissions and from there you can check the "Read" access of the object which you want to grant access to.
+To give access to a certain object you can use either a profile or a permission set.
 
 <img src="/assets/Grant access.png">
 
@@ -618,7 +618,7 @@ In the similar way, in order to give access to a certain object, again a user pr
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### I am looking at an Opportunity record. The record does not have a 'Share' button. Why?
-If you are not able to see a "Share" button at an opportunity record, that means that the sharing model of that record is neither Public Read Only nor Private. The only people who can see a share button on the record are:
+If you dont' seesee the "Share" button on an opportunity record that means that the sharing settings on Opportunity Object are Public Read/Write. If that is the case yet you still don't see the Share button then you must be one of the following:
 
 1) Record Owner
 2) Any user with higher hierarchy role than the record owner
