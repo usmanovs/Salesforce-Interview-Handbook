@@ -16,47 +16,47 @@ Checklist of 10 things every Salesforce developer should know:
 
 ### SOQL
 
-[[↑] Back to top](#salesforce-admin-questions)
+[[↑] Back to top](#developers-knowledge-checklist)
 
 ### Debugging
 
-[[↑] Back to top](#salesforce-admin-questions)
+[[↑] Back to top](#developers-knowledge-checklist)
 
 ### Triggers
 1. Why use triggers?
 2. Write a trigger that updates Account’s description upon insert.
 3. When would you use before vs after trigger?
 
-[[↑] Back to top](#salesforce-admin-questions)
+[[↑] Back to top](#developers-knowledge-checklist)
 
 ### Apex
 1. When do you use Apex?
 2. DML: how would you delete all records that have ‘Test’ in their name?
 3. DML: how would you insert 5 Opportunities that are named [Opp 1, Opp 2, etc]
 
-[[↑] Back to top](#salesforce-admin-questions)
+[[↑] Back to top](#developers-knowledge-checklist)
 
 ### LWC
 1. What is LWC?
 2. Create a simple LWC
 
-[[↑] Back to top](#salesforce-admin-questions)
+[[↑] Back to top](#developers-knowledge-checklist)
 
 ### Governor Limits
 1. What are they?
 2. Why are they important?
 
-[[↑] Back to top](#salesforce-admin-questions)
+[[↑] Back to top](#developers-knowledge-checklist)
 
 ### Solid command of Salesforce Administration
 1. Admin, Advanced Admin, App Builder certifications
 2. Different automation tools
 
-[[↑] Back to top](#salesforce-admin-questions)
+[[↑] Back to top](#developers-knowledge-checklist)
 
 ### Github
 
-[[↑] Back to top](#salesforce-admin-questions)
+[[↑] Back to top](#developers-knowledge-checklist)
 
 ### IDE like IntelliJ or MS Visual Studio
 1. Know key capabilities
@@ -68,7 +68,7 @@ Checklist of 10 things every Salesforce developer should know:
    5. creating scratch org
    6. browsing through methods, classes
 
-[[↑] Back to top](#salesforce-admin-questions)
+[[↑] Back to top](#developers-knowledge-checklist)
 
 ### Agile terminology (10 key terms)
 1. Sprint
@@ -82,4 +82,4 @@ Checklist of 10 things every Salesforce developer should know:
 9. Daily scrum
 10. Deliverable
 
-[[↑] Back to top](#salesforce-admin-questions)
+[[↑] Back to top](#developers-knowledge-checklist)
