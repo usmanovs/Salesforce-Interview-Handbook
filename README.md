@@ -21,6 +21,7 @@ Right here in front of you is the **ultimate** Salesforce interview toolkit. The
 1. [Admin Questions](/questions/admin-questions.md)
 2. [Developer Questions](/questions/developer-questions.md)
 3. [Developer's Knowledge Checklist](/questions/developers-knowledge-checklist.md)
+4. Salesforce Exercises
 
 ### Submitting New Questions
 
