@@ -46,12 +46,7 @@ Pull requests for suggestions and corrections are welcome!
 
 
 ### How can we find out what licenses the org has and how many licenses are available?
-A license in salesforce enables a user to use certain features of the Salesforce org.  Based on the user assigned license a user can be restricted to using only certain features of the org. To view  all licenses  available for the org, the user has to follow these steps:
-
-- Select Setup from the admin drop down
-- From the left sidebar select Administration/Administer/Administration Setup > Company Profile > Company Information
-OR
-- On the left sidebar, navigate to the search bar and type “company information” and click on “Company Information” as shown in the image
+A license enables a user to use certain features of Salesforce in your org. To view  all licenses  available for the org, the user has to be in Setup bar and in the Quick Find type “Company Information” and click on “Company Information” as shown in the image
 
 <img src="/assets/search bar.png">
 
@@ -112,7 +107,7 @@ There are other useful fields which are available to the user, for which you can
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is a profile?
-A profile in salesforce is a combination of various settings and permissions which enables the user to perform certain tasks in salesforce. A profile can control various permissions including, but not limited to, Tab Settings, Administrative Permissions, General User Permissions, Standard Object Permissions, Password Policies etc. A profile can have multiple users but a user can have only one profile in the org. There are two types of profiles in the salesforce:
+A profile is a combination of various settings and permissions which enables the user to perform certain tasks in salesforce. For example, they can be: Access to Tabs, Administrative Permissions, General User Permissions, Object Permissions. A profile can have multiple users but a user can have only one profile in the org. There are two types of profiles in the salesforce:
 
 1) Standard Profiles - Standard profiles are the default profiles provided by the salesforce, even for the free license. These profiles cannot be deleted by anyone and they are generally six (6):
  - System Administrator
@@ -130,13 +125,12 @@ A profile in salesforce is a combination of various settings and permissions whi
 
 [[↑] Back to top](#salesforce-admin-questions)
 
-### What is the difference between a profile & permission set?
-A profile is a collection of certain permissions. On the other hand, permission sets  consist of various permissions, however, it is an extension to the already assigned permissions to the user via profile. To outline the difference between the two, we can understand that profile provides some basic permissions to the user, whereas, in order to provide some additional permissions to the user one can define permission set.
+### What are the differences between a profile & permission set?
+A user can have only 1 profile but many permissions ets. Typically, a profile is used to provide basic permissions to the user (i.e. access to certain Apps, Opportunity object) while permission sets are used to expand the permissions to certain users of the profile (i.e. edit or delete Opportunities). A case in point: the sales team uses the Sales profile but you want the sales manager to have more powers so you give him/her a permission set.
 
 One more difference between a profile and permission set is that a profile can be used to grant or revoke a permission to the user, but a permission set can only grant or extend the permission. One cannot remove a permission with the help of a permission set.
 
-Another difference between the two is that only one profile can be assigned to the user but a user can have number of permission sets extending their allowed permissions.
-
+A list of all other differences between a profile & permission set can be found on this helpful StackExchange [post](https://salesforce.stackexchange.com/questions/119220/exclusive-differences-profiles-vs-permission-sets/119297)
 ###### References
 
 * https://www.salesforcetutorial.com/working-profiles-salesforce/
