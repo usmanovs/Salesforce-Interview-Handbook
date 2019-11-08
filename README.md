@@ -20,8 +20,8 @@ While there are some existing resources to help Salesforce admins and developers
 ## Table of Contents
 
 1. [Admin Questions](/questions/admin-questions.md)
-1. [Developer Questions](/questions/developer-questions.md)
-1. Developers Knowledge Checklist
+2. [Developer Questions](/questions/developer-questions.md)
+3. [Developers Knowledge Checklist](/questions/developers-knowledge-checklist.md)
 
 ### Submitting New Questions
 
