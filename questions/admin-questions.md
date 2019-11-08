@@ -3,7 +3,7 @@
 Pull requests for suggestions and corrections are welcome!
 
 ## Salesforce Fundamentals
-* [How can we find out what licenses the org has? And how many licenses are available?](#how-can-we-find-out-what-licenses-the-org-has-and-how-many-licenses-are-available)
+* [How can we find out what licenses the org has and how many licenses are available?](#how-can-we-find-out-what-licenses-the-org-has-and-how-many-licenses-are-available)
 * [What is a sandbox org? What are the different types of sandboxes in Salesforce?](#what-is-a-sandbox-org-what-are-the-different-types-of-sandboxes-in-salesforce)
 * [What useful information can you find on the company information page?](#what-useful-information-can-you-find-on-the-company-information-page)
 
@@ -45,17 +45,11 @@ Pull requests for suggestions and corrections are welcome!
 * [I am looking at an Opportunity record. The record does not have a 'Share' button. Why?](#i-am-looking-at-an-opportunity-record-the-record-does-not-have-a-share-button-why)
 
 
-### How can we find out what licenses the org has? And how many licenses are available?
-A license in salesforce enables a user to use the features of the org. A user can also be restricted to using only a few features of the org, based on the user assigned license. In order to view what all licenses are available for the org, the user has to follow these steps:
+### How can we find out what licenses the org has and how many licenses are available?
+A license in salesforce enables a user to use certain features of the Salesforce org.  Based on the user assigned license a user can be restricted to using only certain features of the org. To view  all licenses  available for the org, the user has to follow these steps:
 
 - Select Setup from the admin drop down
-
-<img src="/assets/Setup.png">
-
 - From the left sidebar select Administration/Administer/Administration Setup > Company Profile > Company Information
-
-<img src="/assets/Company profile drop down.png">
-
 OR
 - On the left sidebar, navigate to the search bar and type “company information” and click on “Company Information” as shown in the image
 
@@ -74,7 +68,7 @@ Here you will be able to see all the available licenses for the org. In this sec
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is a sandbox org? What are the different types of sandboxes in Salesforce?
-Sandbox org is basically a replica of the production org which can be used for various purposes including, but not limited to, development and testing. This is done in order to make the required changes in your production org, but without actually working on the production org. All the changes made in sandbox org does not affect your production org directly. These orgs are very useful in fixing bugs which can only be reproduced in the production environment. However, one can define as to what kind of copy needs to be created for the required purpose and the user has four options to select from:
+Sandbox org is a replica of the metadata (and data if it is a partial or full sandbox) from the production org. Sandbox can be used for development and testing. Metadata changes from sandbox can be migrated from sandbox to production using change sets.
 
 1) Developer Sandbox
 2) Developer Pro Sandbox
@@ -85,9 +79,7 @@ In order to create a sandbox, the user can navigate to Setup > Data Management >
 
 <img src="/assets/sandbox.png">
 
-Here the user can view as to what all sandbox licenses does an org have and how many are still available to be created. From the “New Sandbox” button, the user can create a new sandbox org.
-
-For a detailed difference between the four types of sandbox orgs, please refer to the following image:
+Here the user can view as to what all sandbox licenses does an org have and how many are still available to be created. From the “New Sandbox” button, the user can create a new sandbox org. For a detailed difference between the four types of sandbox orgs, please refer to the following image:
 
 <img src="/assets/types of sandboxes.png">
 
@@ -109,7 +101,7 @@ The company information page provides all the necessary details about the org. F
 7) API requests made in last 24 hours and the available limit of the allowed requests
 8) Instance, the server name which will appear in the url of the org, when logged in
 
-These are some necessary information which one can find on the company information page, however, there are various other fields which are available to the user, for which you can refer to the following screenshot:
+There are other useful fields which are available to the user, for which you can refer to the following screenshot:
 
 <img src="/assets/organization information.png">
 
@@ -120,14 +112,9 @@ These are some necessary information which one can find on the company informati
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is a profile?
-A profile in salesforce is a combination of various settings and permissions which enables the user to perform certain tasks in salesforce. This is where you can define as to what all things a user can do in the respective org. With a single profile, one can control various permissions including, but not limited to, Tab Settings, Administrative Permissions, General User Permissions, Standard Object Permissions, Password Policies etc. In order to view all the profiles of the org, you can navigate to Setup > Administration > Users > Profiles.
+A profile in salesforce is a combination of various settings and permissions which enables the user to perform certain tasks in salesforce. A profile can control various permissions including, but not limited to, Tab Settings, Administrative Permissions, General User Permissions, Standard Object Permissions, Password Policies etc. A profile can have multiple users but a user can have only one profile in the org. There are two types of profiles in the salesforce:
 
-<img src="/assets/View profile.png">
-
-From the same screen, the system administrator can create a new profile from "New Profile" button as shown in the above screenshot. A profile can have multiple users but a user can have only one profile in the org. There are two types of profiles in the salesforce:
-
-1) Standard Profiles - Standard profiles are the default profiles provided by the salesforce, even for the free license. These profiles cannot be deleted by anyone and they are generally six (6) in number:
-
+1) Standard Profiles - Standard profiles are the default profiles provided by the salesforce, even for the free license. These profiles cannot be deleted by anyone and they are generally six (6):
  - System Administrator
  - Standard User
  - Solution Manager
@@ -135,7 +122,7 @@ From the same screen, the system administrator can create a new profile from "Ne
  - Marketing User
  - Contract Manager
 
-2) Custom Profiles - These are the profiles provided by the user and can be deleted if required. Custom profiles have "Custom" column checked for them on the view profile screen.
+2) Custom Profiles - These are the profiles created by users and can be deleted. Custom profiles have "Custom" column checked for them on the view profile screen.
 
 ###### References
 
@@ -144,15 +131,11 @@ From the same screen, the system administrator can create a new profile from "Ne
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is the difference between a profile & permission set?
-As mentioned above for the profile, it is a collection of certain permissions, and similar is the case with permission set. As the name suggests, permission set also consist of various permissions, however, it is an extension to the already assigned permissions to the user via profile. To outline the difference between the two, we can understand that profile provides some basic permissions to the user, whereas, in order to provide some additional permissions to the user one can define permission set.
+A profile is a collection of certain permissions. On the other hand, permission sets  consist of various permissions, however, it is an extension to the already assigned permissions to the user via profile. To outline the difference between the two, we can understand that profile provides some basic permissions to the user, whereas, in order to provide some additional permissions to the user one can define permission set.
 
 One more difference between a profile and permission set is that a profile can be used to grant or revoke a permission to the user, but a permission set can only grant or extend the permission. One cannot remove a permission with the help of a permission set.
 
 Another difference between the two is that only one profile can be assigned to the user but a user can have number of permission sets extending their allowed permissions.
-
-For viewing all the permission sets of the org, you can navigate to Setup > Administration > Users > Permission Sets.
-
-<img src="/assets/View permission sets.png">
 
 ###### References
 
@@ -161,13 +144,9 @@ For viewing all the permission sets of the org, you can navigate to Setup > Admi
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is the difference between role & profile?
-A role in salesforce is basically defining a role of the user in the organization. This helps in understanding and defining the level of permission being provided to the user. It works in hierarchy and by default all the users with superior roles can view and edit the records created by their subordinates. This can be changed by unchecking the checkbox under the column "Grant Access Using Hierarchies" under Sharing Settings.
+A role in salesforce is basically defining a role of the user in the organization. It works in hierarchy; hence, by default all the users with superior roles can view and edit the records created by their subordinates. This can be changed by unchecking the checkbox under the column "Grant Access Using Hierarchies" under Sharing Settings.
 
-When looking at the difference between role and profile, one can clearly understand the difference between them just by one simple statement. What a user will see will be defined by its role, however, what all the user can do with the record will be defined by the profile of the user. Another major difference between them is that defining profile is mandatory, whereas, defining role is not mandatory.
-
-For viewing and defining the roles, you can navigate to Setup > Administration > Users > Roles.
-
-<img src="/assets/View roles.png">
+What records a user will see is defined by its role, however, what  the user can do with the record will be defined by the user's profile. Another major difference between them is that defining profile is mandatory, whereas, defining role is not mandatory.
 
 ###### References
 
@@ -177,11 +156,9 @@ For viewing and defining the roles, you can navigate to Setup > Administration >
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What are sharing settings?
-The sharing settings allows access to data of each user based on their role.
-Different levels of sharing available in the salesforce are:
-
-1) Private - Only the creator of the record will have access to the record
-2) Public Read only - The record will be available for public access but the users will only be able to view it and cannot do any editing
+The sharing settings control a users access to records that they don't own. The 3 different levels of sharing available are:
+1) Private - Only the owner of the record has access to the record
+2) Public Read only - The record will be available for public access but the users will only be able to view it and cannot edit it
 3) Public Read/Write - The record will be available for public access and everyone having access to the record can edit it as well
 
 This is from here the user can change the access settings for both default (limited to few objects like Account and Contract, Contact, Case, Opportunity) and all custom objects. Also from here, a user can define rules based on which the sharing settings will apply and only those records will be shared which matches the defined rules. For viewing sharing settings and to create rules, you can navigate to Setup > Settings > Security > Sharing Settings.
