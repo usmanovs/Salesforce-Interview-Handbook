@@ -11,7 +11,7 @@ Checklist of 10 things every Salesforce developer should know:
 6. [Governor Limits](#governor-limits)
 7. [Solid command of Salesforce Administration](#solid-command-of-salesforce-administration)
 8. [Github](#github)
-9. [IDE](#like-intellij-or-ms-visual-studio)
+9. [IDE](#ide-like-intellij-or-ms-visual-studio)
 10. [Agile terminology](#agile-terminology-10-key-terms)
 
 ### SOQL
