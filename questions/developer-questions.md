@@ -26,8 +26,8 @@ Behavioral
 * [Do you enjoy being a Salesforce developer? Why?](#do-you-enjoy-being-a-salesforce-developer-why)
 
 SOQL & DML
-* [What are the default indexed fields in Salesforce?](#can-you-give-an-example-of-an-media-property-other-than-screen)
-* [What is difference insert() and database .insert()?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What are the default indexed fields in Salesforce?](#)
+* [What is difference insert() and database .insert()?](#)
 
 
 Data Modelling & Data Management 
@@ -160,18 +160,20 @@ For example, AccountShare is the sharing object for the Account object, ContactS
 [[↑] Back to top](#css-questions)
 
 ### How many ways can we share a record?
-
-We can share records in five different ways. We can share records using Roles, orgwidedefaults, Apex Sharing, Manual sharing and Sharing rules.
+There are 5 ways to share a record:
+1. Roles
+1. OWDs
+1. Apex Sharing
+1. Manual sharing
+1. Sharing rules.
 
 [[↑] Back to top](#css-questions)
 
 ### What are your 3 favourite Salesforce blogs?
-My personal favourites are:
-
-1. http://www.asagarwal.com
-1. ttps://www.jitendrazaa.com
-1. http://sfdcmonkey.com/
-1. https://automationchampion.com/
+My personal favourites Salesforce bloggers are:
+1. http://www.asagarwal.com         >>> lots of fantastic step-by-step guides
+1. http://www.jitendrazaa.com/blog/ >>> fantastic articles on different topics, i.e. best chrome extensions for Salesforce
+1. http://sfdcmonkey.com/	    >>> brings together best articles on everything related to Lightning
 
 [[↑] Back to top](#css-questions)
 
