@@ -116,8 +116,12 @@ Scenario Based Questions
 [[↑] Back to top](#css-questions)
 
 ### What are the different ways we can share a record?
-
-We can share records using Roles, orgwidedefaults, Apex Sharing, Manual sharing and Sharing rules.
+We can share records using:
+1. Roles
+1. orgwidedefaults
+1. Apex Sharing
+1. Manual sharing
+1. Sharing rules.
 
 [[↑] Back to top](#css-questions)
 
