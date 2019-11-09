@@ -166,18 +166,12 @@ We can share records in five different ways. We can share records using Roles, o
 [[↑] Back to top](#css-questions)
 
 ### What are your 3 favourite Salesforce blogs?
+My personal favourites are:
 
-`TextBook Definition:`
-I mostly have been searching for technical and current affairs related blogs for salesforce all over.
-- Technical blogs by Jeff Douglas are one of my favourites as they tend to detail things very preciously.
-- Video logs by Salesforce Chef are also very favorable to me as the description of stuffs by him stays longer in my head due to the unique way of explanation.
-- Blog by Salesforce itself in the form of weekly news article informs me about current salesforce practises and even raise my vocabulary to a huge extent.
-
-`Street Definition:`
-Although i read less blogs but some i have, to update myself.
-- Whenever i am stuck somewhere technically, Technical blogs by Jeff Douglas are my first preference for answer. I read it only during technical challenges!
-- As you know, Reading is boring. I watch videos by Salesforce Chef to gain deep understanding of the topic. Afterall Audio visual is interesting then reading.
-- Further, if i dont know what salesforce have realeased, what peeks they reach, what was dreamforce all about this year etc then i am already outdated. Hence, i read salesforce blogs but they are sometimes too hard to understand but don't worry dictionary helps.
+1. http://www.asagarwal.com
+1. ttps://www.jitendrazaa.com
+1. http://sfdcmonkey.com/
+1. https://automationchampion.com/
 
 [[↑] Back to top](#css-questions)
 
