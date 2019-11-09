@@ -29,7 +29,7 @@ Pull requests for suggestions and corrections are welcome!
 * [What is a price book?](#what-is-a-price-book)
 * [When you convert a Lead what does it become?](#when-you-convert-a-lead-what-does-it-become)
 * [What is a case?](#what-is-a-case)
-* [What are the key 3 report formats available in Salesforce?](#what-are-the-key-3-report-types-available-in-salesforce)
+* [What are the key 3 report formats available in Salesforce?](#what-are-the-key-3-report-formats-available-in-salesforce)
 * [What are the 3 key differences between Data Loader & Data Import Wizard?](#what-are-the-3-key-differences-between-data-loader--data-import-wizard)
 * [What kind of report can be used in a Salesforce dashboard?](#what-kind-of-report-can-be-used-in-a-salesforce-dashboard)
 
