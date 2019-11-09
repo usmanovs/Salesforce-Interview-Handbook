@@ -161,12 +161,7 @@ My personal favourites Salesforce bloggers are:
 [[↑] Back to top](#css-questions)
 
 ### Do you attend Salesforce developer community meetings?
-
-`TextBook Definition:`
-Yes I do attend developer community meetings every single time. These meetings boosts myself in terms of knowledge gains and public relations. I have even got chance to speak in the community and share my knowledge. I have been rewarded with more than 10 rewards by community which motivates myself a lot.
-
-`Street Definition:`
-You know, Salesforce developer community meetings are my favourite. I make new friends every time. I learn and share in these meetings. Moreover, the food offered in the break is awesome. I am always excited for Q&A section where i had already grabbed tens of gifts and planning to pull more.
+Salesforce developer community meetings are my favourite. This might sound unreal but I attend every single developer community. These meetings improve my Salesforce knowledge gains and I meet Salesforce developers who inspire me. I make new friends every time. Moreover, the food offered in the break is awesome.
 
 [[↑] Back to top](#css-questions)
 
