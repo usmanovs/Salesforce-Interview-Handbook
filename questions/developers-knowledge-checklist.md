@@ -15,13 +15,6 @@ Checklist of 10 things every Salesforce developer should know:
 10. [Agile terminology](#agile-terminology-10-key-terms)
 
 ##
-### SOQL
-
-[[↑] Back to top](#developers-knowledge-checklist)
-
-### Debugging
-
-[[↑] Back to top](#developers-knowledge-checklist)
 
 ### Triggers
 1. Why use triggers?
