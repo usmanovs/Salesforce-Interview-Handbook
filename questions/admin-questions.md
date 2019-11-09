@@ -85,7 +85,7 @@ Here the user can view as to what all sandbox licenses does an org have and how 
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What useful information can you find on the company information page?
-The company information page provides all the necessary details about the org. For steps on how to reach the company information page, please refer to the first question. Beginning from the org name to the Org Id, this is the page where you will get all the required details of the org. This page also provides various sections which includes User Licenses, Permission Set Licenses, Feature Licenses and Usage-based Entitlements. But, as far as useful information is concerned, let us take a look at some of the key information one can extract from this page:
+Here you can find info on User Licenses, Permission Set Licenses, Feature Licenses and Usage-based Entitlements. Furthermore, here is other critical information that you find on this page:
 
 1) Default Locale of the org >>>  France vs USA
 2) Default Time Zone of the org which will be assigned to all the users >>> what date shows when a record is created
