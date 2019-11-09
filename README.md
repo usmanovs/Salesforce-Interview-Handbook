@@ -14,7 +14,7 @@ Unlike typical software engineer job interviews, Salesforce interviews have no e
 While there are some existing resources to help Salesforce admins and developers in preparing for interviews, they are dispersed and incomplete.
 
 ## Looking for Salesforce Interview Preparation?
-Right here in front of you is the **ultimate** Salesforce interview toolkit. The authors have studied all the existing resources online to ensure it has the best questions all all. Furthermore, this resources is getting continually updated by the other developers.
+Right here in front of you is the **ultimate** Salesforce interview toolkit. The authors have studied all the existing resources online to ensure it has the best questions of all. Furthermore, this resource is getting continually updated by developers.
 
 ## Table of Contents
 
