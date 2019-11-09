@@ -29,7 +29,6 @@ SOQL & DML
 * [What are the default indexed fields in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
 * [What is difference insert() and database.insert()?](#what-is-difference-insert-and-database.insert)
 
-
 Data Modelling & Data Management
 * [What Are The Types of SOQL Statements in SalesForce?](#what-are-the-types-of-soql-statements-in-salesforce)
 * [When one wants to pass the collection to the query instead of passing one value which keyword helps us?](#when-one-wants-to-pass-the-collection-to-the-query-instead-of-passing-one-value-which-keyword-helps-us)
@@ -139,24 +138,21 @@ For example, AccountShare is the sharing object for the Account object, ContactS
 [[↑] Back to top](#css-questions)
 
 ### How many ways can we share a record?
-
-We can share records in five different ways. We can share records using Roles, orgwidedefaults, Apex Sharing, Manual sharing and Sharing rules.
+There are 5 ways to share a record:
+1. Roles
+1. OWDs
+1. Apex Sharing
+1. Manual sharing
+1. Sharing rules.
 
 [[↑] Back to top](#css-questions)
 
 ### What are your 3 favourite Salesforce blogs?
 
-`TextBook Definition:`
-I mostly have been searching for technical and current affairs related blogs for salesforce all over.
-- Technical blogs by Jeff Douglas are one of my favourites as they tend to detail things very preciously.
-- Video logs by Salesforce Chef are also very favorable to me as the description of stuffs by him stays longer in my head due to the unique way of explanation.
-- Blog by Salesforce itself in the form of weekly news article informs me about current salesforce practises and even raise my vocabulary to a huge extent.
-
-`Street Definition:`
-Although i read less blogs but some i have, to update myself.
-- Whenever i am stuck somewhere technically, Technical blogs by Jeff Douglas are my first preference for answer. I read it only during technical challenges!
-- As you know, Reading is boring. I watch videos by Salesforce Chef to gain deep understanding of the topic. Afterall Audio visual is interesting then reading.
-- Further, if i dont know what salesforce have realeased, what peeks they reach, what was dreamforce all about this year etc then i am already outdated. Hence, i read salesforce blogs but they are sometimes too hard to understand but don't worry dictionary helps.
+My personal favourites Salesforce bloggers are:
+1. http://www.asagarwal.com         >>> lots of fantastic step-by-step guides
+1. http://www.jitendrazaa.com/blog/ >>> fantastic articles on different topics, i.e. best chrome extensions for Salesforce
+1. http://sfdcmonkey.com/	    >>> brings together best articles on everything related to Lightning
 
 [[↑] Back to top](#css-questions)
 
