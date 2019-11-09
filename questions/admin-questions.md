@@ -87,14 +87,14 @@ Here the user can view as to what all sandbox licenses does an org have and how 
 ### What useful information can you find on the company information page?
 The company information page provides all the necessary details about the org. For steps on how to reach the company information page, please refer to the first question. Beginning from the org name to the Org Id, this is the page where you will get all the required details of the org. This page also provides various sections which includes User Licenses, Permission Set Licenses, Feature Licenses and Usage-based Entitlements. But, as far as useful information is concerned, let us take a look at some of the key information one can extract from this page:
 
-1) Default Locale of the org
-2) Default Time Zone of the org which will be assigned to all the users, by default, created under this org
-3) Used Data Space (in MBs)
-4) Used File Space (in MBs)
-5) Salesforce.com Organization ID
-6) Organization Edition
-7) API requests made in last 24 hours and the available limit of the allowed requests
-8) Instance, the server name which will appear in the url of the org, when logged in
+1) Default Locale of the org >>>  France vs USA
+2) Default Time Zone of the org which will be assigned to all the users >>> what date shows when a record is created
+3) Used Data Space (in MBs) >>> records (i.e. Account records) you create count toward this
+4) Used File Space (in MBs) >>> attached files (i.e. images) you attach to the records count toward this
+5) Salesforce.com Organization ID >>> critical when you contact Salesforce support 
+6) Organization Edition >>> controls what Salesforce features are available for you. 
+7) API requests made in last 24 hours >>> you will be restricted from making API requests if you are hitting the limit
+8) Instance >>> used to see if Salesforce has any Trust issues for your instance
 
 There are other useful fields which are available to the user, for which you can refer to the following screenshot:
 
