@@ -21,29 +21,28 @@ Behavioral
 * [What do you do when you are stuck when you code?](#what-do-you-do-when-you-are-stuck-when-you-code)
 * [How many reputation points do you have on salesforce StackEchange?](#how-many-reputation-points-do-you-have-on-salesforce-stackExchange)
 * [Would you say you are passionate about Salesforce? If so why?](#would-you-say-you-are-passionate-about-salesforce-if-so-why)
-* [Have you ever contributed to Salesforce's Ideas? If you could make any idea come true, what would it be?](#have-you-ever-contributed-to-salesforce-s-ideas-if-you-could-make-any-idea-come-true-what-would-it-be)
+* [Have you ever contributed to Salesforce's Ideas? If you could make any idea come true, what would it be?](#have-you-ever-contributed-to-salesforces-ideas-if-you-could-make-any-idea-come-true-what-would-it-be)
 * [Where do you see yourself in 3 years?](#where-do-you-see-yourself-in-3-years)
 * [Do you enjoy being a Salesforce developer? Why?](#do-you-enjoy-being-a-salesforce-developer-why)
 
 SOQL & DML
-* [What are the default indexed fields in Salesforce?](#can-you-give-an-example-of-an-media-property-other-than-screen)
-* [What is difference insert() and database .insert()?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+* [What are the default indexed fields in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
+* [What is difference insert() and database.insert()?](#what-is-difference-insert-and-database.insert)
 
 
-Data Modelling & Data Management 
-* [What Are The Types of SOQL Statements in SalesForce?](#are-you-familiar-with-styling-svg)
-* [When one wants to pass the collection to the query instead of passing one value which keyword helps us?](#can-you-give-an-example-of-an-media-property-other-than-screen)
-* [What is Future Annotation(@Future)?](#)
-* [What is “Data Skew”?](#what-are-some-of)
-* [Explain skinny table. What are the considerations for Skinny Table?](#what-are-some-of-the-gotchas-for)
-* [Which fields are automatically Indexed in Salesforce?](#what-are-some-of-the)
-* [Which fields are excluded from a custom index?](#what-are-some-of-the-gotchas-for-writi)
-* [What is Future Annotation(@Future)?](#what-are-some-of-the-gotchas-for)
+Data Modelling & Data Management
+* [What Are The Types of SOQL Statements in SalesForce?](#what-are-the-types-of-soql-statements-in-salesforce)
+* [When one wants to pass the collection to the query instead of passing one value which keyword helps us?](#when-one-wants-to-pass-the-collection-to-the-query-instead-of-passing-one-value-which-keyword-helps-us)
+* [What is Future Annotation(@Future)?](#what-is-future-annotation-future)
+* [What is Data Skew?](#what-is-data-skew)
+* [Explain skinny table. What are the considerations for Skinny Table?](#explain-skinny-table-what-are-the-considerations-for-skinny-table)
+* [Which fields are automatically Indexed in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
+* [Which fields are excluded from a custom index?](#which-fields-are-excluded-from-a-custom-index)
 
 Logic & Process Automation 
-* [What are the types of custom settings in Salesforce? What is the advantage of using custom settings?](#)
-* [What are custom labels in Salesforce? What is the character limit of custom label?](#)
-* [What are deterministic formula fields in Salesforce?](#)
+* [What are the types of custom settings in Salesforce? What is the advantage of using custom settings?](#what-are-the-types-of-custom-settings-in-salesforce-what-is-the-advantage-of-using-custom-settings)
+* [What are custom labels in Salesforce? What is the character limit of custom label?](#what-are-custom-labels-in-salesforce-what-is-the-character-limit-of-custom-label)
+* [What are deterministic formula fields in Salesforce?](#what-are-deterministic-formula-fields-in-salesforce)
 
 Apex
 * [Why do we need to write test classes? How to identify if a class is a test class?](#)
@@ -76,19 +75,13 @@ Apex
 * [Why use Batch Apex instead of Normal Apex?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 * [What the difference between isNull and isBlank?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 
-
-
 Debug & Deployment Tools
-* [What are the different ways of deployment in Salesforce?](#)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#)
+* [What are the different ways of deployment in Salesforce?](#what-are-the-different-ways-of-deployment-in-salesforce)
+* [Why do we need to write test classes? How to identify if a class is a test class?](#why-do-we-need-to-write-test-classes-how-to-identify-if-a-class-is-a-test-class)
 
 
 Scenario Based Questions
-* [ What does it indicate if an error state this “list has no rows for assignment”?](#)
+* [ What does it indicate if an error state this “list has no rows for assignment”?](#what-does-it-indicate-if-an-error-state-this-list-has-no-rows-for-assignment)
 
 
 ### What are the Bulkification best practices?
@@ -119,21 +112,7 @@ Scenario Based Questions
 - For Sending outbound messages, workflows have been recommended.
  So based on the various needs various automation can be utilized. Please have a look at below table which describes the uses of each automation in a better way.
  
-Factors									| Process builder			| Flow Builder	| Workflow				| Approval process		|
-Visuals Supported						|	Yes						|	Yes			|	No					|	No					|
-Processing complexity					|	Multiple if statements	| Very Complex	| Single if statements	| Single if statements	|
-Starts when user clicks on button		|	No						|	Yes			|	No					|	Yes					|
-Starts when platform event is received	|	Yes						|	No			|	No					|	No					|
-Starts when record is changed			|	Yes						|	No			|	Yes					|	No					|
-Time based actions supported			|	Yes						|	Yes			|	Yes					|	No					|
-Invoke processes						|	Yes						|	No			|	No					|	No					|
-User interaction supported				|	No						|	Yes			|	No					|	No					|
-Call apex code							|	Yes						|	Yes			|	No					|	No					|
-Delete records							|	No						|	Yes			|	No					|	No					|
-Send email								|	Yes						|	Yes			|	Yes					|	Yes					|
-Outbound messages support				|	No						|	No			|	Yes					|	Yes					|
-Sending custom notifications			|	Yes						|	Yes			|	No					|	No					|
-Update child records					|	Yes 					|	Yes			|	No					|	No					|
+<img src="/assets/Automated_features.PNG">
 
 [[↑] Back to top](#css-questions)
 
@@ -166,12 +145,18 @@ We can share records in five different ways. We can share records using Roles, o
 [[↑] Back to top](#css-questions)
 
 ### What are your 3 favourite Salesforce blogs?
-My personal favourites are:
 
-1. http://www.asagarwal.com
-1. ttps://www.jitendrazaa.com
-1. http://sfdcmonkey.com/
-1. https://automationchampion.com/
+`TextBook Definition:`
+I mostly have been searching for technical and current affairs related blogs for salesforce all over.
+- Technical blogs by Jeff Douglas are one of my favourites as they tend to detail things very preciously.
+- Video logs by Salesforce Chef are also very favorable to me as the description of stuffs by him stays longer in my head due to the unique way of explanation.
+- Blog by Salesforce itself in the form of weekly news article informs me about current salesforce practises and even raise my vocabulary to a huge extent.
+
+`Street Definition:`
+Although i read less blogs but some i have, to update myself.
+- Whenever i am stuck somewhere technically, Technical blogs by Jeff Douglas are my first preference for answer. I read it only during technical challenges!
+- As you know, Reading is boring. I watch videos by Salesforce Chef to gain deep understanding of the topic. Afterall Audio visual is interesting then reading.
+- Further, if i dont know what salesforce have realeased, what peeks they reach, what was dreamforce all about this year etc then i am already outdated. Hence, i read salesforce blogs but they are sometimes too hard to understand but don't worry dictionary helps.
 
 [[↑] Back to top](#css-questions)
 
@@ -265,7 +250,165 @@ Governor limits are runtime limits enforced by the Apex runtime engine to ensure
 
 [[↑] Back to top](#css-questions)
 
-### What are the advantages/disadvantages of using CSS preprocessors?
+### What are the default indexed fields in Salesforce?
+
+`Textbook Definition:`
+There are certain types of index fields in salesforce as stated below.
+- Primary keys (Id, Name, and Owner fields).
+- Foreign keys (Relationship fields like lookup or master detail).
+- Dates fields (such as LastModifiedDate,createddate).
+
+`Street Definition:`
+Most of the system fields which acts as the key in their particular table are indexed fields. Like Account ID is an primary field of account table so it have been indexed. OwnerId on account is also an indexed field as it is a foreign key in account table representing users table. Indexing a fields makes database operation really fast so i many times use an external id field also for many purposes, but that is not default, rather a custom solution.
+
+[[↑] Back to top](#css-questions)
+
+### What is difference insert() and database.insert()?
+
+`Textbook Definition:`
+- DML Insert is known as a Dml statement whereas Database.insert() is a method derived from database class.
+- Database insert is parameterized to support partial insert which is not possible in DML insert.
+- DML insert doesn't support rollback which is a useful feature of Database.insert().
+- DML insert doesn't return error or success records for further processing whereas Database.insert does.
+
+`Street Definition:`
+- For a bulk operation, if you wish to cancel the operation even if a single record gets errored out of bulk then you should use Insert() or if you wish you partially insert records and separate the failed once then you should use Database.insert().
+- For exception handling, Database.insert() returns database.saveResult class so you can automatically create your own failed records object and process the inserted one. But if you want to rerun the operation then use Try catch block with insert() as per your needs.
+- Using Database.insert() you can rollback very easily through parameters. However, rolling back using insert() is bit indirect. You can use try catch block and rollup in catch statement using Databse.rollback() method.
+Example:
+If we are inserting 200 records in an object, Where 5 records are prone to error and remaining others records are good.
+In DML statement (Insert) all the 200 records will be failed, because if one record is incorrect or error means all other remaining records will not be inserted. It will throw error.
+In Database.insert 195 records will be inserted, remaining 5 records will be failed.
+
+[[↑] Back to top](#css-questions)
+
+### What Are The Types of SOQL Statements in SalesForce?
+
+`Textbook Definition:`
+There are two types of SOQl statements Dynamic and Static. You can use either of them as per your needs.
+Example-
+String accountname = 'Salesforce Chef';
+[select id from account where name=:accountname] ==> Static
+String query = 'select id from account where name=\'' + accountname + '\''; ==> Dynamic
+
+[[↑] Back to top](#css-questions)
+
+### When one wants to pass the collection to the query instead of passing one value which keyword helps us?
+
+`Textbook Definition:`
+IN keyword is used to pass a collection to the query.
+Example-
+List<String> AccountNames =  new List<String>('Youtube','Microsoft');
+[select id from account where name IN :AccountNames]
+
+[[↑] Back to top](#css-questions)
+
+### What is Future Annotation(@Future)?
+
+`Textbook Definition:`
+Future annotation identifies the method to run in separate thread asynchronously whenever the resources are available.
+
+`Street Definition:`
+Future annotation is used to mark a method as future method and future methods have the capability to run apart of the current context so that performance of the current operation can be enhanced by ensuring less chances of hitting a governor limit. Future methods run whether system have available resources so it will never hamper other processes.
+
+[[↑] Back to top](#css-questions)
+
+### What is Data Skew?
+
+`Textbook Definition:`
+When a parent have huge number of child records related to it through special relationships, then an imbalance occurs in the system which directly impacts the performance of the org. This situation is called as Data Skew. This huge number represents 10,000 or more.
+
+`Street Definition:`
+When a record or an account have more than 10,000 childs associated with it, we call this situation as Data Skew.
+
+[[↑] Back to top](#css-questions)
+
+### Explain skinny table. What are the considerations for Skinny Table?
+
+`Textbook Definition:`
+Skinny tables generally contain frequently used fields and avoid joins. They tend to improve the performance of many read-only operations. Skinny tables are kept in sync with their source tables when the source tables are modified.
+Considerations:
+-Skinny tables can contain a maximum of 100 columns.
+-Skinny tables can’t contain fields from other objects.
+-For Full sandboxes: Skinny tables are copied to your Full sandbox orgs.
+
+`Street Definition:`
+Consider the skinny table as the index of the book. How easy it is to move to the topic of a heavy book you want to read by refering its page number from the index? and imagine the situation when the index of the book had been torn and you need to reach the particular topic, very disgusting! Similarly, when there are more than 2 million records in the org for a single object and you want to query one it will be a havok as you may face performance issues. To get rid of that, contact salesforce customer support and ask them to create a skinny table to the particular object. These skinny tables will act as an index in the database and may speed up many operations. These skinny tables are invisible to us and may be automatically used whereever applicable. Simple meaning of creating a skinny table is to make a field indexed and add it to a separate table. Every time you want to make a field indexed you need to contact salesforce support and ask the particular field to be added into the skinny table. With that benefit, salesforce have also placed some restricted on skinny table, please read the textbook definition for these restrictions or considerations.
+
+[[↑] Back to top](#css-questions)
+
+### Which fields are excluded from a custom index?
+
+`Textbook definition`
+Various custom fields like multi-select picklists, text area (long), text area (rich), non-deterministic formula fields, and encrypted text field are excluded from the custom index.
+
+`Street Definition:`
+The fields which are either encrypted or designed to carry huge data like comments or description are excluded from custom index. Index is a key which takes you to main data so there is no point of storing huge data in the index rather your index should point to huge data.
+
+[[↑] Back to top](#css-questions)
+
+### What are the types of custom settings in Salesforce? What is the advantage of using custom settings?
+
+`Textbook Definition:`
+There are two types of custom settings Heirarchy and List. The custom settings are basically stored in application cache memory and hence you don't need expensive DML calls to retrieve them. Even they are faster to access.
+
+`Street Definition:`
+Types of custom settings are already known to you. Since cache memory have better read write speeds than hard drives, custom settings are stored in this memory in order to retrieve data urgently and without any DML calls. So store your frequently used data in custom setting to stay away from governor limit hit.
+
+[[↑] Back to top](#css-questions)
+
+### What are custom labels in Salesforce? What is the character limit of custom label?
+
+`Textbook Definition:`
+Custom labels are custom multilingual text values that can be accessed from Apex classes or Visualforce pages. They are generally used to develop custom multilingual applications. Each custom label has a limit of 1000 characters.
+
+`Street Definition:`
+Consider you are a end user and you downloaded an app exchange product. You liked the product and want to switch to your native lamguage instead of english. How can developers achieve this? They can't write various langugues on the visualforce page or component, hence they use custom labels which change their language dynamically based on user language selection.
+
+[[↑] Back to top](#css-questions)
+
+### What are deterministic formula fields in Salesforce?
+
+`Textbook Definition:`
+The Formula fields whose value will be static and might not vary over time when a transaction updates a related entity, are called as deterministic formula fields. For being deterministic, value of formula fields should not be calculated on fly.
+
+`Street Definition:`
+You can make your formula fields deterministic by using only current object fields in the formula (no cross object formulas), not making dependency on current date and no reference to special fields.
+Example:
+Consider you have two fields on account: Company name and Account number.
+You want to create a key which concates both the fields, creating formula will be a wisely decision and such a field is deterministic.
+
+[[↑] Back to top](#css-questions)
+
+### What are the different ways of deployment in Salesforce?
+
+`Textbook Definition:`
+Change Sets - native salesforce solution
+Eclipse with Force.com IDE - widely used IDE
+Ant migration tool - java based utility
+Salesforce Package - managed or unmanged package
+
+[[↑] Back to top](#css-questions)
+
+### Why do we need to write test classes? How to identify if a class is a test class?
+
+`Textbook Definition:`
+Salesforce strongly recommends using a test-driven development process which occurs at the same time as code development that means only the quality code should be deployed to production. For checking the quality of code, salesforce performs unit testing at their end while deployment. This unit testing is achieved using test classes and hence without test classes there can be no deployment in salesforce. Such a test class should cover minimum 75% test cases and is identified by @isTest annontation over the class declaration.
+
+[[↑] Back to top](#css-questions)
+
+### What does it indicate if an error state this “list has no rows for assignment”?
+
+`Textbook Explanation:`
+This is System.Query Exception. This error means that the query which you fired returned no records from the database so the program can't assign anything to the variable.
+Example:
+Account acc = [select id from account where name='Salesforce Chef'];
+Consider the above query, if the there is no record in database with the name "Salesforce Chef" then the “list has no rows for assignment” error will occur saying "no records were found to assign data to acc".
+
+[[↑] Back to top](#css-questions)
+
+### What ar
+e the advantages/disadvantages of using CSS preprocessors?
 
 **Advantages:**
 
