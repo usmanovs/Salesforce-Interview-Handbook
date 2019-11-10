@@ -109,16 +109,6 @@ Pull requests for suggestions and corrections are welcome!
 
 [[↑] Back to top](#Salesforce-Develop-Questions)
 
-### What are the different ways we can share a record?
-We can share records using:
-1. Roles
-1. OWDs
-1. Apex Sharing
-1. Manual sharing
-1. Sharing rules.
-
-[[↑] Back to top](#Salesforce-Develop-Questions)
-
 ### What are sharing settings? Why are they important?
 
 - The whole concept of access control can be visualized as 3 gates before you reach the treasury box (Speaking in layman terms)
