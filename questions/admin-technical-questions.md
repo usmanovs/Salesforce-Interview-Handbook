@@ -485,12 +485,9 @@ Install the data loader setup and then you can do the import of data with ease.
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What kind of report can be used in a Salesforce dashboard?
-A dashboard in salesforce is like any other dashboard, where you can monitor the changing trends of your products and services based on the reports selected on the dashboard.
-
 A salesforce dashboard supports all types of reports including Tabular, Summary, Matrix and even Joined. However, for creating a tabular report in the dashboard, you will have to put a row limit as all the rows cannot be shown the dashboard. Also, on the dashboard, you can have a maximum of 20 components for which you can analyze the data directly from the dashboard.
 
 To reach to the page for creating a dashboard, follow these steps:
-
 1) Click on "+" icon on the top row of the home page.
 2) Search for "Dashboards"
 
@@ -548,7 +545,7 @@ Attached is the screenshot of an object "Accounts". Here we are creating a valid
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What business problems do approval processes solve?
-When a user has to get something approved by another user approval process comes handy. For example: An employee submits their weekly timesheet and submits it to his manager for approval. This process can be easily automated by approval processes.
+When a user has to get something approved by another user the approval process comes handy. For example: An employee submits their weekly timesheet and submits it to his manager for approval. This process can be easily automated by approval processes.
 
 Doing all this manually will take up much time and will not be easy. With approval processes all the requests come in to the manager's queue for approval or denial.
 
