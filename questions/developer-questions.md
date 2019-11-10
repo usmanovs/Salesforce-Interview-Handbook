@@ -381,10 +381,9 @@ Salesforce Package - managed or unmanged package
 
 [[↑] Back to top](#Salesforce-Develop-Questions)
 
-### Why do we need to write test classes? How to identify if a class is a test class?
+### Why do we need to write test classes?
 
-`Textbook Definition:`
-Salesforce strongly recommends using a test-driven development process which occurs at the same time as code development that means only the quality code should be deployed to production. For checking the quality of code, salesforce performs unit testing at their end while deployment. This unit testing is achieved using test classes and hence without test classes there can be no deployment in salesforce. Such a test class should cover minimum 75% test cases and is identified by @isTest annontation over the class declaration.
+For checking the quality of code, salesforce performs unit testing at their end while deployment. This unit testing is achieved using test classes and hence without test classes there can be no deployment in salesforce. Such a test class should cover minimum 75% test cases and is identified by @isTest annontation over the class declaration.
 
 [[↑] Back to top](#Salesforce-Develop-Questions)
 
