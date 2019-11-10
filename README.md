@@ -20,7 +20,7 @@ Right here in front of you is the **ultimate** Salesforce interview toolkit. The
 
 * Admins
   * [Functional Questions](/questions/admin-technical-questions.md)
-  * Scenario Questions (soon)
+  * [Scenario Questions] (/questions/admin-scenario-questions.md)
   * Knowledge Checklist (soon)
 
 * Developers
