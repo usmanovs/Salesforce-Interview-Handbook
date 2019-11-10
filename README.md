@@ -18,8 +18,10 @@ Right here in front of you is the **ultimate** Salesforce interview toolkit. The
 
 ## Table of Contents
 
-1. [Admin Functional Questions](/questions/admin-questions.md)
-1. [Admin Scenario Questions](/questions/admin-questions.md)
+* Admins
+1. [Functional Questions](/questions/admin-questions.md)
+1. [Scenario Questions](/questions/admin-questions.md)
+* Developers
 1. [Developer Functional Questions](/questions/developer-questions.md)
 1. [Developer Scenario Questions](/questions/developer-questions.md)
 1. [Developer's Knowledge Checklist](/questions/developers-knowledge-checklist.md)
