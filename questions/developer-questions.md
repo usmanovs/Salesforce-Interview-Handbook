@@ -93,7 +93,8 @@ Pull requests for suggestions and corrections are welcome!
 - Keep track of limits by using Limits class to avoid hitting governor limits.
 - Future methods are very helpful when you have to update a large set of data. You can continue with your synchronous transaction and save time for updation by asking future method to update records asynchronously.
 
-[[↑] Back to top](##Salesforce-Develop-Questions)
+[[↑] Back to top](#Salesforce-Develop-Questions)
+
 
 ### What are the key automation tools in Salesforce? How do you know when to use which?
 
@@ -108,7 +109,7 @@ Pull requests for suggestions and corrections are welcome!
  
 <img src="/assets/Automated_features.PNG">
 
-[[↑] Back to top](##Salesforce-Develop-Questions)
+[[↑] Back to top](#Salesforce-Develop-Questions)
 
 ### What are the different ways we can share a record?
 We can share records using:
