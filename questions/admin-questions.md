@@ -39,12 +39,6 @@ Pull requests for suggestions and corrections are welcome!
 * [What business problems do approval processes solve?](#what-business-problems-do-approval-processes-solve)
 * [Which options do you have to make a field required?](#which-options-do-you-have-to-make-a-field-required)
 
-## Scenario Based Questions
-* [How do you restrict access to a certain object?](#how-do-you-restrict-access-to-a-certain-object)
-* [How do you give access to a certain object?](#how-do-you-give-access-to-a-certain-object)
-* [I am looking at an Opportunity record. The record does not have a 'Share' button. Why?](#i-am-looking-at-an-opportunity-record-the-record-does-not-have-a-share-button-why)
-
-
 ### How can we find out what licenses the org has and how many licenses are available?
 A license enables a user to use certain features of Salesforce in your org. To view  all licenses  available for the org, the user has to be in Setup bar and in the Quick Find type “Company Information” and click on “Company Information” as shown in the image
 
