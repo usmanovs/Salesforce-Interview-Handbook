@@ -79,12 +79,13 @@ Pull requests for suggestions and corrections are welcome!
 
 ### What are the Bulkification best practices?
 - Nested loops must be boycotted.
-- SOQL queries inside loops must be avoided.
-- Use simple FOR loop instead of FOR each for better efficiency.
-    Ex: 
+- SOQL queries inside for loops must be avoided.
+- Use simple FOR loop instead of FOR each for better efficiency. For example:
+```
     List<String> Accountkeys = new List<String>();
     for(integer i=0; i < Accountkeys.size(); ++i) { system.debug(Accountkeys[i])} <== Consumes lesser time
     for(String key : Accountkeys){ system.debug(key)} <== consumes more time
+```
 - Use collections like the map to store data locally, so that you can get rid of expensive database calls.
 - Always keep one trigger per object. No matter how complex one trigger becomes but multiple triggers misbehave during bulk execution. You can use helper methods to reduce the complexity of the trigger also.
 - Use batch class as much as you can during bulk operations as they have been designed to handle bulk easily.
@@ -361,9 +362,8 @@ You want to create a key that concate both the fields, creating formula will be 
 
 ### What are the different ways of deployment in Salesforce?
 
-`Textbook Definition:`
 - Change Sets - native Salesforce solution
-- MS visual studio code with Force.com IDE - widely used IDE
+- MS VS Code & IntelliJ
 - Ant migration tool - java based utility
 - Salesforce Package - managed or unmanaged package
 
@@ -378,7 +378,6 @@ The main purpose is to develop as-much-as-possible robust & error-free code that
 
 ### What does it indicate if an error state this “list has no rows for assignment”?
 
-`Textbook Explanation:`
 This is a System.Query Exception. This error means that the query which you fired returned no records from the database so the program can't assign anything to the variable.
 Example:
 Account acc = [select id from account where name='Salesforce Chef'];
