@@ -2,20 +2,19 @@
 
 Pull requests for suggestions and corrections are welcome!
 
-Fundamentals
+## Fundamentals
 * [What are governor limits? Why are they important?](#what-are-governor-limits-why-are-they-important)
 * [What are the Bulkification best practices?](#what-are-the-bulkification-best-practices)
 * [What are the key automation tools in Salesforce? How do you know when to use which?](#what-are-the-key-automation-tools-in-Salesforce-how-do-you-know-when-to-use-which)
 * [What is the difference between force.com and salesforce.com?](#what-is-the-difference-between-force.com-and-salesforce.com)
 
-Sharing & Security
+## Sharing & Security
 * [What are the different ways we can share a record?](#what-are-the-different-ways-we-can-share-a-record)
 * [What are sharing settings? Why are they important?](#what-are-sharing-settings-why-are-they-important)
 * [What is Apex Managed Sharing?](#what-is-apex-managed-sharing)
 * [How many ways can we share a record?](#how-many-ways-can-we-share-a-record)
 
-
-Behavioral
+## Behavioral
 * [What are your 3 favourite Salesforce blogs?](#what-are-your-3-favourite-Salesforce-blogs)
 * [Do you attend Salesforce developer community meetings?](#do-you-attend-Salesforce-developer-community-meetings)
 * [What do you do when you are stuck when you code?](#what-do-you-do-when-you-are-stuck-when-you-code)
@@ -29,7 +28,7 @@ SOQL & DML
 * [What are the default indexed fields in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
 * [What is difference insert() and database.insert()?](#what-is-difference-insert-and-database.insert)
 
-Data Modelling & Data Management
+## Data Modelling & Data Management
 * [What Are The Types of SOQL Statements in SalesForce?](#what-are-the-types-of-soql-statements-in-salesforce)
 * [When one wants to pass the collection to the query instead of passing one value which keyword helps us?](#when-one-wants-to-pass-the-collection-to-the-query-instead-of-passing-one-value-which-keyword-helps-us)
 * [What is Future Annotation(@Future)?](#what-is-future-annotation-future)
@@ -38,12 +37,12 @@ Data Modelling & Data Management
 * [Which fields are automatically Indexed in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
 * [Which fields are excluded from a custom index?](#which-fields-are-excluded-from-a-custom-index)
 
-Logic & Process Automation 
+## Logic & Process Automation 
 * [What are the types of custom settings in Salesforce? What is the advantage of using custom settings?](#what-are-the-types-of-custom-settings-in-salesforce-what-is-the-advantage-of-using-custom-settings)
 * [What are custom labels in Salesforce? What is the character limit of custom label?](#what-are-custom-labels-in-salesforce-what-is-the-character-limit-of-custom-label)
 * [What are deterministic formula fields in Salesforce?](#what-are-deterministic-formula-fields-in-salesforce)
 
-Apex
+## Apex
 * [Why do we need to write test classes? How to identify if a class is a test class?](#)
 * [Why do we use start test & stop test annotations?](#)
 * [Why do we need to write test classes? How to identify if a class is a test class?](#)
@@ -74,17 +73,15 @@ Apex
 * [Why use Batch Apex instead of Normal Apex?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 * [What the difference between isNull and isBlank?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 
-Debug & Deployment Tools
+## Debug & Deployment Tools
 * [What are the different ways of deployment in Salesforce?](#what-are-the-different-ways-of-deployment-in-salesforce)
 * [Why do we need to write test classes? How to identify if a class is a test class?](#why-do-we-need-to-write-test-classes-how-to-identify-if-a-class-is-a-test-class)
 
-
-Scenario Based Questions
+## Scenario Based Questions
 * [ What does it indicate if an error state this “list has no rows for assignment”?](#what-does-it-indicate-if-an-error-state-this-list-has-no-rows-for-assignment)
 
 
 ### What are the Bulkification best practices?
-
 - Nested loops must be boycotted.
 - Soql queries inside loops must be avoided.
 - Use simple FOR loop instead of FOR each for better efficiency.
