@@ -84,12 +84,11 @@ Pull requests for suggestions and corrections are welcome!
 ```
     List<String> Accountkeys = new List<String>();
     for(integer i=0; i < Accountkeys.size(); ++i) { system.debug(Accountkeys[i])} <== Consumes lesser time
-    for(String key : Accountkeys){ system.debug(key)} <== consumes more time
+    for(String key : Accountkeys){ system.debug(key)}                             <== Consumes more time
 ```
-- Use collections like the map to store data locally, so that you can get rid of expensive database calls.
-- Always keep one trigger per object. No matter how complex one trigger becomes but multiple triggers misbehave during bulk execution. You can use helper methods to reduce the complexity of the trigger also.
-- Use batch class as much as you can during bulk operations as they have been designed to handle bulk easily.
-- Keep track of limits by using Limits class to avoid hitting governor limits.
+- Use collections like the map to get rid of expensive database calls.
+- Only one trigger per object. No matter how complex one trigger becomes but multiple triggers misbehave during bulk execution
+- Use batch class as much as you can during bulk operations as it is designed to handle bulk
 - Future methods are very helpful when you have to update a large set of data. You can continue with your synchronous transaction and save time for an update by asking future methods to update records asynchronously.
 
 [[↑] Back to top](#Salesforce-Develop-Questions)
@@ -97,13 +96,8 @@ Pull requests for suggestions and corrections are welcome!
 
 ### What are the key automation tools in Salesforce? How do you know when to use which?
 
-- In Salesforce, Process builder, Workflow, Flow builder and approval process are some key tools for automation.
-- All these tools have separate significance to perform various business processes in Salesforce.
-- When you have a requirement of processing multiple statements together, a process builder or flow builder should be your choice.
-- When you want some action to be performed automatically based on time, you should refrain from using the approval process.
+- Process builder, Workflow, Flow builder and Approval Process are some key tools for automation.
 - If you want an activity to be done based on user action, a Flow builder is an ideal choice.
-- If calling an apex class is a necessity, a Process builder can be used.
-- For Sending outbound messages, workflows have been recommended.
  So based on the various needs various automation can be utilized. Please have a look at the below table which describes the uses of each automation in a better way.
  
 <img src="/assets/Automated_features.PNG">
