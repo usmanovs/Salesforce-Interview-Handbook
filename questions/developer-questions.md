@@ -8,12 +8,6 @@ Pull requests for suggestions and corrections are welcome!
 * [What are the key automation tools in Salesforce? How do you know when to use which?](#what-are-the-key-automation-tools-in-Salesforce-how-do-you-know-when-to-use-which)
 * [What is the difference between force.com and salesforce.com?](#what-is-the-difference-between-force.com-and-salesforce.com)
 
-## Sharing & Security
-* [What are the different ways we can share a record?](#what-are-the-different-ways-we-can-share-a-record)
-* [What are sharing settings? Why are they important?](#what-are-sharing-settings-why-are-they-important)
-* [What is Apex Managed Sharing?](#what-is-apex-managed-sharing)
-* [How many ways can we share a record?](#how-many-ways-can-we-share-a-record)
-
 ## Behavioral
 * [What are your 3 favourite Salesforce blogs?](#what-are-your-3-favourite-Salesforce-blogs)
 * [Do you attend Salesforce developer community meetings?](#do-you-attend-Salesforce-developer-community-meetings)
@@ -24,7 +18,13 @@ Pull requests for suggestions and corrections are welcome!
 * [Where do you see yourself in 3 years?](#where-do-you-see-yourself-in-3-years)
 * [Do you enjoy being a Salesforce developer? Why?](#do-you-enjoy-being-a-salesforce-developer-why)
 
-SOQL & DML
+## Sharing & Security
+* [What are the different ways we can share a record?](#what-are-the-different-ways-we-can-share-a-record)
+* [What are sharing settings? Why are they important?](#what-are-sharing-settings-why-are-they-important)
+* [What is Apex Managed Sharing?](#what-is-apex-managed-sharing)
+* [How many ways can we share a record?](#how-many-ways-can-we-share-a-record)
+
+## SOQL & DML
 * [What are the default indexed fields in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
 * [What is difference insert() and database.insert()?](#what-is-difference-insert-and-database.insert)
 
@@ -42,14 +42,15 @@ SOQL & DML
 * [What are custom labels in Salesforce? What is the character limit of custom label?](#what-are-custom-labels-in-salesforce-what-is-the-character-limit-of-custom-label)
 * [What are deterministic formula fields in Salesforce?](#what-are-deterministic-formula-fields-in-salesforce)
 
-## Apex
+## Apex (in process)
+* [Describe the 3 qualities of Apex that make it powerful?](#)
 * [Why do we need to write test classes? How to identify if a class is a test class?](#)
 * [Why do we use start test & stop test annotations?](#)
 * [Why do we need to write test classes? How to identify if a class is a test class?](#)
 * [What are the best practices for writing test classes?](#)
 * [Name 3 governor limits you know? Why are they important? How do you resolve when you see such errors?](#)
 * [What are the different types of collections in Apex? What are maps in Apex?](#w)
-* [What is the use of “@future” annotation?](#)
+* [Why use of “@future” annotation?](#)
 * [What are the different methods of batch Apex class?](#)
 * [What is Trigger.new?](#)
 * [What is the difference between SOQL and SOSL?](#what)
@@ -57,13 +58,10 @@ SOQL & DML
 * [What are the two options for when Apex Triggers can run?](#whats)
 * [What is a use case for sharing rules?](#what-are-some-of-the)
 * [Explain the use of an Outbound Message?](#what)
-* [What is Trigger.new?](#what)
 * [What is the Save Order of Execution? Why is it important?](#what)
 * [What is a wrapper class? Give one use case where you would use a wrapper class.](#what)
 * [Explain various methods of batch Apex class?](#what)
 * [What is Apex Email Service?](#)
-* [Describe the 3 qualities of Apex that make it powerful?](#)
-* [What is Map Class in Apex Salesforce?](#)
 * [What is Batch Apex in Salesforce?](#)
 * [What is Apex Scheduler?](#)
 * [What is the Apex Trigger in Salesforce?](#)
