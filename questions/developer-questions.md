@@ -19,7 +19,6 @@ Pull requests for suggestions and corrections are welcome!
 * [Do you enjoy being a Salesforce developer? Why?](#do-you-enjoy-being-a-salesforce-developer-why)
 
 ## Sharing & Security
-* [What are the different ways we can share a record?](#what-are-the-different-ways-we-can-share-a-record)
 * [What are sharing settings? Why are they important?](#what-are-sharing-settings-why-are-they-important)
 * [What is Apex Managed Sharing?](#what-is-apex-managed-sharing)
 * [How many ways can we share a record?](#how-many-ways-can-we-share-a-record)
