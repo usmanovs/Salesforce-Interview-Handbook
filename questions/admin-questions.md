@@ -75,7 +75,7 @@ Sandbox org is a replica of the metadata (and data if it is a partial or full sa
 3) Partial Sandbox
 4) Full Sandbox
 
-In order to create a sandbox, the user can navigate to Setup > Data Management > Sandboxes and the user will see following page:
+In order to create a sandbox, login to Production instance and navigate to Setup > Data Management > Sandboxes and the user will see following page:
 
 <img src="/assets/sandbox.png">
 
@@ -90,7 +90,13 @@ Here the user can view as to what all sandbox licenses does an org have and how 
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What useful information can you find on the company information page?
-The company information page provides all the necessary details about the org. For steps on how to reach the company information page, please refer to the first question. Beginning from the org name to the Org Id, this is the page where you will get all the required details of the org. This page also provides various sections which includes User Licenses, Permission Set Licenses, Feature Licenses and Usage-based Entitlements. But, as far as useful information is concerned, let us take a look at some of the key information one can extract from this page:
+The company information page provides all the necessary details about the org. For steps on how to reach the company information page, please refer to the first question. Beginning from the org name to the Org Id, this is the page where you will get all the required details of the org. This page also provides various sections which includes 
+- User Licenses, 
+- Permission Set Licenses, 
+- Feature Licenses and 
+- Usage-based Entitlements. 
+
+Apart from that, let us take a look at some of the key information one can extract from this page:
 
 1) Default Locale of the org
 2) Default Time Zone of the org which will be assigned to all the users, by default, created under this org
@@ -112,7 +118,7 @@ There are other useful fields which are available to the user, for which you can
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is a profile?
-A profile in salesforce is a combination of various settings and permissions which enables the user to perform certain tasks in salesforce. A profile can control various permissions including, but not limited to, Tab Settings, Administrative Permissions, General User Permissions, Standard Object Permissions, Password Policies etc. A profile can have multiple users but a user can have only one profile in the org. There are two types of profiles in the salesforce:
+A profile in salesforce is a combination of various settings and permissions which enables the user to perform certain tasks in salesforce. A profile can control various permissions including, but not limited to: Tab Settings, Administrative Permissions, General User Permissions, Standard Object Permissions, Password Policies etc. A profile can have multiple users but a user can have only one profile in the org. There are two types of profiles in the salesforce:
 
 1) Standard Profiles - Standard profiles are the default profiles provided by the salesforce, even for the free license. These profiles cannot be deleted by anyone and they are generally six (6):
  - System Administrator
@@ -131,9 +137,9 @@ A profile in salesforce is a combination of various settings and permissions whi
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is the difference between a profile & permission set?
-A profile is a collection of certain permissions. On the other hand, permission sets  consist of various permissions, however, it is an extension to the already assigned permissions to the user via profile. To outline the difference between the two, we can understand that profile provides some basic permissions to the user, whereas, in order to provide some additional permissions to the user one can define permission set.
+A profile is a collection of certain permissions. On the other hand, permission sets  consist of various permissions, however, it is an extension to the already assigned permissions to the user without changing their profile. To outline the difference between the two, we can understand that profile provides some basic permissions to the user, whereas, in order to provide some additional permissions to the user one can define permission set.
 
-One more difference between a profile and permission set is that a profile can be used to grant or revoke a permission to the user, but a permission set can only grant or extend the permission. One cannot remove a permission with the help of a permission set.
+A profile and permission set is that a profile can be used to grant or revoke a permission to the user, but a permission set can only grant or extend the permission. Permission set cannot revoke the access of any permission asssigned to a user.
 
 Another difference between the two is that only one profile can be assigned to the user but a user can have number of permission sets extending their allowed permissions.
 
@@ -148,6 +154,8 @@ A role in salesforce is basically defining a role of the user in the organizatio
 
 What records a user will see is defined by its role, however, what  the user can do with the record will be defined by the user's profile. Another major difference between them is that defining profile is mandatory, whereas, defining role is not mandatory.
 
+In short - Profile defines the diffeerent permissions the user has access to and a Role defines the hierarchy and the level of data the user has access to.
+
 ###### References
 
 * https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/admin_roles.htm#!
@@ -161,7 +169,7 @@ The sharing settings control a users access to records that they don't own. The 
 2) Public Read only - The record will be available for public access but the users will only be able to view it and cannot edit it
 3) Public Read/Write - The record will be available for public access and everyone having access to the record can edit it as well
 
-This is from here the user can change the access settings for both default (limited to few objects like Account and Contract, Contact, Case, Opportunity) and all custom objects. Also from here, a user can define rules based on which the sharing settings will apply and only those records will be shared which matches the defined rules. For viewing sharing settings and to create rules, you can navigate to Setup > Settings > Security > Sharing Settings.
+For viewing sharing settings and to create rules, you can navigate to Setup > Settings > Security > Sharing Settings. From here, the user can change the access settings for both default (limited to few objects like Account and Contract, Contact, Case, Opportunity) and all custom objects. Also a user can define rules based on which the sharing settings will apply and only those records will be shared which matches the defined rules. 
 
 <img src="/assets/View sharing settings.png">
 
@@ -176,7 +184,7 @@ An organization can have multiple businesses and accordingly can have various pi
 
 <img src="/assets/Record type page layout setting.png">
 
-On the other hand, as the name suggests, page layouts basically lets you define as to what all elements will be visible on the record. With the help of page layouts, you can place Fields, Buttons, Related Lists and many more, as per your convenience. You can also control the settings of a field as to what all fields will be visible, which field will be read-only field and what all fields will be required fields. There are three ways of assigning page layout:
+On the other hand, as the name suggests, page layouts basically lets you define as to what fields and sections the user can view on the record page. With the help of page layouts, you can display Fields, Buttons, Related Lists and many more, as per your business requirements. You can also control the settings of a field from the page layout.  You can set the field to visiblile, read-only, or required (mandatory). Page Layouts will be mapped to Profiles.  There are three ways of assigning page layout:
 
 1) From record types page
 
@@ -197,13 +205,13 @@ On the other hand, as the name suggests, page layouts basically lets you define 
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### Can you delete a user? Why not?
-A user cannot be deleted in the salesforce. The only way is to deactivate the user and to do so, you can navigate to Setup > Administration > Users > Users > Edit <user>.
+A user cannot be deleted in the salesforce. The only way is to deactivate the user and to do so, you can navigate to Setup > Administration > Users > Users > Edit <user>.  On the edit user page, uncheck the checkbox for "Active" field and click on Save.
 
 <img src="/assets/Deactivate user.png">
 
-On the edit user page, uncheck the checkbox for "Active" field and click on Save.
+The reason why a user cannot be deleted is that the user might be an owner of certain records and deleting the user will make the record inaccessible to other users of the org.  For audit purposes and to maintain the history of what actions were perfomed by a user in the Salesforce org, it is important to not have the ability to delete a User.  
 
-The reason why a user cannot be deleted is that the user might be an owner of certain records and deleting the user will make the record inaccessible to other users of the org. This will release the license assigned to the user and you can create a new user with that revoked license.
+It is highly recommented not to rename the user too.  Instead deactivate the user and create a new user.  Deactivating the user will also release the license assigned to the user and you can create a new user with that revoked license.  
 
 ###### References
 
@@ -243,9 +251,6 @@ The only field for which you cannot set any value is "systemModStamp".
 <b>Master:Detail relationship</b>
 </td>
 </tr>
-<tr><td>This relationship can be created between any two objects, i.e., standard and custom objects.</td><td>
-This relationship can also be created between standard and custom objects, but standard object should be the master.
-</td></tr>
 <tr><td>
 This is not a parent-child relationship.
 </td><td>
@@ -262,7 +267,7 @@ If the parent record is deleted, child record remains unaffected.
 If the parent record is deleted, all the related child records are also deleted.
 </td></tr>
 <tr><td>
-Every object has its own sharing and security properties.
+The objects involved in Lookup relationship have its own sharing and security properties.
 </td><td>
 All the related child objects inherits the security and sharing properties from the parent.
 </td></tr>
@@ -270,6 +275,11 @@ All the related child objects inherits the security and sharing properties from 
 There can be a maximum of 25 lookups on an object.
 </td><td>
 An object can be a master to a maximum of 2.
+</td></tr>
+<tr><td>
+No summary fields can be created.
+</td><td>
+Rollup summary fields can be created on Master object to summarize the values from Child records
 </td></tr>
 </table>
 
@@ -322,7 +332,11 @@ Objects contain data and all the data cannot be maintained in one single table. 
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is a self-relationship?
-As the name suggests, this is a kind of relationship where an object is linked with itself. So, in here rather than combining two different tables in order to show the data, we create a lookup on the same object to be referred. This could be understood with an example. Let us say we have an object “Part” and it can be a possibility that the same part is replaced later with some other parts. Thus, in order to link both the parts, we would require to reference the same table rather than some other object’s table.
+As the name suggests, this is a kind of relationship where an object is linked with itself. So, in here rather than combining two different objects, we create a lookup on the same object to be referred. 
+
+Examples:
+- On a case object, if you prefer to link another case (say parent case or other related case) to it, you can create a self relationship (a lookup relationship with the same object).
+- Let us say we have an object “Part” and it can be a possibility that the same part is replaced later with some other parts. Thus, in order to link both the parts, we would require to reference the same object rather than some other object’s data.
 
 ###### References
 
@@ -357,11 +371,11 @@ In order to delete a field, navigate to the required object and click on the nam
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What can you do with a schema builder?
-Schema builder is a graphical representation of all your objects and their relationships with each other.
+Schema builder is a graphical representation of all your objects and their relationships with each other.  With schema builder, you can view, edit, and add objects.
 
 <img src="/assets/Schema builder details.png">
 
-As you can see in the above image, you can view all the fields of the selected objects from the left sidebar under Objects column. Also, at the top right corner, you can view all the legends which will help you in better understanding the relationships between the objects. From this place, it is not just viewing the details, you can even add and modify objects from here.
+As you can see in the above image, you can view all the fields of the selected objects from the left sidebar under Objects column. Also, at the top right corner, you can view all the legends which will help you in better understanding the relationships between the objects. 
 
 To reach to the schema builder navigate to Setup > App Setup > Schema Builder
 
@@ -374,7 +388,7 @@ To reach to the schema builder navigate to Setup > App Setup > Schema Builder
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is a price book?
-A price book in salesforce is to store the prices of the products that your company deals in. Like if your company is providing some services to the customers, so this book will contain all the prices of your services. These are the standard prices which are stored in standard price book. However, if you have to customize the prices as per the customers, you can always create a custom price book.
+A price book in salesforce is to store the prices of the products that your company deals in.  Lets say, if your company is providing some services to the customers, so this book will contain all the prices of your services. These are the standard prices which are stored in standard price book. However, if you have to customize the prices as per the customers, you can always create a custom price book.
 
 To create a price book:
 
@@ -394,9 +408,9 @@ To create a price book:
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### When you convert a Lead what does it become?
-When an initial contact with the customer is initiated, a lead is generated in the salesforce. Now, depending on the further interactions, a lead can be converted into either an opportunity, an account or a contact.
+When an initial contact with 'a person who is interested in your product/service' is initiated, a lead is generated in the salesforce. Now, depending on the further interactions, a lead can be converted into either an opportunity, an account or a contact.
 
-If the customer shows any interest in buying the product/service you are offering, a lead turns into an opportunity. When a customer buys your product/service, the opportunity is closed with the status of "Closed/Won". This creates an account in the salesforce under your org and a corresponding contact is also created for the purpose of further communication.
+If the lead shows any interest in buying the product/service you are offering, a lead turns into an opportunity. When a lead buys your product/service, the opportunity is closed with the status of "Closed/Won" and an account/corresponding contact in  salesforce for the purpose of further communication.
 
 However, if the customer shows no interest in buying the product/services, it is closed with the status of "Closed/Lost".
 
@@ -468,7 +482,7 @@ The key 3 differences between Data Loader & Data Import Wizard lies in their fun
 With data import wizard, you can only import the data to your org. You will not be able to export data using this wizard.
 </td></tr>
 <tr><td>
-With data loader, you first have to install the setup of data loader.
+With data loader, you first have to install the data loader app/tool in your machine.
 </td><td>
 With data import wizard, it does not require any installation and is available as a step-by-step guided wizard.
 </td></tr>
@@ -476,6 +490,11 @@ With data import wizard, it does not require any installation and is available a
 With the help of data loader, you can import data of any object including both standard and custom objects.
 </td><td>
 In data import wizard, you are allowed to import data for all custom objects, but have access to limited standard objects including Account, Contacts, Leads, and Solutions.
+</td></tr>
+<tr><td>
+With the help of data loader, you can also delete data
+</td><td>
+Data import wizard doesn't support delete operation.
 </td></tr>
 </table>
 
@@ -528,11 +547,13 @@ In salesforce, there could be various business processes which needs to be done 
 
 1) Workflows - Workflows are used when you have to automate processes which have enough if/then statements. This is somewhat like using a process builder, however, the only difference being that with the process builder you will not be able to send Outbound messages.
 
-2) Visual Workflow - This tool is used to automate those processes where we need to take some input from the users and then take action based on the input received. These processes do not initiate automatically, but can be initiated through either process builder or even apex calls. 
+2) Visual Workflow (Flows) - This tool is used to automate those processes where we need to take some input from the users and then take action based on the input received. With the latest winter 20 release, Flows can be scheduled to run at any time without user action.
 
-3) Lightning Process Builder - With the help of this tool, a user can automate all those processes which have various if/then statements. All it requires is an entry criteria along with the required action which will take place when the criteria is met. For example: An email alert should be sent to the manager, if any issue is escalated. 
+3) Process Builder - With the help of this tool, a user can automate all those processes which have various if/then statements. All it requires is an entry criteria along with the required action which will take place when the criteria is met. For example: An email alert should be sent to the manager, if any issue is escalated. 
 
-4) Approval Process - As the name suggests, this tool will automate those processes, where a user has to wait for approval from some other user in order to proceed further with the transaction. For example: When a salesman has to apply discount of 10% on a product, they have to wait for manager's approval. This is something which can be automated using approval processes.
+4) Notification Builder - With notification builder, you can send customized notifications when data changes in your Salesforce org. For example, you can alert the support manager if a new support case is logged with P1 priority. Notification Builder helps you define who needs to know what and when.
+
+5) Approval Process - As the name suggests, this tool will automate those processes, where a user has to wait for approval from some other user in order to proceed further with the transaction. For example: When a salesman has to apply discount of 10% on a product, they have to wait for manager's approval. This is something which can be automated using approval processes.
 
 In order to use these automation tools, navigate to Setup > Build > Create > Workflow & Approvals. Here you will get all the required tools for automation.
 
