@@ -120,8 +120,7 @@ Pull requests for suggestions and corrections are welcome!
 
 ### What is Apex Managed Sharing?
 
-Apex Sharing is a ability provided to force.com developers to explicitly fullfill the requirement of record sharing of an application or a product programatically. If you want to built an app which shares records based on some criteria due to an event occurance, then nothing other than apex sharing can help you.
-For example, AccountShare is the sharing object for the Account object, ContactShare is the sharing object for the Contact object, MyCustomObject will be named as MyCustomObject__Share.
+Apex Sharing is an ability provided to force.com developers to explicitly fullfill the requirement of record sharing of an application or a product programatically. If you want to built an app which shares records based on some criteria due to an event occurance, then nothing other than apex sharing can help you. For example, AccountShare is the sharing object for the Account object, ContactShare is the sharing object for the Contact object, MyCustomObject will be named as MyCustomObject__Share.
 
 [[↑] Back to top](#Salesforce-Develop-Questions)
 
@@ -203,10 +202,10 @@ In next 3 years, i want to learn every aspect of salesforce development. Either 
 ### Do you enjoy being a Salesforce developer? Why?
 
 `TextBook Definition:`
-First things, you are working with a world dominating technology and you should be happy about it. This is an innovative platform which does innovations and ask you to be part of them. You may always find some traning guides and issue resolution steps somewhere. Readily available code repositories, appexchange products and function librabaries are always available to skip to start from scratch. The compiler and interpreter of the apex engine are seriously appreciated which helps you rectify your code in minutes. Further, the community trains and certify you also. So all in all salesforce development is the one i love.
+This is an innovative platform which does innovations and ask you to be part of it. You may always find some traning guides and issue resolution steps somewhere. Readily available code repositories, appexchange products and function librabaries are always available to skip to start from scratch. The compiler and interpreter of the apex engine are seriously appreciated which helps you rectify your code in minutes. Further, the community trains and certify you also. So all in all salesforce development is the one i love.
 
 `Street Definition:`
-I am glad being one. Being salesforce developer is really an exciting job. It is for the people who seek adventure and never wish to settle down. The new generation is of that kind which wants to keep learning daily and salesforce is always ready to teach you. It keeps on upgrading the technology as per modern needs and forces its community to learn to catch up the market. It shows trust on you by certifying you and ensuring the community that he is worth it. You learn from trailhead, you apply it in real time, you search in community to help and you deliver it. There is no way you will be stuck, someone will always be there to help you. That's why i like being a exciting salesforce developer.
+I am glad being one. Being a salesforce developer is an exciting job. It is for the people who seek adventure and never wish to settle down. The new generation is of that kind which wants to keep learning daily and salesforce is always ready to teach you. It keeps on upgrading the technology as per modern needs and forces its community to learn to catch up the market. It shows trust on you by certifying you and ensuring the community that he is worth it. You learn from trailhead, you apply it in real time, you search in community to help and you deliver it. There is no way you will be stuck, someone will always be there to help you. That's why i like being a exciting salesforce developer.
 
 [[↑] Back to top](#Salesforce-Develop-Questions)
 
