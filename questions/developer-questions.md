@@ -23,6 +23,8 @@ Pull requests for suggestions and corrections are welcome!
 * [What are sharing settings? Why are they important?](#what-are-sharing-settings-why-are-they-important)
 * [What is Apex Managed Sharing?](#what-is-apex-managed-sharing)
 * [How many ways can we share a record?](#how-many-ways-can-we-share-a-record)
+* [What is a use case for sharing rules?](#what-are-some-of-the)
+
 
 ## SOQL & DML
 * [What are the default indexed fields in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
@@ -56,12 +58,9 @@ Pull requests for suggestions and corrections are welcome!
 * [What is the difference between SOQL and SOSL?](#what)
 * [What is the difference between public and global class in Apex?](#wha)
 * [What are the two options for when Apex Triggers can run?](#whats)
-* [What is a use case for sharing rules?](#what-are-some-of-the)
 * [Explain the use of an Outbound Message?](#what)
 * [What is the Save Order of Execution? Why is it important?](#what)
 * [What is a wrapper class? Give one use case where you would use a wrapper class.](#what)
-* [Explain various methods of batch Apex class?](#what)
-* [What is Apex Email Service?](#)
 * [What is Batch Apex in Salesforce?](#)
 * [What is Apex Scheduler?](#)
 * [What is the Apex Trigger in Salesforce?](#)
