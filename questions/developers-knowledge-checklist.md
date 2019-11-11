@@ -31,24 +31,29 @@ Checklist of 10 things every Salesforce developer should know:
 [[↑] Back to top](#developers-knowledge-checklist)
 
 ### LWC
-1. What is LWC?
-2. Create a simple LWC
+1. What is LWC? Why is Salesforce pushing LWC adoption?
+1. Can you create a simple LWC?
+1. 
 
 [[↑] Back to top](#developers-knowledge-checklist)
 
 ### Governor Limits
-1. What are they?
-2. Why are they important?
+1. Can you explain to someone what is a governor limit?
+2. Why are governor limits important?
 
 [[↑] Back to top](#developers-knowledge-checklist)
 
-### Solid command of Salesforce Administration
-1. Admin, Advanced Admin, App Builder certifications
-2. Different automation tools
+### Salesforce Administration
+1. MUST: Admin, Advanced Admin, App Builder certifications
+1. NICE TO HAVE: Sales Cloud Consultant, Service Cloud Consultant, Platform Developer 1 certifications
+2. What is the difference between the differen automation tools?
 
 [[↑] Back to top](#developers-knowledge-checklist)
 
 ### Github
+1. When do you merge branches?
+1. What do you do if you have merge conflicts?
+1. What is the difference between a commit and a push?
 
 [[↑] Back to top](#developers-knowledge-checklist)
 
