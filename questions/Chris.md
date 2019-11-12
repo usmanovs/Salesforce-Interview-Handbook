@@ -57,23 +57,22 @@ sometimes
 What is a common weakness among technical candidates? For example, do you find them lacking communication skills OR do they show lack of moviation?
 
 
-How did you typically screen candidates?
-ask about their career and recent jobs
-did not pretend to be technical
-Should candidates tell you their current salary?
+> How did you typically screen candidates?
+
+* ask about their career and recent jobs
+* did not pretend to be technical
+
+> Should candidates tell you their current salary?
 
 
-How should candidates answer the question- “Why are you looking for a new job?”
+> How should candidates answer the question- “Why are you looking for a new job?”
 
 
-What are 5 Inside Tips for candidates to stand out?
+> What are 5 Inside Tips for candidates to stand out?
 
 
-What 3 tips would you give to a candidate who has an offer but is trying to get a better compensation?
+> What 3 tips would you give to a candidate who has an offer but is trying to get a better compensation?
 
 
-What are good questions that candidates can ask you?
-once you join the company how can i ensure my growth with the company?
-how will my performance be analyzed?
-
+> What are good questions that candidates can ask you?
 
