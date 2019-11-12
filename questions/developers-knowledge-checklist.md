@@ -9,7 +9,7 @@ Checklist of 10 things every Salesforce developer should know:
 4. [Apex](#apex)
 5. [LWC](#lwc)
 6. [Governor Limits](#governor-limits)
-7. [Solid command of Salesforce Administration](#solid-command-of-salesforce-administration)
+7. [SFDX](#SFDX)
 8. [Github](#github)
 9. [IDE](#ide-like-intellij-or-ms-visual-studio)
 10. [Agile terminology](#agile-terminology-10-key-terms)
@@ -33,20 +33,22 @@ Checklist of 10 things every Salesforce developer should know:
 ### LWC
 1. What is LWC? Why is Salesforce pushing LWC adoption?
 1. Can you create a simple LWC?
-1. 
+1. What is event driven architecture?
 
 [[↑] Back to top](#developers-knowledge-checklist)
 
 ### Governor Limits
 1. Can you explain to someone what is a governor limit?
-2. Why are governor limits important?
+1. Why are governor limits important?
+1. What happens if your code breaks a governor limit?
+1. How can you track governor limits in the execution of your code?
 
 [[↑] Back to top](#developers-knowledge-checklist)
 
-### Salesforce Administration
-1. MUST: Admin, Advanced Admin, App Builder certifications
-1. NICE TO HAVE: Sales Cloud Consultant, Service Cloud Consultant, Platform Developer 1 certifications
-2. What is the difference between the differen automation tools?
+### SFDX
+1. What is the advantage of using scratch orgs over developer orgs?
+1. Can you create a non-name space scratch org?
+1. What is a snapshot scratch org?
 
 [[↑] Back to top](#developers-knowledge-checklist)
 
