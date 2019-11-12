@@ -41,37 +41,26 @@ When you give a 2-week notice to your company but they don't want to let you go 
 * Good candidate values the role of recruiter. Knows that they can help you
 
 > What is a bad candidate?
-over inflated self-ego: don’t return calls, start contacting client directly, over inflated self of experience and value. 
-Is there something you want to tell all candidates right now, which you could not tell when you were in the recruitment industry?
+
+* Over inflated self-ego
+* Doon’t return calls, start contacting client directly, over inflated -self and -value. 
+
+> Is there something you want to tell all candidates right now, which you could not tell when you were in the recruitment industry?
 a lot of recruiters mislead- false info on salary, client
-If a candidate sees a job posting on LinkedIn & a recruiter is offering the same opportunity- which one should the candidate pursue?
-recruiter likely has a relationship with the company so resume likely to stand out better
-applying online resume might get lost
-typically better to contact hiring person directly
-don’t only work with one recruiter
+
+> If a candidate sees a job posting on LinkedIn & a recruiter is offering the same opportunity- which one should the candidate pursue?
+
+Recruiter likely has a relationship with the company and the hiring manager so resume likely to stand out better via recruiter. Applying online resume might get lost
 
 > What would you recommend to a candidate who is working with you to land that dream job?
 sometimes 
 
 What is a common weakness among technical candidates? For example, do you find them lacking communication skills OR do they show lack of moviation?
 
+* Don’t only work with one recruiter
+
 
 > How did you typically screen candidates?
 
-* ask about their career and recent jobs
-* did not pretend to be technical
-
-> Should candidates tell you their current salary?
-
-
-> How should candidates answer the question- “Why are you looking for a new job?”
-
-
-> What are 5 Inside Tips for candidates to stand out?
-
-
-> What 3 tips would you give to a candidate who has an offer but is trying to get a better compensation?
-
-
-> What are good questions that candidates can ask you?
-
+* Ask about their career and recent jobs
+* Did not pretend to be technical
