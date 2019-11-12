@@ -1,6 +1,8 @@
 ## Current Recruiter
 Below is an interview with **Alex Karmazin**, a recruiter at one of the largest IT recruitment firms in USA. In light text are the questions. And right below it are Alex's answers. Let's go!
 
+<img src="assets/alex.jpeg" align="right" width="220" height="400">
+
 > Briefly tell me about your recruiting experience? </p>
 
 I’ve been a recruiter at a large staffing agency for about 12 months. Got into it after referring people into a job in my previous role. I loved the feeling of being able to help someone find a job they love and decided to do it full time.
