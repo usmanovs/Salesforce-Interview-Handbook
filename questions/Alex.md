@@ -1,5 +1,5 @@
 ## Current Recruiter
-Below is an interview with **Alex Karmazin**, a recruiter at one of the largest IT recruitment firms in USA.
+Below is an interview with **Alex Karmazin**, a recruiter at one of the largest IT recruitment firms in USA. In light text are the questions. And right below it are Alex's answers. 
 
 > Briefly tell me about your recruiting experience? </p>
 
