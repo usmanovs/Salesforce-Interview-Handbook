@@ -25,11 +25,11 @@ Salary, growth opportunities >>> recruiter uses these to fight off counter offer
 
 > Are there anyways that recruiters mislead candidates?
 
-Recruiters would still advertise/sell a company that they know sucks, or where people leave
-discuss a higher salary then make a lower offer on actual paper
-they give an unreasonable ranges of possible salaries
+* Recruiters would still advertise/sell a company that they know sucks, or where people leave
+* Discuss a higher salary then make a lower offer on actual paper
+* They give an unreasonable ranges of possible salaries
 
-> what is a counter offer?
+> What is a counter offer?
 
 When you give a 2-week notice to your company but they don't want to let you go so they give you a better deal. Recruiters anticipate this and ask questions ahead of time to fight counter offers.
 
@@ -46,19 +46,15 @@ When you give a 2-week notice to your company but they don't want to let you go 
 * Doon’t return calls, start contacting client directly, over inflated -self and -value. 
 
 > Is there something you want to tell all candidates right now, which you could not tell when you were in the recruitment industry?
-a lot of recruiters mislead- false info on salary, client
+Many recruiters mislead- false info on salary, client
 
 > If a candidate sees a job posting on LinkedIn & a recruiter is offering the same opportunity- which one should the candidate pursue?
 
 Recruiter likely has a relationship with the company and the hiring manager so resume likely to stand out better via recruiter. Applying online resume might get lost
 
-> What would you recommend to a candidate who is working with you to land that dream job?
-sometimes 
-
 What is a common weakness among technical candidates? For example, do you find them lacking communication skills OR do they show lack of moviation?
 
 * Don’t only work with one recruiter
-
 
 > How did you typically screen candidates?
 
