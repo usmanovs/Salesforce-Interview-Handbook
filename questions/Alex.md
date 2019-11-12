@@ -18,16 +18,18 @@ A: Usually, no. I get it if someone unemployed says this, but if you already hav
 > How should candidate answer the reason why they are looking for a job? </p>
 A: Truthfully. That’s it. Tell me what bothers you. Don’t like your job? Don’t like your boss? Don’t like your team or environment? Don’t like your career path? Don’t like your commute? Don’t like your pay or your benefits? I can’t really offer a solution unless you tell me what the problem is.
 
-Q: Are there anyways that recruiters mislead candidates?
-A: I’m sure there are recruiters who do, and I’m sure all recruiters who do will proudly proclaim to never have. My cornerstone is always to be as transparent and brutally honest with you as I possibly can be; I’ll tell you everything I know and can possibly disclose, but it’s a two-way street. If you are deliberately attempting to mislead me or are being dodgy and I spot it - odds are we aren’t going to be working together in the future.
+> Are there anyways that recruiters mislead candidates? <br>
 
-Q: What is a perfect candidate for you?
+I’m sure there are recruiters who do, and I’m sure all recruiters who do will proudly proclaim to never have. My cornerstone is always to be as transparent and brutally honest with you as I possibly can be; I’ll tell you everything I know and can possibly disclose, but it’s a two-way street. If you are deliberately attempting to mislead me or are being dodgy and I spot it - odds are we aren’t going to be working together in the future.
+
+> What is a perfect candidate for you? <br>
 A: No such thing. Again, just be honest and transparent; I’ll be honest and transparent back, and we can make things happen!
 
-Q: What is a bad candidate?
-A: Many shapes and colors, but someone who has terrible soft skills, or sounds scripted/canned, or can’t speak to basic experience off their resume will be an obvious red flag for me. Another indicator is someone who doesn't follow through when they promise to - according to the time tables we both laid out and agreed to. If you say you will send your resume within 48 hours, and it’s been a week - I won’t even bother following up with you. Obviously, you’re either not actively looking or you are but can’t even manage your own schedule.
+> What is a bad candidate? <br>
 
-Q: If a candidate sees a job posting on LinkedIn & a recruiter is offering the same opportunity: which one should the candidate pursue?
+Many shapes and colors, but someone who has terrible soft skills, or sounds scripted/canned, or can’t speak to basic experience off their resume will be an obvious red flag for me. Another indicator is someone who doesn't follow through when they promise to - according to the time tables we both laid out and agreed to. If you say you will send your resume within 48 hours, and it’s been a week - I won’t even bother following up with you. Obviously, you’re either not actively looking or you are but can’t even manage your own schedule.
+
+> If a candidate sees a job posting on LinkedIn & a recruiter is offering the same opportunity: which one should the candidate pursue? <br>
 A: Depending on who the recruiter is and the company they work for. Plenty of “recruiters” will simply take your resume and go and apply with it to the LinkedIn posting. Some of my firm’s competitors are famous for this. I’m proud to say that we work directly with hiring managers and decision-makers vs just throwing your resume into a resume mill. All of the jobs we work on are “qualified”, with detailed job descriptions, manager information, and top attributes those managers will be looking for in the right candidate. If you go through me at least you’ll know where the resume will end up and will have a living person to keep you up to date on the job.
 
 Q: What would you recommend to a candidate who is working with you to land that dream job?
