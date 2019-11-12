@@ -1,11 +1,12 @@
 <img src="https://github.com/usmanovs/Salesforce-Interview-Handbook/blob/master/assets/Chris.png" align="right" width="200" height="220">
 
 
-Below is an interview with Chris. He was a recruiter for a long time but has now retired and works as an accountant. Here are the facts about Chris:
+Below is an interview with Chris. He was a recruiter for a long time before he retired and now works as an accountant. Here are the facts about Chris:
 1. recruiter for 14 years
 1. retired from industry in 2015
 1. 20-25% of salary was recruiters cut
 
+****
 > What are the worst mistakes that a developer can make when working with a recruiter?
 
 Lying, misleading about salary, reason why they left, hiding that they were fired, education or years of experience.
