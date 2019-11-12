@@ -26,11 +26,13 @@ Recruiters prefer candidates who are actively looking for candidates
 Salary, growth opportunities >>> recruiter uses these to fight off counter offers
 
 > Are there anyways that recruiters mislead candidates?
+
 Recruiters would still advertise/sell a company that they know sucks, or where people leave
 discuss a higher salary then make a lower offer on actual paper
 they give an unreasonable ranges of possible salaries
 
 > what is a counter offer?
+
 when you give a notice to your company & they give you a better deal. Recruiters ask questions ahead of time to fight counter offers
 
 > What is a perfect candidate for you?
