@@ -18,7 +18,7 @@ Yes, absolutely. There is no reason to hide something like this. If anything, it
 1. Good enough at what you do for someone to extend you an offer, and; 
 2. Are likely not happy with the offer, which allows me to probe into how I can potentially offer a better solution. 
 
-At the end of the day, nobody should ever “have” an offer. If I ever receive an offer for a job I absolutely want, not a minute will pass before I hit “Accept” on that email from HR. The fact that you “have” an offer obviously means you have certain concerns/doubts about it. Maybe I can help?
+At the end of the day, nobody should ever “have” an offer. If I ever receive an offer for a job I absolutely want, not a minute will pass before I hit “Accept” on that email from HR. The fact that you “have” an offer obviously means you have certain concerns/doubts about it. Maybe I can [help?](https://www.linkedin.com/in/alex-karmazin/)
 
 > Should candidate say “I am open to opportunities”? </p>
 
@@ -61,7 +61,7 @@ It certainly helps. I almost never ask this question, instead asking something a
 
 > What are 5 Inside Tips for candidates to stand out? <br>
 
-Be transparent; be timely; be confident; e-n-u-n-c-i-a-t-e; and learn how to sell yourself.
+Be transparent; be timely; be confident; **e-n-u-n-c-i-a-t-e**; and learn how to sell yourself.
 
 > What are good questions that candidates can ask you? <br>
 
