@@ -1,5 +1,5 @@
 
-> Briefly could you tell me about your recruiting experience? </p>
+> Briefly tell me about your recruiting experience? </p>
 
 I’ve been a recruiter at a large staffing agency for about 12 months; got into it after some experiences referring people into a job in my previous role - loved the feeling of being able to help someone find a job they love and decided to do it full time.
 
