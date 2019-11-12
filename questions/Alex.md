@@ -54,4 +54,5 @@ It certainly helps. I almost never ask this question, instead asking something a
 Be transparent; be timely; be confident; e-n-u-n-c-i-a-t-e; and learn how to sell yourself.
 
 > What are good questions that candidates can ask you? <br>
+
 Since many of my clients are external, I can only answer so much about the environments and projects in which they’ll be working. I’ll provide every detail I can, but a lot of those sorts of questions are best reserved for the hiring team. I’d be happy to walk through the logistics with you, like benefits, interview process, how to prepare for an interview, etc.
