@@ -7,7 +7,7 @@ I’ve been a recruiter at a large staffing agency for about 12 months. Got into
 
 > What is the most common mistake that developers make in their interactions with recruiters?</p>
 
-Being dishonest about their past experiences or attempting to falsify their credentials (whether it’s about years of experience; tools;  languages, etc.) I’m not the most technical of recruiters - I’ll admit that - but the truth will come out eventually either way. Even if I can’t catch it, the hiring manager will know exactly the kinds of questions to ask and how to spot the B.S. And guess what - now you’ve wasted your time, my time, my team’s time, and the hiring team’s time. Not only would I (or my company) not want to work with you in the future, but you’ve probably now been **blacklisted** wherever you tried to fraudulently land a job...
+Being dishonest about their past experiences or attempting to falsify their credentials (whether it’s about years of experience; tools;  languages, etc.) I’m not the most technical of recruiters - I’ll admit that - but the truth will come out eventually either way. Even if I can’t catch it, the hiring manager will know exactly the kinds of questions to ask and how to spot the B.S. And guess what - now you’ve wasted your time, my time, my team’s time, and the hiring team’s time. Not only would I (or my company) not want to work with you in the future, but you’ve probably now been **blacklisted** wherever you tried to fraudulently land a job.
 
 > Should a candidate tell you that they have a job offer? </p>
 
