@@ -1,4 +1,4 @@
-<img src="https://github.com/usmanovs/Salesforce-Interview-Handbook/blob/master/assets/chris.png" align="right" width="220" height="220">
+<img src="https://github.com/usmanovs/Salesforce-Interview-Handbook/blob/master/assets/Chris.png" align="right" width="220" height="220">
 
 
 Below is an interview with Chris. He was a recruiter for a long time but has now retired and works as an accountant. Here are the facts about Chris:
