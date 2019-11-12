@@ -1,19 +1,13 @@
-Facts:
+Below is an interview with Chris. He was a recruiter for a long time but has now retired and works as an accountant. Here are the facts about Chris:
 1. recruiter for 14 years
 1. retired from industry in 2015
 1. 20-25% of salary was recruiters cut
-
-10 tips for Salesforce Developers from a former technical recruiter:
-
-
-> Briefly could you tell me about your recruiting experience?
-
 
 > What are the worst mistakes that a developer can make when working with a recruiter?
 
 Lying, misleading about salary, reason why they left, hiding that they were fired, education or years of experience.
 
-Should a candidate tell you that they have a job offer?
+> Should a candidate tell you that they have a job offer?
 
 Yes. It would make client work faster OR up their offer. Say if you have accepted it or not. Don’t make up an offer for leverage.
 
