@@ -32,8 +32,6 @@ Right here in front of you is the **ultimate** Salesforce interview toolkit. The
 * **Confessions of Recruiters**
   * [Current Recruiter](/questions/Alex.md)
   * [Former Recruiter](/questions/Chris.md)
-
-
   
 
 ### Submitting New Questions
