@@ -1,3 +1,6 @@
+<img src="https://github.com/usmanovs/Salesforce-Interview-Handbook/blob/master/assets/chris.png" align="right" width="220" height="220">
+
+
 Below is an interview with Chris. He was a recruiter for a long time but has now retired and works as an accountant. Here are the facts about Chris:
 1. recruiter for 14 years
 1. retired from industry in 2015
@@ -27,9 +30,10 @@ they give an unreasonable ranges of possible salaries
 
 > what is a counter offer?
 
-when you give a notice to your company & they give you a better deal. Recruiters ask questions ahead of time to fight counter offers
+When you give a 2-week notice to your company but they don't want to let you go so they give you a better deal. Recruiters anticipate this and ask questions ahead of time to fight counter offers.
 
 > What is a perfect candidate for you?
+
 * Has the relevant skills. 
 * Honest with themselves. 
 * Knows what they want & sticks to it
