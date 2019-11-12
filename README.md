@@ -1,7 +1,7 @@
 <h1 align="center">The Ultimate Salesforce Interview Handbook</h1>
 
 <div align="center">
-    <img src="assets/sflogo.png" alt="Salesforce Interview Handbook" width="400"/>
+    <img src="assets/sflogo.png" alt="Salesforce Interview Handbook" width="300"/>
     <br> 
     <em>Subscribe to my Youtube channel <a href="https://www.youtube.com/user/seyitbek"> Salesforce Chef</a> </em>
   </p>
