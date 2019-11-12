@@ -18,17 +18,18 @@ Right here in front of you is the **ultimate** Salesforce interview toolkit. The
 
 ## Table of Contents
 
-* Admins
+> Admins
   * [Functional Questions](/questions/admin-technical-questions.md)
   * [Scenario Questions](/questions/admin-scenario-questions.md)
   * Knowledge Checklist (soon)
 
-* Developers
+> Developers
   * [Functional Questions](/questions/developer-questions.md)
   * Scenario Questions (soon)
   * [Knowledge Checklist](/questions/developers-knowledge-checklist.md)
   * <a href="https://creativegeniusod.github.io/">Salesforce Exercises</a>
-* Confessions of Recruiters
+  
+> Confessions of Recruiters
   * [Current Recruiter](/questions/Alex.md)
   * [Former Recruiter](/questions/Chris.md)
 
