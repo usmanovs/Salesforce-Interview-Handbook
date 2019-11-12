@@ -28,6 +28,10 @@ Right here in front of you is the **ultimate** Salesforce interview toolkit. The
   * Scenario Questions (soon)
   * [Knowledge Checklist](/questions/developers-knowledge-checklist.md)
   * <a href="https://creativegeniusod.github.io/">Salesforce Exercises</a>
+* Confessions of Recruiters
+  * [Current Recruiter](/questions/Alex.md)
+
+  
 
 ### Submitting New Questions
 
