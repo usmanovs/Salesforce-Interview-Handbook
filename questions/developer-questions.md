@@ -28,6 +28,7 @@ Pull requests for suggestions and corrections are welcome!
 ## SOQL & DML
 * [What are the default indexed fields in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
 * [What is difference insert() and database.insert()?](#what-is-difference-insert-and-database.insert)
+* [What is the difference between SOQL and SOSL?](#what)
 
 ## Data Modelling & Data Management
 * [What Are The Types of SOQL Statements in SalesForce?](#what-are-the-types-of-soql-statements-in-salesforce)
@@ -45,36 +46,23 @@ Pull requests for suggestions and corrections are welcome!
 
 ## Apex (in process)
 * [Describe the 3 qualities of Apex that make it powerful?](#)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#)
 * [Why do we use start test & stop test annotations?](#)
 * [Why do we need to write test classes? How to identify if a class is a test class?](#)
 * [What are the best practices for writing test classes?](#)
 * [Name 3 governor limits you know? Why are they important? How do you resolve when you see such errors?](#)
-* [What are the different types of collections in Apex? What are maps in Apex?](#w)
-* [Why use of “@future” annotation?](#)
+* [Why use  “@future” annotation?](#)
 * [What are the different methods of batch Apex class?](#)
 * [What is Trigger.new?](#)
-* [What is the difference between SOQL and SOSL?](#what)
 * [What is the difference between public and global class in Apex?](#wha)
-* [What are the two options for when Apex Triggers can run?](#whats)
-* [Explain the use of an Outbound Message?](#what)
 * [What is the Save Order of Execution? Why is it important?](#what)
 * [What is a wrapper class? Give one use case where you would use a wrapper class.](#what)
-* [What is Batch Apex in Salesforce?](#)
-* [What is Apex Scheduler?](#)
-* [What is the Apex Trigger in Salesforce?](#)
-* [What is an Apex transactions?](#)
+* [What is an Apex transaction?](#)
 * [What are static resources?](#)
-* [What is the difference between public and global classes in Apex?](#h)
-* [Why use Batch Apex instead of Normal Apex?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 * [What the difference between isNull and isBlank?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 
 ## Debug & Deployment Tools
 * [What are the different ways of deployment in Salesforce?](#what-are-the-different-ways-of-deployment-in-salesforce)
 * [Why do we need to write test classes? How to identify if a class is a test class?](#why-do-we-need-to-write-test-classes-how-to-identify-if-a-class-is-a-test-class)
-
-## Scenario Based Questions
-* [ What does it indicate if an error state this “list has no rows for assignment”?](#what-does-it-indicate-if-an-error-state-this-list-has-no-rows-for-assignment)
 
 
 ### What are the Bulkification best practices?
