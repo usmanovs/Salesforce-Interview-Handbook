@@ -1,7 +1,7 @@
 ## Current Recruiter
 Below is an interview with **Alex Karmazin**, a recruiter at one of the largest IT recruitment firms in USA. In light text are the questions. And right below it are Alex's answers. Let's go!
 
-<img src="https://github.com/usmanovs/Salesforce-Interview-Handbook/blob/master/assets/alex.jpeg" align="right" width="220" height="400">
+<img src="https://github.com/usmanovs/Salesforce-Interview-Handbook/blob/master/assets/alex.jpeg" align="right" width="220" height="250">
 
 > Briefly tell me about your recruiting experience? </p>
 
