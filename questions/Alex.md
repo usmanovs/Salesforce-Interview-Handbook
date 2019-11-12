@@ -1,6 +1,7 @@
 
-Q: Briefly could you tell me about your recruiting experience?
-A: I’ve been a recruiter at a large staffing agency for about 12 months; got into it after some experiences referring people into a job in my previous role - loved the feeling of being able to help someone find a job they love and decided to do it full time.
+> Q: Briefly could you tell me about your recruiting experience? </p>
+
+I’ve been a recruiter at a large staffing agency for about 12 months; got into it after some experiences referring people into a job in my previous role - loved the feeling of being able to help someone find a job they love and decided to do it full time.
 
 Q: What is the most common mistake that developers make in their interactions with recruiters?
 A: Being dishonest about their past experiences or attempting to falsify their credentials (whether it’s about years of experience; tools;  languages, etc.) I’m not the most technical of recruiters - I’ll admit that - but the truth will come out eventually either way. Even if I can’t catch it, the hiring manager will know exactly the kinds of questions to ask and how to spot the B.S. And guess what - now you’ve wasted your time, my time, my team’s time, and the hiring team’s time. Not only would I (or my company) not want to work with you in the future, but you’ve probably now been blacklisted wherever you tried to fraudulently land a job...
