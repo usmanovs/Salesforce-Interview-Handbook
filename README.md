@@ -18,7 +18,7 @@ Right here in front of you is the **ultimate** Salesforce interview toolkit. The
 
 ## Table of Contents
 
-* **Admins*
+* **Admins**
   * [Functional Questions](/questions/admin-technical-questions.md)
   * [Scenario Questions](/questions/admin-scenario-questions.md)
   * Knowledge Checklist (soon)
