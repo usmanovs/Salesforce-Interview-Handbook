@@ -24,7 +24,6 @@ Pull requests for suggestions and corrections are welcome!
 * [How many ways can we share a record?](#how-many-ways-can-we-share-a-record)
 * [What is a use case for sharing rules?](#what-are-some-of-the)
 
-
 ## SOQL & DML
 * [What are the default indexed fields in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
 * [What is difference insert() and database.insert()?](#what-is-difference-insert-and-database.insert)
@@ -36,7 +35,7 @@ Pull requests for suggestions and corrections are welcome!
 * [What is Future Annotation(@Future)?](#what-is-future-annotation-future)
 * [What is Data Skew?](#what-is-data-skew)
 * [Explain skinny table. What are the considerations for Skinny Table?](#explain-skinny-table-what-are-the-considerations-for-skinny-table)
-* [Which fields are automatically Indexed in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
+* [Which fields are automatically indexed in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
 * [Which fields are excluded from a custom index?](#which-fields-are-excluded-from-a-custom-index)
 
 ## Logic & Process Automation 
@@ -47,7 +46,7 @@ Pull requests for suggestions and corrections are welcome!
 ## Apex (in process)
 * [Describe the 3 qualities of Apex that make it powerful?](#)
 * [Why do we use start test & stop test annotations?](#)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#)
+* [Why do we write test classes?](#)
 * [What are the best practices for writing test classes?](#)
 * [Name 3 governor limits you know? Why are they important? How do you resolve when you see such errors?](#)
 * [Why use  “@future” annotation?](#)
@@ -63,6 +62,7 @@ Pull requests for suggestions and corrections are welcome!
 ## Debug & Deployment Tools
 * [What are the different ways of deployment in Salesforce?](#what-are-the-different-ways-of-deployment-in-salesforce)
 * [Why do we need to write test classes? How to identify if a class is a test class?](#why-do-we-need-to-write-test-classes-how-to-identify-if-a-class-is-a-test-class)
+* Why make Profiling Finest?
 
 
 ### What are the Bulkification best practices?
