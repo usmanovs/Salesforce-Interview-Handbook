@@ -517,7 +517,7 @@
 				  var windowTop = $(window).scrollTop(); // returns number
 
 				  if (stopPoint < windowTop) {
-					  $sticky.css({ position: 'absolute', top: diff });
+					  $sticky.css({ position: 'absolute', top: '15px' });
 				  } else if (stickyTop < windowTop+stickOffset) {
 					  $sticky.css({ position: 'fixed', top: '15px' });
 				  } else {
