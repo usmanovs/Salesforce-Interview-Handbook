@@ -33,7 +33,8 @@ Usually, no. I get it if someone unemployed says this but if you already have a 
 I’m sure there are recruiters who do, and I’m sure all recruiters who do will proudly proclaim to never have. My cornerstone is always to be as transparent and brutally honest with you as I possibly can be; I’ll tell you everything I know and can possibly disclose, but it’s a two-way street. If you are deliberately attempting to mislead me or are being dodgy and I spot it - odds are we aren’t going to be working together in the future.
 
 > What is a perfect candidate for you? <br>
-A: No such thing. Again, just be honest and transparent; I’ll be honest and transparent back, and we can make things happen!
+
+No such thing. Again, just be honest and transparent; I’ll be honest and transparent back, and we can make things happen!
 
 > What is a bad candidate? <br>
 
