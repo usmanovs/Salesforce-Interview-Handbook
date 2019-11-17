@@ -14,7 +14,7 @@ Being dishonest about their past experiences or attempting to falsify their cred
 
 > Should a candidate tell you that they have a job offer? </p>
 
-Yes, absolutely. There is no reason to hide something like this. If anything, it lets me know you are:
+Yes, **absolutely**. There is no reason to hide something like this. If anything, it lets me know you are:
 1. Good enough at what you do for someone to extend you an offer, and; 
 2. Are likely not happy with the offer, which allows me to probe into how I can potentially offer a better solution. 
 
@@ -22,7 +22,7 @@ At the end of the day, nobody should ever “have” an offer. If I ever receive
 
 > Should candidate say “I am open to opportunities”? </p>
 
-Usually, no. I get it if someone unemployed says this but if you already have a job and you say “I’m open” to any recruiter who gives you a call - that doesn’t really instill a sense of trust or loyalty for the person on the other line. All it means is that if I help you land a job you’ll just continue looking for whoever pays that extra dollar and will never really truly settle into a single role.
+Usually, no. I get it if someone unemployed says this but if you already have a job and you say “I’m open” to any recruiter who gives you a call - that **doesn’t really instill a sense of trust** or loyalty for the person on the other line. All it means is that if I help you land a job you’ll just continue looking for whoever pays that extra dollar and will never really truly settle into a single role.
 
 > How should candidate answer the reason why they are looking for a job? </p>
 
@@ -34,7 +34,7 @@ I’m sure there are recruiters who do, and I’m sure all recruiters who do wil
 
 > What is a perfect candidate for you? <br>
 
-No such thing. Again, just be honest and transparent; I’ll be honest and transparent back, and we can make things happen!
+**No such thing**. Again, just be honest and transparent; I’ll be honest and transparent back, and we can make things happen!
 
 > What is a bad candidate? <br>
 
@@ -58,7 +58,7 @@ I go through the candidate's experiencs, education, career track and logistics (
 
 > Should candidates tell you their current salary? <br>
 
-It certainly helps. I almost never ask this question, instead asking something along the lines of “is there a specific number you’d like to target as far as compensation goes?” However, if a candidate is being dodgy in answering (“I’m flexible”, “I’m open”), I’ll switch gears and try to see where they were most recently, and I’ll use that - plus 5k or so - as a baseline. I don’t want to short-change anyone; we all have bills that need paying and a quality of life we are used to. The recruiter’s goal when I ask this question isn’t to try and see how I can swindle you, but to make sure I have a specific baseline that I can use if a relevant role comes along.
+It certainly helps. **I almost never ask this question** instead asking something along the lines of “is there a specific number you’d like to target as far as compensation goes?” However, if a candidate is being dodgy in answering (“I’m flexible”, “I’m open”), I’ll switch gears and try to see where they were most recently, and I’ll use that - plus 5k or so - as a baseline. I don’t want to short-change anyone; we all have bills that need paying and a quality of life we are used to. The recruiter’s goal when I ask this question isn’t to try and see how I can swindle you, but to make sure I have a specific baseline that I can use if a relevant role comes along.
 
 > What are 5 Inside Tips for candidates to stand out? <br>
 
