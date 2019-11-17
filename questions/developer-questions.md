@@ -7,82 +7,60 @@ Pull requests for suggestions and corrections are welcome!
 * [What are the Bulkification best practices?](#what-are-the-bulkification-best-practices)
 * [What is the difference between force.com and salesforce.com?](#what-is-the-difference-between-forcecom-and-salesforcecom)
 
-Behavioral
-* [What are your 3 favourite Salesforce blogs?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [Do you attend Salesforce developer community meetings?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [What do you do when you are stuck when you code?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [How many reputation points do you have on salesforce StackEchange?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [Would you say you are passionate about Salesforce? If so why?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [Have you ever contributed to Salesforce's Ideas? If you could make any idea come true, what would it be?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [Where do you see yourself in 3 years?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [Do you enjoy being a Salesforce developer? Why?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+## Behavioral
+* [What are your 3 favourite Salesforce blogs?](#what-are-your-3-favourite-Salesforce-blogs)
+* [Do you attend Salesforce developer community meetings?](#do-you-attend-Salesforce-developer-community-meetings)
+* [What do you do when you are stuck when you code?](#what-do-you-do-when-you-are-stuck-when-you-code)
+* [How many reputation points do you have on salesforce StackEchange?](#how-many-reputation-points-do-you-have-on-salesforce-stackExchange)
+* [Would you say you are passionate about Salesforce? If so why?](#would-you-say-you-are-passionate-about-salesforce-if-so-why)
+* [Have you ever contributed to Salesforce's Ideas? If you could make any idea come true, what would it be?](#have-you-ever-contributed-to-salesforces-ideas-if-you-could-make-any-idea-come-true-what-would-it-be)
+* [Where do you see yourself in 3 years?](#where-do-you-see-yourself-in-3-years)
+* [Do you enjoy being a Salesforce developer? Why?](#do-you-enjoy-being-a-salesforce-developer-why)
 
-Sharing & Security
+## Sharing & Security
 * [What is Apex Managed Sharing?](#what-is-apex-managed-sharing)
 * [How many ways can we share a record?](#how-many-ways-can-we-share-a-record)
 * [What is a use case for sharing rules?](#what-is-a-use-case-for-sharing-rules)
 
-SOQL & DML
-* [What are the default indexed fields in Salesforce?](#what-are-the-default-indexed-fields-in-salesforce)
-* [What is the difference betweeen insert() and database.insert()?](#what-is-the-difference-betweeen-insert-and-databaseinsert)
+## SOQL & DML
+* [What are the default indexed fields in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
+* [What is difference insert() and database.insert()?](#what-is-difference-insert-and-databaseinsert)
 * [What is the difference between SOQL and SOSL?](#what-is-the-difference-between-soql-and-sosl)
 
-Data Modelling & Data Management 
-* [What Are The Types of SOQL Statements in SalesForce?](#are-you-familiar-with-styling-svg)
-* [When one wants to pass the collection to the query instead of passing one value which keyword helps us?](#can-you-give-an-example-of-an-media-property-other-than-screen)
-* [What is Future Annotation(@Future)?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is “Data Skew”?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Explain skinny table. What are the considerations for Skinny Table?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Which fields are automatically Indexed in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Which fields are excluded from a custom index?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is Future Annotation(@Future)?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+## Data Modelling & Data Management
+* [What Are The Types of SOQL Statements in SalesForce?](#what-are-the-types-of-soql-statements-in-salesforce)
+* [When one wants to pass the collection to the query instead of passing one value which keyword helps us?](#when-one-wants-to-pass-the-collection-to-the-query-instead-of-passing-one-value-which-keyword-helps-us)
+* [What is Future Annotation(@Future)?](#what-is-future-annotation-future)
+* [What is Data Skew?](#what-is-data-skew)
+* [Explain skinny table. What are the considerations for Skinny Table?](#explain-skinny-table-what-are-the-considerations-for-skinny-table)
+* [Which fields are automatically indexed in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
+* [Which fields are excluded from a custom index?](#which-fields-are-excluded-from-a-custom-index)
 
-Logic & Process Automation 
-* [What are the types of custom settings in Salesforce? What is the advantage of using custom settings?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are custom labels in Salesforce? What is the character limit of custom label?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are deterministic formula fields in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+## Logic & Process Automation 
+* [What are the types of custom settings in Salesforce? What is the advantage of using custom settings?](#what-are-the-types-of-custom-settings-in-salesforce-what-is-the-advantage-of-using-custom-settings)
+* [What are custom labels in Salesforce? What is the character limit of custom label?](#what-are-custom-labels-in-salesforce-what-is-the-character-limit-of-custom-label)
+* [What are deterministic formula fields in Salesforce?](#what-are-deterministic-formula-fields-in-salesforce)
 
-Apex
-* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Why do we use start test & stop test annotations?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are the best practices for writing test classes?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Name 3 governor limits you know? Why are they important? How do you resolve when you see such errors?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are the different types of collections in Apex? What are maps in Apex?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is the use of “@future” annotation?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are the different methods of batch Apex class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is the difference between SOQL and SOSL?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is the difference between public and global class in Apex?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What are the two options for when Apex Triggers can run?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is a use case for sharing rules?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Explain the use of an Outbound Message?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is Trigger.new?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is the Save Order of Execution? Why is it important?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [What is a wrapper class? Give one use case where you would use a wrapper class.](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Explain various methods of batch Apex class?](#what-is-css-selector-specificity-and-how-does-it-work)
-* [What is Apex Email Service?](#whats-the-difference-between-resetting-and-normalizing-css-which-would-you-choose-and-why)
-* [Describe the 3 qualities of Apex that make it powerful?](#describe-floats-and-how-they-work)
-* [What is Map Class in Apex Salesforce?](#describe-z-index-and-how-stacking-context-is-formed)
-* [What is Batch Apex in Salesforce?](#describe-block-formatting-context-bfc-and-how-it-works)
-* [What is Apex Scheduler?](#what-are-the-various-clearing-techniques-and-which-is-appropriate-for-what-context)
-* [What is the Apex Trigger in Salesforce?](#explain-css-sprites-and-how-you-would-implement-them-on-a-page-or-site)
-* [What is an Apex transactions?](#how-would-you-approach-fixing-browser-specific-styling-issues)
-* [What are static resources?](#what-are-the-different-ways-to-visually-hide-content-and-make-it-available-only-for-screen-readers)
-* [What is the difference between public and global classes in Apex?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
-* [Why use Batch Apex instead of Normal Apex?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
+## Apex (in process)
+* [Describe the 3 qualities of Apex that make it powerful?](#)
+* [Why do we use start test & stop test annotations?](#)
+* [Why do we write test classes?](#)
+* [What are the best practices for writing test classes?](#)
+* [Name 3 governor limits you know? Why are they important? How do you resolve when you see such errors?](#)
+* [Why use  “@future” annotation?](#)
+* [What are the different methods of batch Apex class?](#)
+* [What is Trigger.new?](#)
+* [What is the difference between public and global class in Apex?](#wha)
+* [What is the Save Order of Execution? Why is it important?](#what)
+* [What is a wrapper class? Give one use case where you would use a wrapper class.](#what)
+* [What is an Apex transaction?](#)
+* [What are static resources?](#)
 * [What the difference between isNull and isBlank?](#have-you-ever-used-a-grid-system-and-if-so-what-do-you-prefer)
 
-Debug & Deployment Tools
-* [What are the different ways of deployment in Salesforce?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-* [Why do we need to write test classes? How to identify if a class is a test class?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
-
-Scenario Based Questions
-* [ What does it indicate if an error state this “list has no rows for assignment”?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
+## Debug & Deployment Tools
+* [What are the different ways of deployment in Salesforce?](#what-are-the-different-ways-of-deployment-in-salesforce)
+* [Why do we need to write test classes? How to identify if a class is a test class?](#why-do-we-need-to-write-test-classes-how-to-identify-if-a-class-is-a-test-class)
+* Why make Profiling Finest?(#why-make-profiling-finest)
 
 ### What are governor limits? Why are they important?
 The governor limits in salesforce are actually applied from salesforce end, so as to ensure that the orgs do not abuse the use of the platform. With these limits in place, developers are forced to write scalable code, which are efficient and optimized so as to use the provided resources as less as possible. There are few limits which you can directly view under "Company Information" like API requests limit. However, for viewing all the governor limits of your org, you can use the link https://workbench.developerforce.com/login.php. Some of the examples of governor limits are:
