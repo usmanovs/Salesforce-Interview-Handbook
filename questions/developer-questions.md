@@ -2,7 +2,7 @@
 
 Pull requests for suggestions and corrections are welcome!
 
-Fundamentals
+## Fundamentals
 * [What are governor limits? Why are they important?](#what-are-governor-limits-why-are-they-important)
 * [What are the Bulkification best practices?](#what-are-the-bulkification-best-practices)
 * [What is the difference between force.com and salesforce.com?](#what-is-the-difference-between-forcecom-and-salesforcecom)
@@ -85,9 +85,7 @@ Scenario Based Questions
 * [ What does it indicate if an error state this “list has no rows for assignment”?](#what-are-some-of-the-gotchas-for-writing-efficient-css)
 
 ### What are governor limits? Why are they important?
-The governor limits in salesforce are actually applied from salesforce end, so as to ensure that the orgs do not abuse the use of the platform. With these limits in place, developers are forced to write scalable code, which are efficient and optimized so as to use the provided resources as less as possible. There are few limits which you can directly view under "Company Information" like API requests limit.
-
-However, for viewing all the governor limits of your org, you can use the link https://workbench.developerforce.com/login.php. Some of the examples of governor limits are:
+The governor limits in salesforce are actually applied from salesforce end, so as to ensure that the orgs do not abuse the use of the platform. With these limits in place, developers are forced to write scalable code, which are efficient and optimized so as to use the provided resources as less as possible. There are few limits which you can directly view under "Company Information" like API requests limit. However, for viewing all the governor limits of your org, you can use the link https://workbench.developerforce.com/login.php. Some of the examples of governor limits are:
 
 <img src="/assets/Governor limits.png">
 
@@ -207,7 +205,7 @@ We can start by creating separate groups for directors and sales reps. Once crea
 
 * http://salesforcefaq.blogspot.com/2013/04/uses-cases-for-sharing-rules-in.html
 
-[[↑] Back to top](#salesforce-develop-questions)
+[[↑] Back to top](#Salesforce-Develop-Questions)
 
 ### What are the default indexed fields in Salesforce?
 While fetching a data through a query, it can be time consuming and might even result in an error when output records are huge in numbers. In order to rectify that issue, we can create indexes for the data, so that while searching for a specified data through query or statement, only the related data is looked upon using the indexes. There are various fields indexed by default by the salesforce, however, if you are looking to get a field to be indexed based on the data it possesses, you can contact salesforce support for that.

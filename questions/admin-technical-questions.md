@@ -29,7 +29,7 @@ Pull requests for suggestions and corrections are welcome!
 * [What is a price book?](#what-is-a-price-book)
 * [When you convert a Lead what does it become?](#when-you-convert-a-lead-what-does-it-become)
 * [What is a case?](#what-is-a-case)
-* [What are the key 3 report types available in Salesforce?](#what-are-the-key-3-report-types-available-in-salesforce)
+* [What are the key 3 report formats available in Salesforce?](#what-are-the-key-3-report-formats-available-in-salesforce)
 * [What are the 3 key differences between Data Loader & Data Import Wizard?](#what-are-the-3-key-differences-between-data-loader--data-import-wizard)
 * [What kind of report can be used in a Salesforce dashboard?](#what-kind-of-report-can-be-used-in-a-salesforce-dashboard)
 
@@ -39,19 +39,8 @@ Pull requests for suggestions and corrections are welcome!
 * [What business problems do approval processes solve?](#what-business-problems-do-approval-processes-solve)
 * [Which options do you have to make a field required?](#which-options-do-you-have-to-make-a-field-required)
 
-## Scenario Based Questions
-* [How do you restrict access to a certain object?](#how-do-you-restrict-access-to-a-certain-object)
-* [How do you give access to a certain object?](#how-do-you-give-access-to-a-certain-object)
-* [I am looking at an Opportunity record. The record does not have a 'Share' button. Why?](#i-am-looking-at-an-opportunity-record-the-record-does-not-have-a-share-button-why)
-
-
 ### How can we find out what licenses the org has and how many licenses are available?
-A license in salesforce enables a user to use certain features of the Salesforce org.  Based on the user assigned license a user can be restricted to using only certain features of the org. To view  all licenses  available for the org, the user has to follow these steps:
-
-- Select Setup from the admin drop down
-- From the left sidebar select Administration/Administer/Administration Setup > Company Profile > Company Information
-OR
-- On the left sidebar, navigate to the search bar and type “company information” and click on “Company Information” as shown in the image
+A license enables a user to use certain features of Salesforce in your org. To view  all licenses  available for the org, the user has to be in Setup bar and in the Quick Find type “Company Information” and click on “Company Information” as shown in the image
 
 <img src="/assets/search bar.png">
 
@@ -90,16 +79,16 @@ Here the user can view as to what all sandbox licenses does an org have and how 
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What useful information can you find on the company information page?
-The company information page provides all the necessary details about the org. For steps on how to reach the company information page, please refer to the first question. Beginning from the org name to the Org Id, this is the page where you will get all the required details of the org. This page also provides various sections which includes User Licenses, Permission Set Licenses, Feature Licenses and Usage-based Entitlements. But, as far as useful information is concerned, let us take a look at some of the key information one can extract from this page:
+Here you can find info on User Licenses, Permission Set Licenses, Feature Licenses and Usage-based Entitlements. Furthermore, here is other critical information that you find on this page:
 
-1) Default Locale of the org
-2) Default Time Zone of the org which will be assigned to all the users, by default, created under this org
-3) Used Data Space (in MBs)
-4) Used File Space (in MBs)
-5) Salesforce.com Organization ID
-6) Organization Edition
-7) API requests made in last 24 hours and the available limit of the allowed requests
-8) Instance, the server name which will appear in the url of the org, when logged in
+1) Default Locale of the org >>>  France vs USA
+2) Default Time Zone of the org which will be assigned to all the users >>> what date shows when a record is created
+3) Used Data Space (in MBs) >>> records (i.e. Account records) you create count toward this
+4) Used File Space (in MBs) >>> attached files (i.e. images) you attach to the records count toward this
+5) Salesforce.com Organization ID >>> critical when you contact Salesforce support 
+6) Organization Edition >>> controls what Salesforce features are available for you. 
+7) API requests made in last 24 hours >>> you will be restricted from making API requests if you are hitting the limit
+8) Instance >>> used to see if Salesforce has any Trust issues for your instance
 
 There are other useful fields which are available to the user, for which you can refer to the following screenshot:
 
@@ -112,7 +101,7 @@ There are other useful fields which are available to the user, for which you can
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is a profile?
-A profile in salesforce is a combination of various settings and permissions which enables the user to perform certain tasks in salesforce. A profile can control various permissions including, but not limited to, Tab Settings, Administrative Permissions, General User Permissions, Standard Object Permissions, Password Policies etc. A profile can have multiple users but a user can have only one profile in the org. There are two types of profiles in the salesforce:
+A profile is a combination of various settings and permissions which enables the user to perform certain tasks in salesforce. For example, they can be: Access to Tabs, Administrative Permissions, General User Permissions, Object Permissions. A profile can have multiple users but a user can have only one profile in the org. There are two types of profiles in the salesforce:
 
 1) Standard Profiles - Standard profiles are the default profiles provided by the salesforce, even for the free license. These profiles cannot be deleted by anyone and they are generally six (6):
  - System Administrator
@@ -130,13 +119,12 @@ A profile in salesforce is a combination of various settings and permissions whi
 
 [[↑] Back to top](#salesforce-admin-questions)
 
-### What is the difference between a profile & permission set?
-A profile is a collection of certain permissions. On the other hand, permission sets  consist of various permissions, however, it is an extension to the already assigned permissions to the user via profile. To outline the difference between the two, we can understand that profile provides some basic permissions to the user, whereas, in order to provide some additional permissions to the user one can define permission set.
+### What are the differences between a profile & permission set?
+A user can have only 1 profile but many permissions ets. Typically, a profile is used to provide basic permissions to the user (i.e. access to certain Apps, Opportunity object) while permission sets are used to expand the permissions to certain users of the profile (i.e. edit or delete Opportunities). A case in point: the sales team uses the Sales profile but you want the sales manager to have more powers so you give him/her a permission set.
 
 One more difference between a profile and permission set is that a profile can be used to grant or revoke a permission to the user, but a permission set can only grant or extend the permission. One cannot remove a permission with the help of a permission set.
 
-Another difference between the two is that only one profile can be assigned to the user but a user can have number of permission sets extending their allowed permissions.
-
+A list of all other differences between a profile & permission set can be found on this helpful StackExchange [post](https://salesforce.stackexchange.com/questions/119220/exclusive-differences-profiles-vs-permission-sets/119297)
 ###### References
 
 * https://www.salesforcetutorial.com/working-profiles-salesforce/
@@ -415,7 +403,7 @@ A case in salesforce can be looked upon as a support ticket. With the help of th
 
 [[↑] Back to top](#salesforce-admin-questions)
 
-### What are the key 3 report types available in Salesforce?
+### What are the key 3 report formats available in Salesforce?
 In salesforce, in order to represent some data on a report, a user can use these key 3 report types, depending on the type of data they want to represent:
 
 1) Tabular - As the name suggests, you will generate a report which will have the data in a tabl format showing all the selected columns and their respective rwos with data. This is the best type of report which can be utilized for the export purpose, when the data will only be used for representation purpose.
@@ -497,12 +485,9 @@ Install the data loader setup and then you can do the import of data with ease.
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What kind of report can be used in a Salesforce dashboard?
-A dashboard in salesforce is like any other dashboard, where you can monitor the changing trends of your products and services based on the reports selected on the dashboard.
-
 A salesforce dashboard supports all types of reports including Tabular, Summary, Matrix and even Joined. However, for creating a tabular report in the dashboard, you will have to put a row limit as all the rows cannot be shown the dashboard. Also, on the dashboard, you can have a maximum of 20 components for which you can analyze the data directly from the dashboard.
 
 To reach to the page for creating a dashboard, follow these steps:
-
 1) Click on "+" icon on the top row of the home page.
 2) Search for "Dashboards"
 
@@ -524,17 +509,17 @@ To reach to the page for creating a dashboard, follow these steps:
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What are the key automation tools in Salesforce? How do you know when to use which?
-In salesforce, there could be various business processes which needs to be done on regular basis. Thus, rather than doing the things manually, you can automate these processes. In order to do the required automation, there are various tools in salesforce:
+Here are the key 4 automation tools in Salesforce:
 
-1) Workflows - Workflows are used when you have to automate processes which have enough if/then statements. This is somewhat like using a process builder, however, the only difference being that with the process builder you will not be able to send Outbound messages.
+1) Workflows - The most basic of the automation tools. It can: 1) create tasks 2) send email alerts 3) update fields 4) send outbound messages 5) create a flow trigger 6) select an existing action. Not visually appealing thou and easy to show to stakeholders.
 
-2) Visual Workflow - This tool is used to automate those processes where we need to take some input from the users and then take action based on the input received. These processes do not initiate automatically, but can be initiated through either process builder or even apex calls. 
+2) Process Builder - Much more visually appealing because you can have a series of if/then statements. All it requires is an entry criteria along with the required action which will take place when the criteria is met. For example: An email alert should be sent to the manager if a customer writes a bad review on a case.
 
-3) Lightning Process Builder - With the help of this tool, a user can automate all those processes which have various if/then statements. All it requires is an entry criteria along with the required action which will take place when the criteria is met. For example: An email alert should be sent to the manager, if any issue is escalated. 
+3) Lightning Flow - Good for complex client needs that cannot be met by worfklows or process builders. Ideal for scenarios where you need to guide a customer through a series of steps, i.e. client going through different screens to request a new credit card.
 
 4) Approval Process - As the name suggests, this tool will automate those processes, where a user has to wait for approval from some other user in order to proceed further with the transaction. For example: When a salesman has to apply discount of 10% on a product, they have to wait for manager's approval. This is something which can be automated using approval processes.
 
-In order to use these automation tools, navigate to Setup > Build > Create > Workflow & Approvals. Here you will get all the required tools for automation.
+In order to use these automation tools, navigate to Setup > Process Automation
 
 <img src="/assets/Automation tools.png">
 
@@ -546,7 +531,7 @@ In order to use these automation tools, navigate to Setup > Build > Create > Wor
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What is a validation rule?
-A validation rule in salesforce is to apply a rule on certain field(s) of the objects to make sure that the data entered for the field is a valid data. For example: A user can create a validation rule on "email id" field where if the user does not use a valid format "abc@xyz.com", the entry will not be accepted and the user will receive an error message or a notification. Validation rule can be applied only on fields of an object.
+A validation rule ensures that data being entered into a field meets company's requirements. For example: A user can create a validation rule on "email id" field where if the user does not use a valid format "abc@xyz.com", the entry will not be accepted and the user will receive an error message. Validation rule can be applied only on fields of an object.
 
 <img src="/assets/Validation rules.png">
 
@@ -560,9 +545,9 @@ Attached is the screenshot of an object "Accounts". Here we are creating a valid
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### What business problems do approval processes solve?
-When a user has to get something approved by another user, this time we use approval process automation tool. For example: An employee can submit application for a leave and it should reach to the concerned manager for approval. This process can be easily automated by approval processes.
+When a user has to get something approved by another user the approval process comes handy. For example: An employee submits their weekly timesheet and submits it to his manager for approval. This process can be easily automated by approval processes.
 
-Doing all this manually will take up much time and will not be easy to keep a track of requests. Thus, with approval processes in place, all the requests can come in queue and an approver take initiate the approvals accordingly.
+Doing all this manually will take up much time and will not be easy. With approval processes all the requests come in to the manager's queue for approval or denial.
 
 ###### References
 
@@ -573,7 +558,7 @@ Doing all this manually will take up much time and will not be easy to keep a tr
 ### Which options do you have to make a field required?
 There are four options available to the user to make a field required:
 
-1) Validation Rule - As discussed previously, validation rule can be used to apply validations on a field. Using validation rules, you can make a field required. However, this does not mark the field as required. It will only generate error when the field is blank.
+1) Validation Rule - Validation rules can be make a field required. Have you tried doing that? You should.
 
 <img src="/assets/Validation rules.png">
 
@@ -585,7 +570,7 @@ There are four options available to the user to make a field required:
 
 <img src="/assets/Page Layout.png">
 
-4) Custom Field Creation - While creating a custom field, a user can mark the field as required.
+4) Field Definition - When creating a custom field, a user can mark the field as required.
 
 <img src="/assets/Creating field.png">
 
@@ -595,8 +580,8 @@ There are four options available to the user to make a field required:
 
 [[↑] Back to top](#salesforce-admin-questions)
 
-### How do you restrict access to a certain object?
-In order to restrict access to a certain object, a user profile can be used for the purpose. Navigate to the profile of the user, edit the profile, navigate to Standard Object Permissions and from there you can uncheck the "Read" access of the object which you want to restrict access to.
+### How do you restrict "Read" access to Opportunity object?
+To restrict access to the Opportunity object remove the "Read" access that has been granted either by the Profile or the Permission Set . If it was the Profile then you need to navigate to Object Permissions and from there you can uncheck the "Read" access.
 
 <img src="/assets/Restrict access.png">
 
@@ -607,7 +592,7 @@ In order to restrict access to a certain object, a user profile can be used for 
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### How do you give access to a certain object?
-In the similar way, in order to give access to a certain object, again a user profile can be used for the purpose. Navigate to the profile of the user, edit the profile, navigate to Standard Object Permissions and from there you can check the "Read" access of the object which you want to grant access to.
+To give access to a certain object you can use either a profile or a permission set.
 
 <img src="/assets/Grant access.png">
 
@@ -618,7 +603,7 @@ In the similar way, in order to give access to a certain object, again a user pr
 [[↑] Back to top](#salesforce-admin-questions)
 
 ### I am looking at an Opportunity record. The record does not have a 'Share' button. Why?
-If you are not able to see a "Share" button at an opportunity record, that means that the sharing model of that record is neither Public Read Only nor Private. The only people who can see a share button on the record are:
+If you dont' seesee the "Share" button on an opportunity record that means that the sharing settings on Opportunity Object are Public Read/Write. If that is the case yet you still don't see the Share button then you must be one of the following:
 
 1) Record Owner
 2) Any user with higher hierarchy role than the record owner

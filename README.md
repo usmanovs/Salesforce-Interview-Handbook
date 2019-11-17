@@ -1,7 +1,7 @@
 <h1 align="center">The Ultimate Salesforce Interview Handbook</h1>
 
 <div align="center">
-    <img src="assets/sflogo.png" alt="Salesforce Interview Handbook" width="400"/>
+    <img src="assets/sflogo.png" alt="Salesforce Interview Handbook" width="300"/>
     <br> 
     <em>Subscribe to my Youtube channel <a href="https://www.youtube.com/user/seyitbek"> Salesforce Chef</a> </em>
   </p>
@@ -13,15 +13,26 @@ Unlike typical software engineer job interviews, Salesforce interviews have no e
 
 While there are some existing resources to help Salesforce admins and developers in preparing for interviews, they are dispersed and incomplete.
 
----
-
-## Looking for Generic Interview Preparation?
+## Looking for Salesforce Interview Preparation?
+Right here in front of you is the **ultimate** Salesforce interview toolkit. The authors have studied all the existing resources online to ensure it has the best questions of all. Furthermore, this resource is getting continually updated by developers.
 
 ## Table of Contents
 
-1. [Admin Questions](/questions/admin-questions.md)
-2. [Developer Questions](/questions/developer-questions.md)
-3. [Developers Knowledge Checklist](/questions/developers-knowledge-checklist.md)
+* **Admins**
+  * [Functional Questions](/questions/admin-technical-questions.md)
+  * [Scenario Questions](/questions/admin-scenario-questions.md)
+  * Knowledge Checklist (soon)
+
+* **Developers**
+  * [Functional Questions](/questions/developer-questions.md)
+  * Scenario Questions (soon)
+  * [Knowledge Checklist](/questions/developers-knowledge-checklist.md)
+  * <a href="https://usmanovs.github.io/Salesforce-Interview-Handbook/website/">Salesforce Exercises</a>
+  
+* **Confessions of Recruiters**
+  * [Current Recruiter](/questions/Alex.md)
+  * [Former Recruiter](/questions/Chris.md)
+  
 
 ### Submitting New Questions
 
