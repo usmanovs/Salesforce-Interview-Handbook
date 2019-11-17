@@ -98,7 +98,7 @@ These governor limits are important so that all the companies and organizations 
 * https://www.janbasktraining.com/blog/handle-governor-limits-salesforce/
 * https://www.salesforcecodecrack.com/2018/09/how-to-check-your-org-governor-limits.html
 
-[[↑] Back to top](#salesforce-developer-questions)
+[[↑] Back to top](#salesforce-develop-questions)
 
 ### What are the Bulkification best practices?
 Bulkification is actually quite different from what it sounds. It is a process of optimizing the queries so that governor limits are not hit and the org is not locked for that duration. As there is a limit for every transaction in salesforce, it will be better if your code can fetch maximum number of records at a time, which can be done through bulkification.
@@ -116,7 +116,7 @@ The best practices of bulkification includes:
 * https://developer.salesforce.com/page/Apex_Code_Best_Practices
 * https://www.forcetalks.com/salesforce-topic/how-to-bulkify-a-code-in-salesforce-apex/
 
-[[↑] Back to top](#salesforce-developer-questions)
+[[↑] Back to top](#salesforce-develop-questions)
 
 ### What is the difference between force.com and salesforce.com?
 Before understanding the difference between them, you need to know that both of them are cloud based services.
@@ -149,7 +149,7 @@ Force.com does not require salesforce.com for its existence. It uses HTML, CSS, 
 * https://www.zarantech.com/blog/difference-between-salesforce-com-and-force-com/
 * https://medium.com/@webuters/what-is-the-difference-between-salesforce-com-and-force-com-de1866449326
 
-[[↑] Back to top](#salesforce-developer-questions)
+[[↑] Back to top](#salesforce-develop-questions)
 
 ### What is Apex Managed Sharing?
 Sharing basically refers to give access of any particular object or record to a user or group of users who do not have access to it. There are various ways of sharing the access and one of those methods is Apex Managed Sharing. This is basically writing an apex code to share the access, rather than using the pre-defined sharing rules by salesforce. These pre-defined rules are limited and thus, apex managed sharing gives you the freedom to create complex sharing modules.
@@ -169,7 +169,7 @@ For creating apex managed sharing for a custom object, first create Apex Sharing
 * https://www.jitendrazaa.com/blog/salesforce/apex-based-sharing-in-salesforce/
 * https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_bulk_sharing_creating_with_apex.htm
 
-[[↑] Back to top](#salesforce-developer-questions)
+[[↑] Back to top](#salesforce-develop-questions)
 
 ### How many ways can we share a record?
 There are 5 ways of sharing a record in the salesforce.
@@ -196,7 +196,7 @@ There are 5 ways of sharing a record in the salesforce.
 
 * https://www.forcetalks.com/salesforce-topic/in-how-many-ways-we-can-share-a-record-in-salesforce-explain-briefly/
 
-[[↑] Back to top](#salesforce-developer-questions)
+[[↑] Back to top](#salesforce-develop-questions)
 
 ### What is a use case for sharing rules?
 There can be various use cases for sharing rules, but lets take an example of Account Sharing Rules. Suppose that an organization has two offices, one in the USA and another one in the Canada. We want the sharing rules to work as such the regional directors of respective regions can access all the accounts created by their respective sales reps.
@@ -207,7 +207,7 @@ We can start by creating separate groups for directors and sales reps. Once crea
 
 * http://salesforcefaq.blogspot.com/2013/04/uses-cases-for-sharing-rules-in.html
 
-[[↑] Back to top](#salesforce-developer-questions)
+[[↑] Back to top](#salesforce-develop-questions)
 
 ### What are the default indexed fields in Salesforce?
 While fetching a data through a query, it can be time consuming and might even result in an error when output records are huge in numbers. In order to rectify that issue, we can create indexes for the data, so that while searching for a specified data through query or statement, only the related data is looked upon using the indexes. There are various fields indexed by default by the salesforce, however, if you are looking to get a field to be indexed based on the data it possesses, you can contact salesforce support for that.
@@ -228,7 +228,7 @@ In order to view what all fields are indexed for any object, navigate to "Fields
 * http://www.salesforcegeneral.com/salesforce-articles/standard-indexed-fields.html
 * https://salesforce.stackexchange.com/questions/218/what-standard-and-custom-fields-are-indexed
 
-[[↑] Back to top](#salesforce-developer-questions)
+[[↑] Back to top](#salesforce-develop-questions)
 
 ### What is the difference betweeen insert() and database.insert()?
 Both insert() and database.insert() are used as DML for inserting records in the object. However, they are a bit different when it comes to their functionality.
@@ -260,7 +260,7 @@ Rollback functionality is not supported with this statement.
 * https://www.forcetalks.com/salesforce-topic/what-is-the-difference-between-insert-and-database-insert-in-salesforce/
 * https://trailhead.salesforce.com/content/learn/modules/apex_database/apex_database_dml?trail_id=force_com_dev_beginner
 
-[[↑] Back to top](#salesforce-developer-questions)
+[[↑] Back to top](#salesforce-develop-questions)
 
 ### What is the difference between SOQL and SOSL?
 Both of these languages are used for fetching certain results from objects, however, the result for both the languages is different.
@@ -299,4 +299,4 @@ DML operations can be performed on the results of SOQL queries.
 * https://developer.salesforce.com/forums/?id=906F00000008lJbIAI
 * https://www.forcetalks.com/salesforce-topic/what-is-the-difference-between-soql-and-sosl-in-salesforce/
 
-[[↑] Back to top](#salesforce-developer-questions)
+[[↑] Back to top](#salesforce-develop-questions)
