@@ -60,7 +60,7 @@ Pull requests for suggestions and corrections are welcome!
 ## Debug & Deployment Tools
 * [What are the different ways of deployment in Salesforce?](#what-are-the-different-ways-of-deployment-in-salesforce)
 * [Why do we need to write test classes? How to identify if a class is a test class?](#why-do-we-need-to-write-test-classes-how-to-identify-if-a-class-is-a-test-class)
-* Why make Profiling Finest?(#why-make-profiling-finest)
+* [Why make Profiling Finest?](#why-make-profiling-finest)
 
 ### What are governor limits? Why are they important?
 The governor limits in salesforce are actually applied from salesforce end, so as to ensure that the orgs do not abuse the use of the platform. With these limits in place, developers are forced to write scalable code, which are efficient and optimized so as to use the provided resources as less as possible. There are few limits which you can directly view under "Company Information" like API requests limit. However, for viewing all the governor limits of your org, you can use the link https://workbench.developerforce.com/login.php. Some of the examples of governor limits are:
