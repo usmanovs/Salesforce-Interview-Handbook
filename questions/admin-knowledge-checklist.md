@@ -1,6 +1,6 @@
-## Developer's Knowledge Checklist
+## Admin's Knowledge Checklist
 
-Checklist of 10 things every Salesforce developer should know:
+Checklist of 10 things every Salesforce admin must know:
 
 ## Table of Contents
 1. Page Layouts & Assignments
