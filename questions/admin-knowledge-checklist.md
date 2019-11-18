@@ -26,15 +26,22 @@ Checklist of 10 things every Salesforce admin must know:
 1. Name 3 key info you find under your Settings?
 1. Can you delete a user?
 
-### Objects
+### Objects 
 1. Name 5 Standard Objects
+1. What is a record?
 1. Why do you create custom objects?
 1. What is a junction object?
 1. What is a Schema Builder?
+1. How can you create a tab for an Object?
+1. How can you create an App?
 
+### Objects
 1. Actions
 1. Global Actions
 1. Buttons
+1. What is a pagel layout?
+1. What is a related list?
+1. What is the difference between data and metadata?
 
 ### Salesforce Mobile
 1. Compact Layout
