@@ -45,6 +45,7 @@ Checklist of 10 concepts every Salesforce admin must know:
 1. What are standard fields?
 1. What is a rollup field?
 1. How do you relate 2 objects?
+1. Name 5 field types.
 2. What is the difference between master:detail & lookup relationship?
 3. Name 3 formula field types?
 [[↑] Back to top](#developers-knowledge-checklist)
