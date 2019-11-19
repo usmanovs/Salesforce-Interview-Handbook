@@ -25,6 +25,7 @@ Checklist of 10 things every Salesforce developer should know:
 
 ### Apex
 1. When do you use Apex?
+1. When not to use Apex
 2. DML: how would you delete all records that have ‘Test’ in their name?
 3. DML: how would you insert 5 Opportunities that are named [Opp 1, Opp 2, etc]
 
@@ -84,3 +85,48 @@ Checklist of 10 things every Salesforce developer should know:
 10. Deliverable
 
 [[↑] Back to top](#developers-knowledge-checklist)
+
+---
+### Advanced OOPL Topics (9 key terms)
+1. Abstract
+1. Encapsulation
+1. Inheritance
+1. Polymorphism
+1. Classes
+1. Objects
+1. Constructors
+1. Overloading
+1. Overriding
+
+## Apex Triggers
+1. What is a Trigger?
+1. Order of Execution of Triggers
+1. Trigger Considerations
+1. Create, View, and Edit Triggers
+1. Context Variables
+
+### Batch Apex
+1. Solution: Batch Apex
+1. How does Batch Apex Work?
+1. Steps for Implementing Batch Apex
+1. The Database.Batchable Interface
+1. How does Batch Apex Overcome Governor Limits?
+1. How do you Execute Batch Apex Programmatically?
+1. What is an Iterable Scope?
+
+## Schedule Apex
+1. Ways to Schedule a Class
+1. Monitor Apex Jobs
+
+## Apex Testing
+1. What is an Apex Test?
+1. Goals of Testing
+1. Test Execution Framework
+1. What is a Unit Test?
+1. Assert Methods
+1. Initiating Tests
+
+## Deployment
+1. Deployment Overview
+1. Deploy Apex
+1. Types of Deployment
