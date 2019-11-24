@@ -61,51 +61,31 @@ Repetition is a key learning aid because it helps transition a skill from the co
 
 ### Day 4 (Governor Limits)
 1. Insert 200 Account records. Insert the Account record one by one. What governor limit did we hit? How do we overcome this error?
-1. How can you generate the error "System.LimitException: Too many SOQL queries"?
+1. Write code such that you generate the error "System.LimitException: Too many SOQL queries"?
 1. What are the top 3 governor limits? Why are they important?
 1. Explain to someone what governor limits are.
+1. Create triggers that:
+   1. populates Description of new Account record to be "Yes I can"
+   1. runs only on Contact updates >>> creates a task for Contact owner with subject "call the contact asap"
 
 [[↑] Back to top](#salesforce-exercises)
 
-### Triggers
-1. Create a trigger that:
-* populates Description of new Account record to be "Yes I can"
-* runs only on Contact updates >>> creates a task for Contact owner with subject "call the contact asap"
-1. 
-
-[[↑] Back to top](#salesforce-exercises)
-
-### Class
+### Day 5 (Apex Class)
 1. Write a class that accepts a string, creates an Account, returns nothing
-2. Write a class that accepts a string, creates an Account, returns ID of the account
-3. Write a class that does not accept a string, creates an Account, returns nothing
-4. Write a class that does not accept a string, creates an Account in a try catch, returns nothing
-5. Write a static method. How do you call it?
-
-[[↑] Back to top](#salesforce-exercises)
-
-### Test Class (unit test)
+1. Write a class that accepts a string, creates an Account, returns ID of the account
+1. Write a class that does not accept a string, creates an Account, returns nothing
+1. Write a class that does not accept a string, creates an Account in a try catch, returns nothing
+1. Write a static method. How do you call it?
 1. Create a test class for each of the above classes
-2. Create a test class for the trigger
+1. Create a test class for the trigger
+1. Explain to someone 3 things that you learned today.
 
-[[↑] Back to top](#salesforce-exercises)
-
-### Debug Log
+### Day 6 (Debug Log)
 1. Insert 1 account record & analyze the debug log. What do you see?
-2. Create a validation rule on account object
+1. Create a validation rule on account object
    1. Insert 1 account & analyze the debug log
 
-[[↑] Back to top](#salesforce-exercises)
-
-### Governor Limits
-1. Write a class that breaks a governor limit
-2. Write a class that breaks another governor limit
-3. Rewrite #1 so that it does not break gov limit
-4. Rewrite #2 so that it does not break gov limit
-
-[[↑] Back to top](#salesforce-exercises)
-
-### Github
+### Day 7 (GitHub)
 1. Create a github account (if you don't have one)
 1. Install Github for Desktop
 1. Star this repository: https://github.com/usmanovs/Salesforce-Interview-Handbook
@@ -121,7 +101,7 @@ Repetition is a key learning aid because it helps transition a skill from the co
 
 [[↑] Back to top](#salesforce-exercises)
 
-### IDE (IntelliJ or VS Code)
+### Day 8 (IntelliJ or VS Code)
 1. Run 3 DML operations 
 2. Run 3 Anonymous Apex operations
 3. Look at Debug Log
@@ -129,11 +109,12 @@ Repetition is a key learning aid because it helps transition a skill from the co
 
 [[↑] Back to top](#salesforce-exercises)
 
-### Googling (critical skill of a developer)
+### Day 9 (Googling- the quintessential skill of a developer)
 1. What is this error? "Unable to lock row"
 2. Can you delete a user?
 3. What is the average salary of a salesforce developer in Austin?
 4. What is the most popular Salesforce blog?
 5. Where can you find the abridged version of Winter 2020 release notes?
 
+[[↑] Back to top](#salesforce-exercises)
 
