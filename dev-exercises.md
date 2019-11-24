@@ -1,16 +1,18 @@
 ## 10 Day Dev Challenge
 
-Repetition is a key learning aid because it helps transition a skill from the conscious to the subconscious. Through repetition, a skill is practiced and rehearsed over time and gradually becomes easier. Below are exercises to help make coding a habit. All the exercises are to be done via Apex.
+Repetition is a key learning aid because it helps transition a skill from the conscious to the subconscious. Through repetition, a skill is practiced and rehearsed over time and gradually becomes easier. Below are exercises to help make coding a habit. All the exercises are to be done via Apex. 
 
 ### Day 1 (Apex: Collections & Inserting Records)
-1. Create a free dev org
+1. Create a free dev org (if don't have one)
 1. *Insert*:
-   1. Account record
-   1. Contact record
-   1. Case record
-   1. Opportunity record
+   1. 1 Account record
+   1. 1 Contact record
+   1. 1 Case record
+   1. 1 Opportunity record
+1. Create a set that can hold Strings
+1. Add these strings to the Set: One, Two, Three
 1. Create a list that can hold Account records
-1. Create a list of 3 Account records
+1. Create a list with 3 new Account records
 1. Insert the list of Account records
 1. *Create a map of*:
    1. Account records
@@ -18,6 +20,8 @@ Repetition is a key learning aid because it helps transition a skill from the co
    1. 5 countries and their capitals (i.e. USA => DC). Name the Map **capitals**. Print out the map in Debug Log.
 1. From the **capitals** map print out the capitals
 1. From the **capitals** map print out the countries
+1. From the **capitals** map print out 1 capital
+1. Create **capitals2** map, which is a copy of **capitals** map
 1. Explain to someone everything we did above.
 
 [[↑] Back to top](#salesforce-exercises)
@@ -40,24 +44,26 @@ Repetition is a key learning aid because it helps transition a skill from the co
 1. Explain to someone everything we did above.
 
 ### Day 3 (For Loops)
-1. Pull 3 Contact records and change first name on all to: One, Two, Three
+1. Pull 3 Contact records and change first name on all to: One, Two, Three. Check in Salesforce that these Contacts exist.
 1. Delete the 3 Contact records whose first names are One, Two, Three
-1. Pull 10 Account records from Salesforce. Print out their Stage in system.debug. Update their stage to Closed Won. Print out their Stage in system.debug.
-1. Do the same as above but in a SOQL for loop
+1. Query 100 Account records and change their description to be "I will become a Salesforce developer"
+1. Query 10 Opportunity records from Salesforce. Print out their Stage in system.debug. Update their stage to Closed Won. Print out their Stage in system.debug.
+1. Do the above in a SOQL for loop
 1. Insert 100 Account records
 1. Delete 100 Account records that you just inserted
 1. Insert 150 Account records whose names are "Account i", where I is an integer
 1. Explain to someone everything we did above.
 
 ### Day 3 (Error Handling)
-1. _Try Catch
+1. _Try Catch_
    1. Insert an Account without defining its name. What do you get?
    1. Do the same as above but with a try/catch
-   1. What should we do in the catch? Populate the name field to be "Seyit" in the catch.
-1. List Methods
+   1. What should we do in the catch? Populate the name of the Account to be "Seyit" in the catch.
+1. _List Methods_
    1. Create a list that holds all your Contacts records in the org. How do you know how many records are in that list?
    1. Create a list with 10 Contact records. Create a list with 5 Contacts records. How do you add the 2 lists to a 3rd List?    1. How many records does your new list have?
    1. SOQL and SOSL statements in Apex can reference Apex code variables and expressions if they’re preceded by a colon (:). Can you demonstrate a simple example of this?
+1. Explain to someone everything we did above.
 
 ### Day 4 (Governor Limits)
 1. Insert 200 Account records. Insert the Account record one by one. What governor limit did we hit? How do we overcome this error?
@@ -115,6 +121,13 @@ Repetition is a key learning aid because it helps transition a skill from the co
 3. What is the average salary of a salesforce developer in Austin?
 4. What is the most popular Salesforce blog?
 5. Where can you find the abridged version of Winter 2020 release notes?
+
+### Day 10 (Engaging the Community)
+1. Register an account at https://success.salesforce.com/
+1. Register at an upcoming Salesforce Admin Group meeting
+1. Register at an upcoming Salesforce Developer Group meeting
+1. Register a Reddit account. Review the last 10 posts in  https://www.reddit.com/r/salesforce/. Search for "Salesforce Developer Interview" posts
+1. Register with https://salesforce.stackexchange.com/. Read the last 5 posts. Upvote those that you find interesting.
 
 [[↑] Back to top](#salesforce-exercises)
 
