@@ -75,8 +75,6 @@ Repetition is a key learning aid because it helps transition a skill from the co
    1. runs only on Contact updates >>> creates a task for Contact owner with subject "call the contact asap"
 1. Create a test class for the trigger
 
-[[↑] Back to top](#salesforce-exercises)
-
 ### Day 5 (Apex Class)
 1. Write a class that accepts a string, creates an Account, returns nothing
 1. Write a class that accepts a string, creates an Account, returns ID of the account
@@ -114,8 +112,6 @@ Repetition is a key learning aid because it helps transition a skill from the co
 1. Checkout your master
 1. Explain to someone what you just did today
 
-[[↑] Back to top](#salesforce-exercises)
-
 ### Day 8 (IntelliJ or VS Code)
 1. Install IntelliJ. Install Illuminated Cloud extension. Do the rest of the tasks in IntelliJ.
 1. Create a Project called "10 Day Dev Challenge".
@@ -125,8 +121,6 @@ Repetition is a key learning aid because it helps transition a skill from the co
 1. Write a class that accepts a string, creates an Account, returns nothing. Commit that class & push it to Github
 1. Change your branch using the Terminal
 1. In the Query Editor query for 5 Account records
-
-[[↑] Back to top](#salesforce-exercises)
 
 ### Day 9 (Googling- the quintessential skill of a developer)
 1. What is this error? "Unable to lock row"
@@ -142,7 +136,8 @@ Repetition is a key learning aid because it helps transition a skill from the co
 1. Register at an upcoming Salesforce Developer Group meeting and make a goal to meet 3 interesting people.
 1. Register a Reddit account. Review the last 10 posts in  https://www.reddit.com/r/salesforce/. Search for "Salesforce Developer Interview" posts
 1. Register with https://salesforce.stackexchange.com/. Read the last 5 posts. Upvote those that you find interesting.
-1. Explain to someone the importance of each of the above tasks.
+1. Explain to someone the importance of each of the above tasks
+1. Pat yourself on the back for completing the last day of the 10 Day Challenge! Now let's start over so that coding is easier next time round.
 
 [[↑] Back to top](#salesforce-exercises)
 
