@@ -1,4 +1,4 @@
-## Salesforce Exercises
+## 10 Day Dev Challenge
 
 Repetition is a key learning aid because it helps transition a skill from the conscious to the subconscious. Through repetition, a skill is practiced and rehearsed over time and gradually becomes easier. Below are exercises to help make coding a habit. All the exercises are to be done via Apex.
 
@@ -39,7 +39,7 @@ Repetition is a key learning aid because it helps transition a skill from the co
    1. Create a list of 3 Opportunity records, store results in a Map and print the map in the debug log. What do you see?
 1. Explain to someone everything we did above.
 
-### Day 3 (For Floops)
+### Day 3 (For Loops)
 1. Pull 3 Contact records and change first name on all to: One, Two, Three
 1. Delete the 3 Contact records whose first names are One, Two, Three
 1. Pull 10 Account records from Salesforce. Print out their Stage in system.debug. Update their stage to Closed Won. Print out their Stage in system.debug.
@@ -106,9 +106,18 @@ Repetition is a key learning aid because it helps transition a skill from the co
 [[↑] Back to top](#salesforce-exercises)
 
 ### Github
-1. Push all your classes & triggers into your github repository
-2. Create a new branch called “Branch2”
-3. Checkout your master
+1. Create a github account (if you don't have one)
+1. Install Github for Desktop
+1. Star this repository: https://github.com/usmanovs/Salesforce-Interview-Handbook
+1. Fork this repository: https://github.com/usmanovs/Salesforce-Interview-Handbook
+1. Make 3 improvements to this file: https://github.com/usmanovs/Salesforce-Interview-Handbook/blob/master/dev-exercises.md
+1. Push your changes to your fork
+1. Make a pull request with your changes and a small summary of what changes you suggest.
+1. Create your own repository (i.e. Seyit 10 Day Dev Challenge)
+1. Push all your classes & triggers to your repository
+1. Create a new branch called “Branch2”
+1. Checkout your master
+1. Explain to someone what you just did today
 
 [[↑] Back to top](#salesforce-exercises)
 
