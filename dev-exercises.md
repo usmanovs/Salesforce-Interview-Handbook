@@ -73,6 +73,7 @@ Repetition is a key learning aid because it helps transition a skill from the co
 1. Create triggers that:
    1. populates Description of new Account record to be "Yes I can"
    1. runs only on Contact updates >>> creates a task for Contact owner with subject "call the contact asap"
+1. Create a test class for the trigger
 
 [[↑] Back to top](#salesforce-exercises)
 
@@ -82,14 +83,22 @@ Repetition is a key learning aid because it helps transition a skill from the co
 1. Write a class that does not accept a string, creates an Account, returns nothing
 1. Write a class that does not accept a string, creates an Account in a try catch, returns nothing
 1. Write a static method. How do you call it?
-1. Create a test class for each of the above classes
-1. Create a test class for the trigger
+1. Create a test class for each of the above classes. Achieve 100% code coverage.
 1. Explain to someone 3 things that you learned today.
 
 ### Day 6 (Debug Log)
 1. Insert 1 account record & analyze the debug log. What do you see?
-1. Create a validation rule on account object
-   1. Insert 1 account & analyze the debug log
+1. Create a validation rule, workflow & process biulder on account object. 
+   1. In Debug Levels, set Apex to Info & Workflow to Info. Insert 1 account & analyze the debug log. What do you notice?
+   1. In Debug Levels, set Apex to Finest & Workflow to Finer. Insert 1 account & analyze the debug log. What do you notice?
+   1. In Debug Levels, set Apex Profiling to Finest. What do you see? What is Apex Profiling used for?
+1. What do you use Debug Logs for?
+1. Open a Debug Log in Developer Console. Go to Debug > Switch Perspective > Analysis. What do you see?
+   1. What is the Execution Tree?
+   1. In "Execution Overview" panel what is the use of "Save Order" window?
+   1. In "Execution Overview" panel what is the use of "Limits" window?
+   1. In "Execution Overview" panel what is the use of "Timeline" window?
+1. Explain to someone 3 things you learned today.   
 
 ### Day 7 (GitHub)
 1. Create a github account (if you don't have one)
@@ -108,26 +117,32 @@ Repetition is a key learning aid because it helps transition a skill from the co
 [[↑] Back to top](#salesforce-exercises)
 
 ### Day 8 (IntelliJ or VS Code)
+1. Install IntelliJ. Install Illuminated Cloud extension. Do the rest of the tasks in IntelliJ.
+1. Create a Project called "10 Day Dev Challenge".
 1. Run 3 DML operations 
-2. Run 3 Anonymous Apex operations
-3. Look at Debug Log
-4. Push changes to a class to github
+1. Run 3 Anonymous Apex operations
+1. Look at the Debug Log
+1. Write a class that accepts a string, creates an Account, returns nothing. Commit that class & push it to Github
+1. Change your branch using the Terminal
+1. In the Query Editor query for 5 Account records
 
 [[↑] Back to top](#salesforce-exercises)
 
 ### Day 9 (Googling- the quintessential skill of a developer)
 1. What is this error? "Unable to lock row"
-2. Can you delete a user?
-3. What is the average salary of a salesforce developer in Austin?
-4. What is the most popular Salesforce blog?
-5. Where can you find the abridged version of Winter 2020 release notes?
+1. Can you delete a user?
+1. What is the average salary of a salesforce developer in Austin?
+1. What is the most popular Salesforce blog?
+1. Where can you find the abridged version of Winter 2020 release notes?
+1. Can you find the latest release notes for Illuminated Cloud?
 
 ### Day 10 (Engaging the Community)
 1. Register an account at https://success.salesforce.com/
-1. Register at an upcoming Salesforce Admin Group meeting
-1. Register at an upcoming Salesforce Developer Group meeting
+1. Register at an upcoming Salesforce Admin Group meeting and make a goal to meet 3 interesting people.
+1. Register at an upcoming Salesforce Developer Group meeting and make a goal to meet 3 interesting people.
 1. Register a Reddit account. Review the last 10 posts in  https://www.reddit.com/r/salesforce/. Search for "Salesforce Developer Interview" posts
 1. Register with https://salesforce.stackexchange.com/. Read the last 5 posts. Upvote those that you find interesting.
+1. Explain to someone the importance of each of the above tasks.
 
 [[↑] Back to top](#salesforce-exercises)
 
