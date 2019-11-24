@@ -4,7 +4,7 @@ Repetition is a key learning aid because it helps transition a skill from the co
 
 ### Day 1 (Apex: Collections & Inserting Records)
 1. Create a free dev org
-1. *Insert:
+1. *Insert*:
    1. Account record
    1. Contact record
    1. Case record
@@ -12,7 +12,7 @@ Repetition is a key learning aid because it helps transition a skill from the co
 1. Create a list that can hold Account records
 1. Create a list of 3 Account records
 1. Insert the list of Account records
-1. *Create a map of:
+1. *Create a map of*:
    1. Account records
    1. 3 Opportunity records
    1. 5 countries and their capitals (i.e. USA => DC). Name the Map **capitals**. Print out the map in Debug Log.
@@ -23,7 +23,7 @@ Repetition is a key learning aid because it helps transition a skill from the co
 [[↑] Back to top](#salesforce-exercises)
 
 ### Day 2 (SOQL intro)
-1. *Query Editor:
+1. *Query Editor*:
    1. Query for 10 Account records. Change the name field on 2 of the records and save the records.
    1. Query for 10 Account records & display them in ascending order of name
    1. Query for 3 Account records and their child Contact records
@@ -31,7 +31,7 @@ Repetition is a key learning aid because it helps transition a skill from the co
    1. What is the average of all Opportunity records in your org?
    1. How many account records do you have in your org?
    1. How many contact records do you have in your org?
-1. *Execute Anonymous:
+1. *Execute Anonymous*:
    1. Query for 10 Account records and print out the record's in the debug log
    1. Print out the sum of all your Opportunity records in system.debug
    1. Query all Opportunity records and print out their Close Date, Stage and Name in the debug log.
