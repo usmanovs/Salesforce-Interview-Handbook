@@ -1,6 +1,6 @@
 ## 10 Day Dev Challenge
 
-Repetition is a key learning aid because it helps transition a skill from the conscious to the subconscious. Through repetition, a skill is practiced and rehearsed over time and gradually becomes easier. Below are exercises to help make coding a habit. All the exercises are to be done via Apex. 
+Repetition is a key learning aid because it helps transition a skill from the conscious to the subconscious. Through repetition, a skill is practiced and rehearsed over time and gradually becomes easier. Below are exercises to help make coding a habit. All the exercises are to be done via code, not clicks. 
 
 ### Day 1 (Apex: Collections & Inserting Records)
 1. Create a free dev org (if don't have one)
