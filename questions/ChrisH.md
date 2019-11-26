@@ -15,7 +15,7 @@ Salesforce Developers definitely have the upper hand in the job market.  They ca
 Primarily Salesforce, but I often get pulled in to other technologies if customers need my help and understands I won’t waste their time. There’s really a shortage in the well-rounded individual that has a great deal of existing technical ability along with soft skills (presentation ability, facilitate/lead a business process/solution discussion, understand requirements and translate them into technical solutions, etc.)
 
  
-Recruiters
+## Recruiters
 > How do you screen candidates?
 
  
@@ -28,49 +28,31 @@ I’m guessing most Salesforce professionals get their time wasted by recruiters
 
 > What is the most common mistake that developers make in their interactions with recruiters?
 
- 
-
 Well, when it comes to LI, if the developer decides to reject the outreach, the recruiter doesn’t easily have a way to ask follow up questions (which they should regarding what a good fit would look like for them). So this is more regarding LI functionality versus anything else.  I would also suggest keep an open dialogue for the future.
 
 > Are there anyways that recruiters could mislead candidates?
 
 Sure, and this happens way too often.  Sometimes recruiters don’t have an active agreement with a company, but want to try and get an agreement in place by using a candidates resume as a pawn.  If recruiters decide on this approach, that should all be disclosed up front with the candidate so they know it might not lead to anything.
 
- 
-
 > How do Salesforce recruiters differ? There are so many of them reaching out to Salesforce developers- how can a developer decide which ones are better to work with?
 
 I’d like to think those recruiters that figure out ways to help in more than the “WIIFM – what’s in it for me” mentality helps shows a different side to the recruiting industry.  As a Salesforce Developer, I encourage to look at a LI recruiters profile to see what they’re doing, any content, articles, engagement, etc.
 
-Candidates
+## Candidates
 
 > How should candidate answer the reason why they are looking for a job?
 
- 
-
 I think the candidate should be honest from the get-go, the reason is, I want to know what is or isn’t working for you.  I don’t care if you were released as long as you have a story to tell.  If it’s more money, that’s fine too.  It’s not for me to have judgement on your why, but I will need a reason as I might get asked by the hiring manager regarding what happened.
-
- 
 
 > Should a candidate tell you that they have a job offer? If they do tell you do have less interest in working with them?
 
- 
-
 They should, as that might help get the hiring manager on the recruiter’s end to move faster. I would have no less interest in working with the individual and maybe even more if allows a better opportunity to be presented to them.
-
- 
 
 > How would you describe the perfect candidate?
 
- 
-
 Problem solver, articulate, giver versus taker mentality, helpful, humble (saying I don’t know is ok)
 
- 
-
 > I heard that best candidates are those that are not seeking jobs. Do you believe that?
-
- 
 
 Not always, good candidates sometime get the raw end of the deal in their current situation (new management, screwed over in a raise/promotion, change of work/life balance, etc.). 
 
@@ -78,11 +60,7 @@ Not always, good candidates sometime get the raw end of the deal in their curren
 
 > If candidates are actively seeking a job is it OK for them to reveal their enthusiasm or is it better to be reserved?
 
- 
-
 I personally like enthusiasm but it has to be authentic, it’s more about enthusiasm as a part of your personality versus just looking for a job.  If you’re not enthusiastic that’s ok too, as long as it’s your real you.
-
- 
 
 > Are there certain types of candidates that you avoid working with?
 
