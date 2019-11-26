@@ -1,4 +1,4 @@
-<img src="https://github.com/usmanovs/Salesforce-Interview-Handbook/blob/master/assets/ChrisH.png" align="right" width="200" height="220">
+<img src="https://github.com/usmanovs/Salesforce-Interview-Handbook/blob/master/assets/ChrisH.jpg" align="right" width="200" height="220">
 
 > Briefly could you tell me about your Salesforce recruiting experience?
 
