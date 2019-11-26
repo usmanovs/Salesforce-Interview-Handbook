@@ -1,3 +1,5 @@
+<img src="https://github.com/usmanovs/Salesforce-Interview-Handbook/blob/master/assets/ChrisH.png" align="right" width="200" height="220">
+
 > Briefly could you tell me about your Salesforce recruiting experience?
 
 Over 3 years of Salesforce recruiting experience now, started out by working with a lot of System Integrators, now primarily working with direct clients on full time and staff augmentation.
