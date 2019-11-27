@@ -1,3 +1,7 @@
+This is an interview with **Christopher Hopper**, a [Salesforce focused recruiter](https://www.linkedin.com/in/thecrmtechrecruiter/). In light text are the questions. And right below it are Chris's answers. Are you ready?
+
+
+
 <img src="https://github.com/usmanovs/Salesforce-Interview-Handbook/blob/master/assets/chrish.jpeg" align="right" width="230" height="220">
 
 > Briefly could you tell me about your Salesforce recruiting experience?
