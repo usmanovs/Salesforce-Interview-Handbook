@@ -1,4 +1,6 @@
-This is an interview with **Christopher Hopper**, a [Salesforce focused recruiter](https://www.linkedin.com/in/thecrmtechrecruiter/). In light text are the questions. And right below it are Chris's answers. Are you ready?
+## Most Famous Salesforce Recruiter
+
+This is an interview with **Christopher Hopper**, a [Salesforce focused recruiter](https://www.linkedin.com/in/thecrmtechrecruiter/). Chris is the most uniqure recruiter because he assumed his current career track after almost 20 years of CRM consulting; therefore, this makes me think that he can better identify good Salesforce talent and help them land their dream job! In light text are the questions. And right below it are Chris's answers. Are you ready?
 
 
 
