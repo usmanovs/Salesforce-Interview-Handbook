@@ -10,7 +10,7 @@ Repetition is a key learning aid because it helps transition a skill from the co
    1. 1 Case record
    1. 1 Opportunity record
 1. Create a set that can hold Strings
-1. Add these strings to the Set: One, Two, Three
+1. Add these strings (One, Two, Three) to the Set
 1. Create a list that can hold Account records
 1. Create a list with 3 new Account records
 1. Insert the list of Account records
@@ -54,7 +54,7 @@ Repetition is a key learning aid because it helps transition a skill from the co
 1. Insert 150 Account records whose names are "Account i", where I is an integer
 1. Explain to someone everything we did above.
 
-### Day 3 (Error Handling)
+### Day 4 (Error Handling)
 1. _Try Catch_
    1. Insert an Account without defining its name. What do you get?
    1. Do the same as above but with a try/catch
@@ -65,7 +65,7 @@ Repetition is a key learning aid because it helps transition a skill from the co
    1. SOQL and SOSL statements in Apex can reference Apex code variables and expressions if they’re preceded by a colon (:). Can you demonstrate a simple example of this?
 1. Explain to someone everything we did above.
 
-### Day 4 (Governor Limits)
+### Day 5 (Governor Limits)
 1. Insert 200 Account records. Insert the Account record one by one. What governor limit did we hit? How do we overcome this error?
 1. Write code such that you generate the error "System.LimitException: Too many SOQL queries"?
 1. What are the top 3 governor limits? Why are they important?
@@ -75,7 +75,7 @@ Repetition is a key learning aid because it helps transition a skill from the co
    1. runs only on Contact updates >>> creates a task for Contact owner with subject "call the contact asap"
 1. Create a test class for the trigger
 
-### Day 5 (Apex Class)
+### Day 6 (Apex Class)
 1. Write a class that accepts a string, creates an Account, returns nothing
 1. Write a class that accepts a string, creates an Account, returns ID of the account
 1. Write a class that does not accept a string, creates an Account, returns nothing
@@ -83,8 +83,6 @@ Repetition is a key learning aid because it helps transition a skill from the co
 1. Write a static method. How do you call it?
 1. Create a test class for each of the above classes. Achieve 100% code coverage.
 1. Explain to someone 3 things that you learned today.
-
-### Day 6 (Debug Log)
 1. Insert 1 account record & analyze the debug log. What do you see?
 1. Create a validation rule, workflow & process biulder on account object. 
    1. In Debug Levels, set Apex to Info & Workflow to Info. Insert 1 account & analyze the debug log. What do you notice?
@@ -137,7 +135,7 @@ Repetition is a key learning aid because it helps transition a skill from the co
 1. Register a Reddit account. Review the last 10 posts in  https://www.reddit.com/r/salesforce/. Search for "Salesforce Developer Interview" posts
 1. Register with https://salesforce.stackexchange.com/. Read the last 5 posts. Upvote those that you find interesting.
 1. Explain to someone the importance of each of the above tasks
-1. Pat yourself on the back for completing the last day of the 10 Day Challenge! Now let's start over so that coding is easier next time round.
+1. Pat yourself on the back for completing the last day of the 10 Day Challenge! Now let's start over so that coding tasks are easier next time round.
 
 [[↑] Back to top](#salesforce-exercises)
 
