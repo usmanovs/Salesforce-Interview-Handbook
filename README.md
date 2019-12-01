@@ -30,7 +30,7 @@ Right here in front of you is the **ultimate** Salesforce interview toolkit. The
   * <a href="https://usmanovs.github.io/Salesforce-Interview-Handbook/website/">Salesforce Exercises</a>
   
 * **Confessions of Recruiters**
-  * [Salesforce Recruiter- Alex](/questions/Alex.md)
+  * [Salesforce Recruiter- Alex Karmazin](/questions/Alex.md)
   * [IT Recruiter- Chris Hopper](/questions/ChrisH.md)
   * [Former IT Recruiter- Chris Johannes](/questions/Chris.md)
   
