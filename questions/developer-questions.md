@@ -30,10 +30,9 @@ Pull requests for suggestions and corrections are welcome!
 ## Data Modelling & Data Management
 * [What Are The Types of SOQL Statements in SalesForce?](#what-are-the-types-of-soql-statements-in-salesforce)
 * [When one wants to pass the collection to the query instead of passing one value which keyword helps us?](#when-one-wants-to-pass-the-collection-to-the-query-instead-of-passing-one-value-which-keyword-helps-us)
-* [What is Future Annotation(@Future)?](#what-is-future-annotation-future)
+* [What is Future Annotation(@Future)?](#what-is-future-annotationfuture)
 * [What is Data Skew?](#what-is-data-skew)
 * [Explain skinny table. What are the considerations for Skinny Table?](#explain-skinny-table-what-are-the-considerations-for-skinny-table)
-* [Which fields are automatically indexed in Salesforce?](#what-are-the-default-indexed-fields-in-Salesforce)
 * [Which fields are excluded from a custom index?](#which-fields-are-excluded-from-a-custom-index)
 
 ## Logic & Process Automation 
@@ -274,5 +273,196 @@ DML operations can be performed on the results of SOQL queries.
 
 * https://developer.salesforce.com/forums/?id=906F00000008lJbIAI
 * https://www.forcetalks.com/salesforce-topic/what-is-the-difference-between-soql-and-sosl-in-salesforce/
+
+[[↑] Back to top](#salesforce-develop-questions)
+
+### What Are The Types of SOQL Statements in SalesForce?
+There are two types of SOQL Statements in salesforce:
+
+1) Static SOQL - This statement can be used in the Apex method using square brackets []. In this statement you can specify a criteria for the query where you can return results based on some specific input which can be either user input or hard coded. For example: List<Account> lstAccount = [select id,name form account where name ='test'];
+
+2) Dynamic SOQL - In order to create a dynamic SOQL statement, you need to use Database.Query() method. This statement can be used when you want the query to return results based on the results achieved during the runtime. For example: List<sObject> L = Database.query(string);
+
+###### References
+
+* https://www.forcetalks.com/salesforce-topic/what-are-the-types-of-soql-statements-in-salesforce/
+* https://www.biswajeetsamal.com/blog/tag/sosl/
+
+[[↑] Back to top](#salesforce-develop-questions)
+
+### When one wants to pass the collection to the query instead of passing one value which keyword helps us?
+IN keyword can be used to pass the collection to the query instead of passing one value. For example: SELECT Firstname, Lastname FROM user WHERE firstname IN ('test1','test2')
+
+You can also use a string of data in IN statement using ":string" in place of the values.
+
+###### References
+
+* https://developer.salesforce.com/forums/?id=906F00000008ytAIAQ
+
+[[↑] Back to top](#salesforce-develop-questions)
+
+### What is Future Annotation(@Future)?
+The future annotation denoted by "@future" is a method which helps the user to run certain processes asynchronously but in the future when the resources are available. This way one can avoid other users to be blocked for certain operations because of the unavailability of the resources. One can also keep governor limits in check with the use of this method.
+
+An example of future method usage is:
+
+global class YourClassName {
+ 
+  @future
+ 
+  public static void yourFutureMethodName(List<Id> recordIds) {
+ 
+    List<Account> acc = [Select Id, Name from Account Where Id IN :recordIds];
+ 
+    // process account records to do awesome stuff
+ 
+  }
+ 
+}
+
+###### References
+
+* https://www.salesforcetutorial.com/future-method-salesforce-future/
+* https://webkul.com/blog/future-annotation-salesforce/
+
+[[↑] Back to top](#salesforce-develop-questions)
+
+### What is Data Skew?
+When a particular parent object has more child records (typically more than 10,000 records) or if a single user is an owner of more than 10,000 records, this situation is termed as data skew. This situation can lead to performance problems when any action is been performed on that parent object or any updation is done by the user on the owned records. Based on the objects where data skew is happening, it can be of three types:
+
+1) Account data skew - This happens when a particular parent object has too many child objects.
+
+2) Ownership skew - This happens when a single user owns a large number of records of the same object.
+
+3) Lookup Skew - This happens when a lookup is created on an object which has a great amount of records associated with it.
+
+###### References
+
+* https://sfdcbeginner.com/what-is-data-skew-in-salesforce.html
+* https://www.forcetalks.com/salesforce-topic/what-is-data-skew-in-salesforce/
+
+[[↑] Back to top](#salesforce-develop-questions)
+
+### Explain skinny table. What are the considerations for Skinny Table?
+Skinny table goes by its name. This is a shredded form of your object which is maintained in a table form only with the frequently used fields. Skinny tables are created from a source table and are in sync to it, so that any changes made to the source table reflect the changes in skinny table too. However, this cannot be created by the user and salesforce customer support needs to be contacted for creating a skinny table. Below image shows as to how a skinny table is formed and can be a performance booster for certain operations.
+
+<img src="/assets/Skinny table.png">
+
+Considerations for Skinny Table:
+
+1) Skinny table should have fields from the same object. An object's skinny table cannot have fields from other object.
+2) Skinny table can have a maximum of 100 fields from the object.
+3) Skinny tables cannot include soft-deleted records.
+4) Skinny tables are not created automatically in any sandbox environment, except Full Sandbox. It can only be created by with the help of Salesforce support.
+
+###### References
+
+* https://developer.salesforce.com/docs/atlas.en-us.salesforce_large_data_volumes_bp.meta/salesforce_large_data_volumes_bp/ldv_deployments_infrastructure_skinny_tables.htm
+* https://sfdcbeginner.com/what-are-skinny-tables-in-salesforce.html
+* https://www.jitendrazaa.com/blog/salesforce/large-data-volumes-ldv-in-salesforce/#more-3855
+
+[[↑] Back to top](#salesforce-develop-questions)
+
+### Which fields are excluded from a custom index?
+A custom index can be created for both standard and custom fields, however, following field types are restricted from being created as custom index:
+
+- Text fields (long or rich)
+- Multi select picklist fields
+- Non-deterministic formula fields like Today()
+- Currency fields
+- Excypted text fields 
+
+###### References
+
+* https://help.salesforce.com/articleView?id=000325247&language=en_US%C2%A0&type=1&mode=1
+* https://salesforce.stackexchange.com/questions/218/what-standard-and-custom-fields-are-indexed
+* https://www.jitendrazaa.com/blog/salesforce/large-data-volumes-ldv-in-salesforce/#more-3855
+
+[[↑] Back to top](#salesforce-develop-questions)
+
+### What are the types of custom settings in Salesforce? What is the advantage of using custom settings?
+Custom settings in salesforce is more like creating a custom object, which can be used to create a set of custom data. Depending on the type of custom settings, the data can be accessed organization wide or can be accessed by limited users. Below are the two types of custom settings available in the salesforce:
+
+1) List Custom Settings - This custom setting is used when a reusable set of data is required organization wide. You can create a list of statis data in this custom setting which will not be limited to any profile or user. Example of list custom setting can be a list of abbreviations of country names.
+
+2) Hierarchy Custom Settings - As the name suggests, this custom setting uses an already existing hierarchical pattern in order to personalize some data for certain users or profiles. Hierarchy works in the order of organization, profile and user, where the later overrides the settings of the previous.
+
+In order to create a custom setting, navigate to Setup > Build > Custom Settings and create a new custom setting for your org.
+
+<img src="/assets/Custom settings.png">
+
+The main advantage of using custom settings is that it is available in application cache. This means that you do not have to do any SOQL query everytime for the data which will keep the governor limits in check and is also cost-effective. This plays a crucial rule in the multitenant environment, utilizing the available resources carefully.
+
+###### References
+
+* https://www.janbasktraining.com/blog/custom-setting-salesforce/
+* https://help.salesforce.com/articleView?id=cs_define.htm&type=5
+* https://www.forcetalks.com/salesforce-topic/what-are-the-types-of-custom-settings-in-salesforce/
+
+[[↑] Back to top](#salesforce-develop-questions)
+
+### What are custom labels in Salesforce? What is the character limit of custom label?
+Custom labels basically facilitates the user in creating text labels which can be used in multilingual applications. These labels can be translated into any Salesforce supported language and this helps in creating application which will show texts based on user's native language. In order to create custom label for the org, navigate to Setup > Build > Create > Custom Labels and click on "New Custom Label".
+
+<img src="/assets/Custom label.png">
+
+A user can create a maximum of 5,000 custom labels in an org and they can be a maximum of 1,000 characters long. These custom labels can be accessed through apex classes, lightning components or visualforce pages.
+
+###### References
+
+* https://help.salesforce.com/articleView?id=cl_about.htm&type=5
+* https://webkul.com/blog/how-to-use-custom-labels-in-salesforce/
+
+[[↑] Back to top](#salesforce-develop-questions)
+
+### What are deterministic formula fields in Salesforce?
+Deterministic formula fields are those formula fields whose value remains static and are not dependent on any other field for the output value. Example of deterministic formula field can be a hyperlink field where we can hardcode a link to be accesses and this will never change unless done by a user manually.
+
+###### References
+
+* https://www.edureka.co/blog/interview-questions/salesforce-interview-questions/
+* https://developer.salesforce.com/forums/?id=9060G000000I45EQAS
+
+[[↑] Back to top](#salesforce-develop-questions)
+
+### What are the different ways of deployment in Salesforce?
+There are various tools available for the purpose of deployment in salesforce. However, there are three major ways or tools which are usually used by developers for deployment in the salesforce:
+
+1) Change Sets - This is considered to be the best way of doing the deployment as it comes with the feature of point and click. This means that you only have to point to the organization on which you need to deploy the changes and click on Deploy. In order to do deployment using change sets, the user have to first create deployment connection between the two organizations after which deployment can be done swiftly. Deployment using change set can be either outbound change set or inbound change set, where outbound change set refers to sending the changes from your organization to another organization and inbound change set refers to sending changes from another organization to your organization.
+
+In order to do deployment using change sets, navigate to Setup > App Setup > Deploy and select the type of deployment.
+
+<img src="/assets/Change sets.png">
+
+2) Force.com IDE - Force.com IDE is an Eclipse plugin using which you can do the deployment on any Salesforce organization. Unlike change sets, this does not require any deployment connection for doing the deployment. This is another commonly used way of deployment, however, it is not recommended to use if there are more than 100 test classes to be deployed. Eclipse does not response with so many test classes and often end up being hang.
+
+3) Force.com Migration Tool ANT - ANT is a migration tool which provides the user with command line functionality for doing the deployment. This also does not require any prior deployment connection. This is most recommended way of deployment and this tool works well with Jenkins for deployment purpose. This is the best tool if your company is more into CI/CD. 
+
+###### References
+
+* https://www.brcline.com/blog/salesforce-deployment-methods
+* https://sfdcbeginner.com/salesforce-deployment-methods.html
+
+[[↑] Back to top](#salesforce-develop-questions)
+
+### Why do we need to write test classes? How to identify if a class is a test class?
+Test classes are basically written to perform unit testing by the developer. When a piece of code is written, it is quite essential that it should provide the required output and this can be tested using a test class. This also provides Code Coverage, which should be at least 75% in order for the code to be deployed to the production org. Test classes contain test methods and test data using which a developer can perform unit testing so as to find the bug and fix it before it reaches another level of software development.
+
+A test class is often annotated by @isTest to make it appear different and identifiable.
+
+###### References
+
+* https://www.forcetalks.com/salesforce-topic/why-do-we-need-to-write-test-classes-and-how-to-identify-if-a-class-is-a-test-class-in-salesforce/
+* https://www.janbasktraining.com/blog/test-classes-apex-salesforce/
+
+[[↑] Back to top](#salesforce-develop-questions)
+
+### Why make Profiling Finest?
+Profiling is basically done to measure the performance of the application and to check for all the bottlenecks which are creating performance issues. In order to do a detailed profiling, debug logs can be created with the debug level being set to "Finest". Setting the debug level to "Finest" will bring you even the minute detail so that you can know as to which area of the application is creating performance issues. This helps in resolving the issues and creating a swift application.
+
+###### References
+
+* https://developer.salesforce.com/blogs/engineering/2013/05/force-com-performance-profiling-using-the-developer-console.html
+* https://developer.salesforce.com/blogs/2014/05/a-guide-to-application-performance-profiling-in-force-com.html
 
 [[↑] Back to top](#salesforce-develop-questions)
