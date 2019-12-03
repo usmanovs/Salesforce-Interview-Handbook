@@ -30,7 +30,7 @@ Pull requests for suggestions and corrections are welcome!
 ## Data Modelling & Data Management
 * [What Are The Types of SOQL Statements in SalesForce?](#what-are-the-types-of-soql-statements-in-salesforce)
 * [When one wants to pass the collection to the query instead of passing one value which keyword helps us?](#when-one-wants-to-pass-the-collection-to-the-query-instead-of-passing-one-value-which-keyword-helps-us)
-* [What is Future Annotation(@Future)?](#what-is-future-annotation-future)
+* [What is Future Annotation(@Future)?](#what-is-future-annotationfuture)
 * [What is Data Skew?](#what-is-data-skew)
 * [Explain skinny table. What are the considerations for Skinny Table?](#explain-skinny-table-what-are-the-considerations-for-skinny-table)
 * [Which fields are excluded from a custom index?](#which-fields-are-excluded-from-a-custom-index)
