@@ -80,7 +80,19 @@ That can be a tough one as it depends.  I suggest the recruiter, if the candidat
 
 > Is there a common advice you give candidates but they don’t listen?
 
-I’m always advocating for candidates to showcase their work, they have to be different in a competitive job market, and showcasing your skills and expertise does that.  I would like to see it happen more often. 
+I’m always advocating for candidates to showcase their work, they have to be different in a competitive job market, and showcasing your skills and expertise does that.  I would like to see it happen more often. Here are articles where I elaborate on this:
+1. [Salesforce Career Seekers: Bring Your Work...ADRIAN!!!] (https://www.linkedin.com/pulse/salesforce-career-seekers-bring-your-workadrian-christopher-a-hopper)
+1. [Salesforce Career Seekers - Showcase!] (https://www.linkedin.com/pulse/salesforce-career-seekers-showcase-christopher-a-hopper/)
+
+The key ideas I wanted to convey are:
+1. Create a blog/vlog or a custom Salesforce job tracker app around your career search journey, tracking the companies, the contacts, the job postings, how you applied, your follow up activities, interviews that were lined up, how you prepped for those interviews, and the associated outcomes.
+
+1. Read, analyze, build proof of concepts, and provide your opinion on the quarterly Salesforce release notes that you liked/disliked.
+
+1. Review the Salesforce Community pages where questions are asked and identify common issues that people are experiencing and use those to build a possible solution around.
+
+1. Create an app that solutions a current problem you’re having at your office, your home, etc.
+
 
 > What would you recommend to a candidate who is working with you to land that dream job?
 
