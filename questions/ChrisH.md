@@ -32,7 +32,7 @@ It depends on what type of role we’re sourcing, but there’s some fundamental
 
 > Looking at the Salesforce reddit community many Salesforce professionals, particularly developers, abhor working with recruiters. Why is there such a trust and communication gap?
 
-I’m guessing most Salesforce professionals get their time wasted by recruiters who don’t know how to find the right match between skill set and position.  Every recruiter should come into the conversation very humility and honesty if they don’t know what they’re looking for and explain the situation to the candidate.
+I’m guessing most Salesforce professionals get their time wasted by recruiters who don’t know how to find the right match between skill set and position.  Every recruiter should come into the conversation with humility and honesty if they don’t know what they’re looking for and explain the situation to the candidate.
 
 > What is the most common mistake that developers make in their interactions with recruiters?
 
