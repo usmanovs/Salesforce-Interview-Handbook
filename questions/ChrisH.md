@@ -36,7 +36,7 @@ I’m guessing most Salesforce professionals get their time wasted by recruiters
 
 > What is the most common mistake that developers make in their interactions with recruiters?
 
-Well, when it comes to LI, if the developer decides to reject the outreach, the recruiter doesn’t easily have a way to ask follow up questions (which they should regarding what a good fit would look like for them). So this is more regarding LI functionality versus anything else.  I would also suggest keep an open dialogue for the future.
+Well, when it comes to LinkedIn, if the developer decides to reject the outreach, the recruiter doesn’t easily have a way to ask follow up questions (which they should regarding what a good fit would look like for them). So this is more regarding LinkedIn functionality versus anything else.  I would also suggest keep an open dialogue for the future.
 
 > Are there anyways that recruiters could mislead candidates?
 
