@@ -10,7 +10,7 @@ This is an interview with **Christopher Hopper**, a [Salesforce focused recruite
 
 Over 3 years of Salesforce recruiting experience now, started out by working with a lot of System Integrators, now primarily working with direct clients on full time and staff augmentation.
  
-> I think you must be the only Salesforce Consultant who is now a Salesforce Recruiter. A lot of the Salesforce recruiters I met are fresh college graduates who move on to a different career after 2-3 years. What prompted you to become a recruiter after a nearly 20 years of illustrious CRM consulting career?
+> I think you must be the only Salesforce Consultant who is now a Salesforce Recruiter. A lot of the Salesforce recruiters I met are fresh college graduates who move on to a different career after 2-3 years. What prompted you to become a recruiter after 20 years of CRM consulting?
 
 Great question.  A few things prompted the career change, I was trying to find a way to take my 20 years of direct implementation and hiring manager experience and provide value to others who might need help. I was also starting to get burned out in delivery so was ready to do something different.  Fortunately, I had a personal contact who did recruiting and took me under his wing to show me the ropes.  From there, I continue to think of ways to help others succeed in their careers.
 
