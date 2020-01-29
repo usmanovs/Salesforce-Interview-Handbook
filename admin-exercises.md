@@ -30,4 +30,7 @@
 
 # App Exchange
 1. What is your favourite AppExchangea app? Why?
-1. Can you still Rollup Helper in your org?
+1. Can you install Rollup Helper in your org?
+
+## Good exercises from the web:
+1. https://automationchampion.com/boost-your-thinking-skills-tackle-one-use-case-at-a-time/
