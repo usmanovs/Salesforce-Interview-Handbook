@@ -12,7 +12,25 @@
 
 ## INTERESTING
 1. Salesforce likes people to use static methods because it is 1 less line of code. Makes code simpler.
+1. Why was it historically called "debugging"? 
+1. Prepare a document outlining steps to debugging an error.
+1. Developer Consoler is better for debugging.
+1. syntax error vs runtime error
+1. i liked the try catch error. x = 22, y = 0. try x/y. use specific exceptions in beginning and end with generic exception
 1. 
+
+## Review
+1. How many records can a trigger process at one time?
+1. What does it mean to "bulkify" a trigger?
+1. What happens if a governor limit is exceeded?
+1. 
+
+try {
+  insert Accounts;
+  }
+catch (System.DMLException dmlx){
+  system.debug('there was DML Exception '+ dmlx.getMessage());
+}
 
 
 Good Reading:
