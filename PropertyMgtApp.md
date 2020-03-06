@@ -22,15 +22,19 @@ Buildium recently added new features such as a Resident Center website & mobile 
     1. see who their roommates are
 
 1. I would like automated:
+    1. invoices generated & emailed to my tenants each month.
     1. email reminders sent to my tenants that their rent is due in 2 days
     1. if a new tenant has paid deposit a $1000 'Cash Receipt' record is created
-    1. population of city if I know their zip code
+    1. populate of city if I know their zip code
     
 1. If the zip code for a new tenant is more than 5 digits I want to use just the first 5 numbers, the rest is cut. I would like to send an email to the sales manager that this has happened.
 1. For each property I want to keep track of the fixed assets that I bought (i.e. fridge, oven). For each asset I create I need to track what their lifetime use is. Based on this value I need to create amortization entries. The total value of the asset needs to be recognized over this entire period.
+1. I want to track monthly utilities expenses for each property. I want to see the average utility bill for a residence for the past 3 months.
+1. I want to know if an Invoice has been paid off.
 1. 
 
 ## Medium 5 Requirements
-
+1. I would like to prevent the deletion of an Opportunity if it is more then 10,000 value 
+1. 
 
 ## Advanced 5 Requirements
