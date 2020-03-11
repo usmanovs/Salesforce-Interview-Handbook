@@ -35,7 +35,8 @@ catch (System.DMLException dmlx){
 </code></pre>
 
 
-1. Create the below trigger & insert a case record
+1. Create the below trigger & insert a case record. What happens?
+1.1. I want the code to stop running after 5 loops. How can you do it?
 
 <pre><code>List<Case> childCases = new List<Case>();
 for (Case parent : Trigger.new){
