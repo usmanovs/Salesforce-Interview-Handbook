@@ -23,14 +23,28 @@
 1. How many records can a trigger process at one time?
 1. What does it mean to "bulkify" a trigger?
 1. What happens if a governor limit is exceeded?
-1. 
+1. What happens if you run the below code:
 
+<pre><code>Account act = new Account ();
 try {
   insert Accounts;
   }
 catch (System.DMLException dmlx){
   system.debug('there was DML Exception '+ dmlx.getMessage());
 }
+</code></pre>
+
+
+1. Create the below trigger & insert a case record
+
+<pre><code>List<Case> childCases = new List<Case>();
+for (Case parent : Trigger.new){
+      Case child = new Case(ParentId = parent.Id, Subject = parent.Subject);
+     childCases.add(child);}
+insert childCases; 
+</code></pre>
+
+
 
 
 Good Reading:
