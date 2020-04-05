@@ -23,7 +23,7 @@ Repetition is a key learning aid because it helps transition a skill from the co
 1. From the **capitals** map print out 1 capital
 1. Create **capitals2** map, which is a copy of **capitals** map
 1. Explain to someone everything we did above.
-1. Say Whaaat? 
+1. Check Check
 
 [[↑] Back to top](#salesforce-exercises)
 
