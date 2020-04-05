@@ -1,5 +1,5 @@
 # Basics
-1. Attend the Best Salesforce Bootcamp run by Seyitbek!
+1. Attend the Best Salesforce Bootcamp run by Seyitbek!!
 1. Create 5 objects
 1. Create 3 profiles
 1. Create 5 permission sets
