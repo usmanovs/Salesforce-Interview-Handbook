@@ -10,8 +10,11 @@
     <preferredVcsName>ApexVCS</preferredVcsName>
   </component>
   <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/dev/typicalHRQuestions.md" />
-    <file url="file://$PROJECT_DIR$/dev/typicalRecruitingMgrQuestions.md" />
+    <file url="file://$PROJECT_DIR$/dev/HRQuestions.md" />
+    <file url="file://$PROJECT_DIR$/dev/knowledge-checklist.md" />
+    <file url="file://$PROJECT_DIR$/dev/RecruitingMgrQuestions.md" />
+    <file url="file://$PROJECT_DIR$/dev/scenario-questions.md" />
+    <file url="file://$PROJECT_DIR$/dev/technical-questions.md" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
