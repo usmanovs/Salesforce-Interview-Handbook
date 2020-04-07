@@ -1,4 +1,4 @@
-# Salesforce Develop Questions
+# Salesforce Developer Questions
 
 Pull requests for suggestions and corrections are welcome!
 
