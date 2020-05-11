@@ -231,13 +231,6 @@ The only field for which you cannot set any value is "systemModStamp".
 <b>Master:Detail relationship</b>
 </td>
 </tr>
-<tr><td>This relationship can be created between any two objects, i.e., standard and custom objects.</td><td>
-This relationship can also be created between standard and custom objects, but standard object should be the master.
-</td></tr>
-<tr><td>
-</td><td>
-This is a parent child relationship where master is parent and detail is child.
-</td></tr>
 <tr><td>
 The related two objects does not require any parent object.
 </td><td>
