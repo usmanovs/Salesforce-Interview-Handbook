@@ -235,7 +235,6 @@ The only field for which you cannot set any value is "systemModStamp".
 This relationship can also be created between standard and custom objects, but standard object should be the master.
 </td></tr>
 <tr><td>
-This is not a parent-child relationship.
 </td><td>
 This is a parent child relationship where master is parent and detail is child.
 </td></tr>
