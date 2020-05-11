@@ -122,8 +122,6 @@ A profile is a combination of various settings and permissions which enables the
 ### What are the differences between a profile & permission set?
 A user can have only 1 profile but many permissions ets. Typically, a profile is used to provide basic permissions to the user (i.e. access to certain Apps, Opportunity object) while permission sets are used to expand the permissions to certain users of the profile (i.e. edit or delete Opportunities). A case in point: the sales team uses the Sales profile but you want the sales manager to have more powers so you give him/her a permission set.
 
-One more difference between a profile and permission set is that a profile can be used to grant or revoke a permission to the user, but a permission set can only grant or extend the permission. One cannot remove a permission with the help of a permission set.
-
 A list of all other differences between a profile & permission set can be found on this helpful StackExchange [post](https://salesforce.stackexchange.com/questions/119220/exclusive-differences-profiles-vs-permission-sets/119297)
 ###### References
 
