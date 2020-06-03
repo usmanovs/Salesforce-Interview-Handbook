@@ -27,7 +27,7 @@ Right here in front of you is the **ultimate** Salesforce interview toolkit. The
   * [Functional Questions](/dev/developer-questions.md)
   * [Scenario Questions](/dev/scenario-questions.md)
   * [Knowledge Checklist](/dev/knowledge-checklist.md)
-  * <a href="https://github.com/usmanovs/Salesforce-Interview-Handbook/blob/master/dev-exercises.md">Salesforce Exercises</a>
+  * [Salesforce Exercises](/master/exercises)
   
 * **Confessions of Recruiters**
   * [Current IT Recruiter- Alex Karmazin](/questions/Alex.md)
