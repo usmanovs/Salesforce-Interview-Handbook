@@ -20,12 +20,12 @@ Right here in front of you is the **ultimate** Salesforce interview toolkit. The
 
 * **Admins**
   * [Functional Questions](/admin/admin-technical-questions.md)
-  * [Scenario Questions](/questions/admin-scenario-questions.md)
-  * [Knowledge Checklist](/questions/admin-knowledge-checklist.md)
+  * [Scenario Questions](/admin/admin-scenario-questions.md)
+  * [Knowledge Checklist](/admin/admin-knowledge-checklist.md)
 
 * **Developers**
-  * [Functional Questions](/questions/developer-questions.md)
-  * Scenario Questions (soon)
+  * [Functional Questions](/dev/developer-questions.md)
+  * Scenario Questions (/dev/scenario-questions.md)
   * [Knowledge Checklist](/dev/knowledge-checklist.md)
   * <a href="https://github.com/usmanovs/Salesforce-Interview-Handbook/blob/master/dev-exercises.md">Salesforce Exercises</a>
   
