@@ -17,7 +17,7 @@
 1. Import 100 Account records using Data Loader
 1. Import 100 Contact records using Data Loader
 1. Import 100 Opportunity records using Data Loader
-1. Delet all the records in your org using Data Loader
+1. Delete all the records in your org using Data Loader
 
 # Workflow/Process Automation:
 1. Create a workflow that updates description of any new Account record to "Workflow"
