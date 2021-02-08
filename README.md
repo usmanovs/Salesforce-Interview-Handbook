@@ -7,16 +7,16 @@
   </p>
 </div>
 
-## What is this?
+## What is this?!
 
 Unlike typical software engineer job interviews, Salesforce interviews have no emphasis on algorithms and have more questions on Salesforce fundamental knowledge and expertise about the domain — i.e. Apex, Process Builders, Lightning Web Components.
 
 While there are some existing resources to help Salesforce admins and developers in preparing for interviews, they are dispersed and incomplete.
 
-## Looking for Salesforce Interview Preparation?
+## Looking for Salesforce Interview Preparation?!
 Right here in front of you is the **ultimate** Salesforce interview toolkit. The authors have studied all the existing resources online to ensure it has the best questions of all. Furthermore, this resource is getting continually updated by developers.
 
-## Table of Contents
+## Table of Contents!
 
 * **Admins**
   * [Functional Questions](/admin/admin-technical-questions.md)
@@ -35,11 +35,11 @@ Right here in front of you is the **ultimate** Salesforce interview toolkit. The
   * [Former IT Recruiter- Chris Johannes](/interviews/Chris.md)
   
 
-### Submitting New Questions
+### Submitting New Questions!
 
 These questions have been curated by a team of salesforce professionals. If you are keen to add a question/answer, submit an issue/pull request to the [original questions repository](https://github.com/usmanovs/sf-interview-handbook).
 
-### Answering Questions
+### Answering Questions!
 
 You are welcome to make improvements to existing answers and answer unanswered questions. Whenever possible, add a list of references and supplementary material. This would be helpful for readers who would like to go further in-depth into the answer.
 
@@ -50,7 +50,7 @@ The project is currently maintained by:
 
 
 
-### Supporting
+### Supporting!
 
 Thousands of hours of hard work have gone into this project. Your support will be much appreciated and give us strength to keep improving it!
 
