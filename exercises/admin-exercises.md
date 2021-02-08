@@ -29,7 +29,7 @@
 1. Can you create a report that shows you how many Opportunities you have in different stages of the sales process?
 
 # App Exchange
-1. What is your favourite AppExchangea app? Why?
+1. What is your favourite AppExchange app? Why?
 1. Can you install Rollup Helper in your org?
 
 ## Good exercises from the web:
