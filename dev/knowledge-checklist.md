@@ -25,6 +25,7 @@ Checklist of 10 things every Salesforce developer should know:
 
 ### Apex
 1. When do you use Apex?
+1. Advantages and disadvantages of Apex?
 1. When not to use Apex
 2. DML: how would you delete all records that have ‘Test’ in their name?
 3. DML: how would you insert 5 Opportunities that are named [Opp 1, Opp 2, etc]
