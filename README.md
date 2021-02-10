@@ -9,9 +9,11 @@
 
 ## What is this?
 
+
 Unlike typical software engineer job interviews, Salesforce interviews have no emphasis on algorithms and have more questions on 
 ******************BRIEF INTERMISSION DOO DOO DOO**********************************************************************
 Salesforce fundamental knowledge and expertise about the domain — i.e. Apex, Process Builders, Lightning Web Components.
+Unlike typical software engineer job interviews, Salesforce interviews have no emphasis on algorithms and have more questions on Salesforce fundamental knowledge and expertise about the domain — i.e. Apex, Process Builders, Lightning Web Components. Some silly change.
 
 While there are some existing resources to help Salesforce admins and developers in preparing for interviews, they are dispersed and incomplete.
 
