@@ -17,7 +17,7 @@
 1. Import 100 Account records using Data Loader
 1. Import 100 Contact records using Data Loader
 1. Import 100 Opportunity records using Data Loader
-1. Delet all the records in your org using Data Loader
+1. Delete all the records in your org using Data Loader
 
 # Workflow/Process Automation:
 1. Create a workflow that updates description of any new Account record to "Workflow"
@@ -29,7 +29,7 @@
 1. Can you create a report that shows you how many Opportunities you have in different stages of the sales process?
 
 # App Exchange
-1. What is your favourite AppExchangea app? Why?
+1. What is your favourite AppExchange app? Why?
 1. Can you install Rollup Helper in your org?
 
 ## Good exercises from the web:

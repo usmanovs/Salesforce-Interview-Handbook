@@ -12,6 +12,7 @@ Pull requests for suggestions and corrections are welcome!
 * [What is the difference between a profile & permission set?](#what-is-the-difference-between-a-profile--permission-set)
 * [What is the difference between role & profile?](#what-is-the-difference-between-role--profile)
 * [What are sharing settings?](#what-are-sharing-settings)
+* [Explain manual sharing?](#explain-manual-sharing)
 * [What’s the difference between Record Types & Page Layouts? What is the use of each?](#whats-the-difference-between-record-types--page-layouts-what-is-the-use-of-each)
 * [Can you delete a user? Why not?](#can-you-delete-a-user-why-not)
 * [What are Audit Fields?](#what-are-audit-fields)
@@ -152,6 +153,9 @@ The sharing settings control a users access to records that they don't own. The 
 This is from here the user can change the access settings for both default (limited to few objects like Account and Contract, Contact, Case, Opportunity) and all custom objects. Also from here, a user can define rules based on which the sharing settings will apply and only those records will be shared which matches the defined rules. For viewing sharing settings and to create rules, you can navigate to Setup > Settings > Security > Sharing Settings.
 
 <img src="/assets/View sharing settings.png">
+
+### Explain manual sharing?
+Manual sharing is when a user can choose to share a particular record they own with another user. To share something manually, switch to Salesforce Classic, go to the page of a record you own, and click the Sharing button.
 
 ###### References
 
