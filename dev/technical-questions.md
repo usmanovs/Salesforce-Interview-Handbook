@@ -305,21 +305,16 @@ You can also use a string of data in IN statement using ":string" in place of th
 The future annotation denoted by "@future" is a method which helps the user to run certain processes asynchronously but in the future when the resources are available. This way one can avoid other users to be blocked for certain operations because of the unavailability of the resources. One can also keep governor limits in check with the use of this method.
 
 An example of future method usage is:
-
+```Apex
 global class YourClassName {
  
   @future
- 
   public static void yourFutureMethodName(List<Id> recordIds) {
- 
-    List<Account> acc = [Select Id, Name from Account Where Id IN :recordIds];
- 
-    // process account records to do awesome stuff
- 
+    List<Account> accountList = [SELECT Id, Name FROM Account WHERE Id IN :recordIds];
+    //process account records to do awesome stuff
   }
- 
 }
-
+```
 ###### References
 
 * https://www.salesforcetutorial.com/future-method-salesforce-future/
