@@ -1,8 +1,6 @@
 ## Admin's Knowledge Checklist
 
 Checklist of 10 concepts every Salesforce admin must know
-First Test
-2nd test
 
 
 ## Table of Contents
