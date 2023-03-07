@@ -19,6 +19,7 @@ Checklist of 10 concepts every Salesforce admin must know:
 1. What 3 key info you find on your user profile page?
 1. Name 3 key info you find under your Settings?
 1. Can you delete a user?
+1. What is the difference between page layout & compact layout?
 [[↑] Back to top](#developers-knowledge-checklist)
 
 ### General Navigation
