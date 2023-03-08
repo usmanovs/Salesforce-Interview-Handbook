@@ -7,3 +7,11 @@
 
 * You are working for a company that uses Salesforce across multiple business units. One business unit says that they want the account type field required. How would you accomplish this?
 * What is the difference between profile and role?
+
+* You have been tasked with setting up a new Salesforce org for a startup. What are some best practices you should keep in mind when setting up the org?
+
+* A user in your organization has reported that they are unable to access certain records. What are some steps you can take to troubleshoot this issue?
+
+* Your organization has decided to implement two-factor authentication for all Salesforce users. What steps would you need to take to set this up?
+
+* Your organization has recently undergone a merger with another company. How would you go about merging the two separate Salesforce orgs?
