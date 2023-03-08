@@ -6,4 +6,7 @@
 * I am looking at an Opportunity record. The record does not have a 'Share' button. Why? 
 
 * You are working for a company that uses Salesforce across multiple business units. One business unit says that they want the account type field required. How would you accomplish this?
+
 * What is the difference between profile and role?
+
+* How to delete or freeze users in Salesforce.com?
