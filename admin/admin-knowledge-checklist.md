@@ -13,12 +13,14 @@ Checklist of 10 concepts every Salesforce admin must know:
 1. Security
 1. Report & Dashboards
 
+
 ### General
 1. Sales Cloud vs Service Cloud
 1. Name 3 key info you find on "Company Information" page?
 1. What 3 key info you find on your user profile page?
 1. Name 3 key info you find under your Settings?
 1. Can you delete a user?
+
 [[↑] Back to top](#developers-knowledge-checklist)
 
 ### General Navigation

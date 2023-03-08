@@ -105,3 +105,4 @@ Common weakness that I find is explaining why they did something a specific way.
 > Should candidates tell you their current salary?
 
 If they feel comfortable in doing so, it helps make sure we’re on the same page regarding the opportunity at hand.  If they’re resistant that’s fine too, I’d just state what the company is looking to pay, it works or it doesn’t.  We’re not here to waste each other’s time.
+Your salary expactations
