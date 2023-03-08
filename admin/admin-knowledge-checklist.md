@@ -14,7 +14,6 @@ Checklist of 10 concepts every Salesforce admin must know
 1. Security
 1. Report & Dashboards
 1. execution orders
-1.yuityyyyyyyyyy nnmm
 
 ### General
 1. Sales Cloud vs Service Cloud
